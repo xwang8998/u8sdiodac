@@ -1,0 +1,94 @@
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: MO111 :|Tristate driver of_l_t (in view: work.sdtop(verilog)) on net of_l (in view: work.sdtop(verilog)) has its enable tied to GND.
+@N: MO111 :|Tristate driver of_r_t (in view: work.sdtop(verilog)) on net of_r (in view: work.sdtop(verilog)) has its enable tied to GND.
+@N: MO111 :"e:\dac\igloo\soc\sdio25\component\work\u8_sb\fabosc_0\u8_sb_fabosc_0_osc.v":20:7:20:16|Tristate driver XTLOSC_O2F (in view: work.u8_sb_FABOSC_0_OSC(verilog)) on net XTLOSC_O2F (in view: work.u8_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"e:\dac\igloo\soc\sdio25\component\work\u8_sb\fabosc_0\u8_sb_fabosc_0_osc.v":19:7:19:16|Tristate driver XTLOSC_CCC (in view: work.u8_sb_FABOSC_0_OSC(verilog)) on net XTLOSC_CCC (in view: work.u8_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"e:\dac\igloo\soc\sdio25\component\work\u8_sb\fabosc_0\u8_sb_fabosc_0_osc.v":18:7:18:20|Tristate driver RCOSC_1MHZ_O2F (in view: work.u8_sb_FABOSC_0_OSC(verilog)) on net RCOSC_1MHZ_O2F (in view: work.u8_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"e:\dac\igloo\soc\sdio25\component\work\u8_sb\fabosc_0\u8_sb_fabosc_0_osc.v":17:7:17:20|Tristate driver RCOSC_1MHZ_CCC (in view: work.u8_sb_FABOSC_0_OSC(verilog)) on net RCOSC_1MHZ_CCC (in view: work.u8_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"e:\dac\igloo\soc\sdio25\component\work\u8_sb\fabosc_0\u8_sb_fabosc_0_osc.v":15:7:15:24|Tristate driver RCOSC_25_50MHZ_CCC (in view: work.u8_sb_FABOSC_0_OSC(verilog)) on net RCOSC_25_50MHZ_CCC (in view: work.u8_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N: BN362 :"e:\dac\igloo\work\sd.v":575:0:575:5|Removing sequential instance demo[17:0] (in view: work.sdtop(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\work\sd.v":241:0:241:5|Removing sequential instance clk_d8 (in view: work.sdtop(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\work\sd.v":240:0:240:5|Removing sequential instance clk_d4 (in view: work.sdtop(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\work\sd.v":239:0:239:5|Removing sequential instance clk_d2 (in view: work.sdtop(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: MO230 :"e:\dac\igloo\work\sd.v":575:0:575:5|Found up-down counter in view:work.sdtop(verilog) instance i[7:0]  
+@N: MO231 :"e:\dac\igloo\work\sd.v":575:0:575:5|Found counter in view:work.sdtop(verilog) instance buffer_under_run[7:0] 
+@N: MO231 :"e:\dac\igloo\work\sd.v":411:0:411:5|Found counter in view:work.sdtop(verilog) instance wi[6:0] 
+@N: MO231 :"e:\dac\igloo\work\sd.v":1441:0:1441:5|Found counter in view:work.sd_data(verilog) instance i[9:0] 
+@N: MO231 :"e:\dac\igloo\work\sound.v":564:0:564:5|Found counter in view:work.inctrl(verilog) instance cnt[5:0] 
+@N: MO231 :"e:\dac\igloo\work\sound.v":1227:0:1227:5|Found counter in view:work.dsd_tx(verilog) instance i[4:0] 
+@N: MO231 :"e:\dac\igloo\work\sound.v":1190:0:1190:5|Found counter in view:work.pcm_tx(verilog) instance i[5:0] 
+@N: MO231 :"e:\dac\igloo\work\sound.v":824:0:824:5|Found counter in view:work.spdif_tx(verilog) instance bit_counter[5:0] 
+@N: MO225 :"e:\dac\igloo\work\ram.v":116:0:116:5|There are no possible illegal states for state machine state[3:0] (in view: work.mem_controller(verilog)); safe FSM implementation is not required.
+@N: MO231 :"e:\dac\igloo\work\ram.v":116:0:116:5|Found counter in view:work.mem_controller(verilog) instance k[4:0] 
+@N: MO231 :"e:\dac\igloo\work\bigfifo.v":142:0:142:5|Found counter in view:work.bigfifo(verilog) instance i[7:0] 
+@N: MF179 :|Found 14 by 14 bit equality operator ('==') next_read_addr (in view: work.bigfifo(verilog))
+@N: MO231 :"e:\dac\igloo\work\test.v":413:0:413:5|Found counter in view:work.clock138master(verilog) instance i[14:0] 
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavestage.v":79:4:79:9|Removing sequential instance masterDataInProg[3] (in view: COREAHBLITE_LIB.COREAHBLITE_SLAVESTAGE_0s_0_0_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavestage.v":79:4:79:9|Removing sequential instance masterDataInProg[2] (in view: COREAHBLITE_LIB.COREAHBLITE_SLAVESTAGE_0s_0_0_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavestage.v":79:4:79:9|Removing sequential instance masterDataInProg[1] (in view: COREAHBLITE_LIB.COREAHBLITE_SLAVESTAGE_0s_0_0_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance u8_sb_0.CORERESETP_0.INIT_DONE_int (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance u8_sb_0.CORERESETP_0.sm0_state[6] (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavearbiter.v":449:4:449:9|Removing sequential instance u8_sb_0.CoreAHBLite_0.matrix4x16.slavestage_16.slave_arbiter.arbRegSMCurrentState[10] (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavearbiter.v":449:4:449:9|Removing sequential instance u8_sb_0.CoreAHBLite_0.matrix4x16.slavestage_16.slave_arbiter.arbRegSMCurrentState[11] (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavearbiter.v":449:4:449:9|Removing sequential instance u8_sb_0.CoreAHBLite_0.matrix4x16.slavestage_16.slave_arbiter.arbRegSMCurrentState[5] (in view: work.u8(verilog)) because it does not drive other instances.
+@N: MO106 :"e:\dac\igloo\work\test.v":437:12:437:29|Found ROM test_0.u200.key_pmux_0[0:0] (in view: work.u8(verilog)) with 64 words by 1 bit.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1549:4:1549:9|Removing sequential instance u8_sb_0.CORERESETP_0.release_sdif2_core (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1517:4:1517:9|Removing sequential instance u8_sb_0.CORERESETP_0.release_sdif1_core (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1485:4:1485:9|Removing sequential instance u8_sb_0.CORERESETP_0.release_sdif0_core (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Removing sequential instance u8_sb_0.CORERESETP_0.release_sdif3_core_q1 (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Removing sequential instance u8_sb_0.CORERESETP_0.release_sdif2_core_q1 (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Removing sequential instance u8_sb_0.CORERESETP_0.release_sdif1_core_q1 (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Removing sequential instance u8_sb_0.CORERESETP_0.release_sdif0_core_q1 (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Removing sequential instance u8_sb_0.CORERESETP_0.ddr_settled_q1 (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Removing sequential instance u8_sb_0.CORERESETP_0.sdif3_spll_lock_q2 (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":929:4:929:9|Removing sequential instance u8_sb_0.CORERESETP_0.CONFIG1_DONE_q1 (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":856:4:856:9|Removing sequential instance u8_sb_0.CORERESETP_0.sm0_areset_n_rcosc_q1 (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":856:4:856:9|Removing sequential instance u8_sb_0.CORERESETP_0.sm0_areset_n_rcosc (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":755:4:755:9|Removing sequential instance u8_sb_0.CORERESETP_0.sm0_areset_n_q1 (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":755:4:755:9|Removing sequential instance u8_sb_0.CORERESETP_0.sm0_areset_n_clk_base (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Removing sequential instance u8_sb_0.CORERESETP_0.release_sdif3_core_clk_base (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Removing sequential instance u8_sb_0.CORERESETP_0.release_sdif2_core_clk_base (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Removing sequential instance u8_sb_0.CORERESETP_0.release_sdif1_core_clk_base (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Removing sequential instance u8_sb_0.CORERESETP_0.release_sdif0_core_clk_base (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Removing sequential instance u8_sb_0.CORERESETP_0.ddr_settled_clk_base (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1613:4:1613:9|Removing sequential instance u8_sb_0.CORERESETP_0.ddr_settled (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1581:4:1581:9|Removing sequential instance u8_sb_0.CORERESETP_0.release_sdif3_core (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":912:4:912:9|Removing sequential instance u8_sb_0.CORERESETP_0.sdif3_areset_n_rcosc_q1 (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":912:4:912:9|Removing sequential instance u8_sb_0.CORERESETP_0.sdif3_areset_n_rcosc (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":898:4:898:9|Removing sequential instance u8_sb_0.CORERESETP_0.sdif2_areset_n_rcosc_q1 (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":898:4:898:9|Removing sequential instance u8_sb_0.CORERESETP_0.sdif2_areset_n_rcosc (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":884:4:884:9|Removing sequential instance u8_sb_0.CORERESETP_0.sdif1_areset_n_rcosc_q1 (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":884:4:884:9|Removing sequential instance u8_sb_0.CORERESETP_0.sdif1_areset_n_rcosc (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":870:4:870:9|Removing sequential instance u8_sb_0.CORERESETP_0.sdif0_areset_n_rcosc_q1 (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":870:4:870:9|Removing sequential instance u8_sb_0.CORERESETP_0.sdif0_areset_n_rcosc (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance u8_sb_0.CORERESETP_0.sm0_state[5] (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance u8_sb_0.CORERESETP_0.sm0_state[4] (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance u8_sb_0.CORERESETP_0.sm0_state[3] (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance u8_sb_0.CORERESETP_0.sm0_state[2] (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance u8_sb_0.CORERESETP_0.sm0_state[1] (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance u8_sb_0.CORERESETP_0.sm0_state[0] (in view: work.u8(verilog)) because it does not drive other instances.
+@N: FX271 :"e:\dac\igloo\work\sound.v":782:22:782:26|Replicating instance test_0.u100.UDOP.n_tmp_left_0_sqmuxa (in view: work.u8(verilog)) with 64 loads 3 times to improve timing.
+@N: FP130 |Promoting Net MSS_HPMS_READY_int_arst on CLKINT  I_400 
+@N: FP130 |Promoting Net test_0.u100.uctrl.un1_reset_n_1 on CLKINT  I_401 
+@N: FP130 |Promoting Net test_0.u100.reset_n_arst on CLKINT  I_402 
+@N: FP130 |Promoting Net test_0.u100.N_1800_i on CLKINT  I_403 
+@N: FP130 |Promoting Net test_0.u100.USPDIF_TX.reset_n_arst on CLKINT  I_404 
+@N: FP130 |Promoting Net test_0.u100.UDSDTX.reset_n on CLKINT  I_405 
+@N: FP130 |Promoting Net test_0.u100.UD100.crc_clr on CLKINT  I_406 
+@N: FP130 |Promoting Net test_0.u100.UPCMTX.reset_n on CLKINT  I_407 
+@N: FP130 |Promoting Net mclk_c on CLKINT  I_408 
+@N: FP130 |Promoting Net test_0.u200.reset_n on CLKINT  I_409 
+@N: FP130 |Promoting Net clock138_bck_c on CLKINT  I_410 
+@N: MT611 :|Automatically generated clock u8_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock is not used and is being removed
+@N: MT611 :|Automatically generated clock sdtop|clk_d2_inferred_clock is not used and is being removed
+@N: MT611 :|Automatically generated clock sdtop|clk_d4_inferred_clock is not used and is being removed
+@N: FX1056 |Writing EDF file: E:\DAC\igloo\soc\sdio25\synthesis\u8.edn
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: MT615 |Found clock mclk with period 8.00ns 
+@N: MT615 |Found clock sdclk_n with period 16.00ns 
+@N: MT615 |Found clock clock138_bck with period 16.00ns 
+@N: MT615 |Found clock mclk4549 with period 16.00ns 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.

@@ -1,0 +1,332 @@
+# Wed Aug 11 17:01:36 2021
+
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03M-SP1
+Install: C:\Microsemi\Libero_SoC_v12.6\SynplifyPro
+OS: Windows 6.1
+
+Hostname: WIN7-2020MEADRD
+
+Implementation : synthesis
+Synopsys Generic Technology Pre-mapping, Version map202003act, Build 160R, Built Oct 22 2020 12:05:41, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 119MB)
+
+Reading constraint file: E:\DAC\igloo\soc\sdio25\designer\u8\synthesis.fdc
+@L: E:\DAC\igloo\soc\sdio25\synthesis\u8_scck.rpt 
+See clock summary report "E:\DAC\igloo\soc\sdio25\synthesis\u8_scck.rpt"
+@W: BN238 :"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":23:0:23:0|Constraint object has wildcard(s) but is missing a qualifier (e.g., "p:", "i:", "t:", or "n:"): set_false_path -from [get_clocks { gl0 }] -to test_0*
+@W: BN238 :"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":24:0:24:0|Constraint object has wildcard(s) but is missing a qualifier (e.g., "p:", "i:", "t:", or "n:"): set_false_path -from [get_clocks { mclk4549 }] -to u8_sb*
+@W: BN238 :"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":25:0:25:0|Constraint object has wildcard(s) but is missing a qualifier (e.g., "p:", "i:", "t:", or "n:"): set_false_path -from [get_clocks { mclk4549 }] -to *USPDIF_TX*
+@W: BN238 :"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":26:0:26:0|Constraint object has wildcard(s) but is missing a qualifier (e.g., "p:", "i:", "t:", or "n:"): set_false_path -from [get_clocks { mclk }] -to test_0.u100*
+@W: BN238 :"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":27:0:27:0|Constraint object has wildcard(s) but is missing a qualifier (e.g., "p:", "i:", "t:", or "n:"): set_false_path -from [get_clocks { sdclk_n }] -to test_0.u200*
+@W: BN238 :"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":28:0:28:0|Constraint object has wildcard(s) but is missing a qualifier (e.g., "p:", "i:", "t:", or "n:"): set_false_path -from [get_clocks { mclk4549 }] -to test_0.mclk_d2*
+@W: BN238 :"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":29:0:29:0|Constraint object has wildcard(s) but is missing a qualifier (e.g., "p:", "i:", "t:", or "n:"): set_false_path -from [get_clocks { sdclk_n }] -to *usync*
+@W: BN238 :"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":30:0:30:0|Constraint object has wildcard(s) but is missing a qualifier (e.g., "p:", "i:", "t:", or "n:"): set_false_path -from [get_clocks { sdclk_n }] -to *usync*
+@W: BN238 :"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":31:0:31:0|Constraint object has wildcard(s) but is missing a qualifier (e.g., "p:", "i:", "t:", or "n:"): set_false_path -from [get_clocks { sdclk_n }] -to *ufifo*
+@W: BN238 :"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":32:0:32:0|Constraint object has wildcard(s) but is missing a qualifier (e.g., "p:", "i:", "t:", or "n:"): set_false_path -from test_0.u100.uctrl.sound_card_start*
+@W: BN238 :"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":33:0:33:0|Constraint object has wildcard(s) but is missing a qualifier (e.g., "p:", "i:", "t:", or "n:"): set_false_path -from test_0.u100.uctrl.use_dsd*
+@W: BN238 :"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":34:0:34:0|Constraint object has wildcard(s) but is missing a qualifier (e.g., "p:", "i:", "t:", or "n:"): set_false_path -from [get_clocks { sdclk_n }] -to u8_sb*
+@W: BN238 :"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":35:0:35:0|Constraint object has wildcard(s) but is missing a qualifier (e.g., "p:", "i:", "t:", or "n:"): set_false_path -from [get_clocks { clock138_bck }] -to test_0.u200*
+@W: BN238 :"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":36:0:36:0|Constraint object has wildcard(s) but is missing a qualifier (e.g., "p:", "i:", "t:", or "n:"): set_false_path -from [get_clocks { mclk }] -to test_0.u200*
+@W: BN238 :"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":37:0:37:0|Constraint object has wildcard(s) but is missing a qualifier (e.g., "p:", "i:", "t:", or "n:"): set_false_path -from [get_clocks { sdclk_n }] -to *uctrl*
+@W: BN238 :"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":38:0:38:0|Constraint object has wildcard(s) but is missing a qualifier (e.g., "p:", "i:", "t:", or "n:"): set_false_path -from [get_clocks { mclk4549 }] -to *UDOP*
+@W: BN238 :"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":39:0:39:0|Constraint object has wildcard(s) but is missing a qualifier (e.g., "p:", "i:", "t:", or "n:"): set_false_path -from [get_clocks { dop_clock }] -to *USPDIF_TX*
+@W: BN238 :"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":40:0:40:0|Constraint object has wildcard(s) but is missing a qualifier (e.g., "p:", "i:", "t:", or "n:"): set_false_path -from [get_clocks { dsd_clk }] -to *dsd_lp*
+@W: BN238 :"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":41:0:41:0|Constraint object has wildcard(s) but is missing a qualifier (e.g., "p:", "i:", "t:", or "n:"): set_false_path -from [get_clocks { dsd_clk }] -to *dsd_rp*
+@W: BN238 :"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":42:0:42:0|Constraint object has wildcard(s) but is missing a qualifier (e.g., "p:", "i:", "t:", or "n:"): set_false_path -from [get_clocks { dsd_clk }] -to *dsd_ln*
+@W: BN238 :"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":43:0:43:0|Constraint object has wildcard(s) but is missing a qualifier (e.g., "p:", "i:", "t:", or "n:"): set_false_path -from [get_clocks { dsd_clk }] -to *dsd_rn*
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 150MB peak: 150MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 150MB peak: 151MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 160MB peak: 160MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 160MB peak: 162MB)
+
+@N: BN115 :"e:\dac\igloo\work\sd.v":311:9:311:14|Removing instance DUT500 (in view: work.sdtop(verilog)) of type view:work.pipe_sdm(verilog) because it does not drive other instances.
+@N: BN115 :"e:\dac\igloo\work\sd.v":322:9:322:14|Removing instance DUT501 (in view: work.sdtop(verilog)) of type view:work.pipe_sdm(verilog) because it does not drive other instances.
+@N: BN115 :"e:\dac\igloo\work\sd.v":290:9:290:14|Removing instance DUT400 (in view: work.sdtop(verilog)) of type view:work.pipe_pcm(verilog) because it does not drive other instances.
+@N: BN115 :"e:\dac\igloo\work\sd.v":298:9:298:14|Removing instance DUT401 (in view: work.sdtop(verilog)) of type view:work.pipe_pcm(verilog) because it does not drive other instances.
+@N: BN115 :"e:\dac\igloo\work\sd.v":273:12:273:17|Removing instance DUT300 (in view: work.sdtop(verilog)) of type view:work.fir_stage_2(verilog) because it does not drive other instances.
+@N: BN115 :"e:\dac\igloo\work\sd.v":258:12:258:17|Removing instance DUT200 (in view: work.sdtop(verilog)) of type view:work.fir_stage_1(verilog) because it does not drive other instances.
+@W: BN132 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":3580:2:3580:14|Removing user instance u8_sb_0.CoreAHBLite_0.matrix4x16.slavestage_15 because it is equivalent to instance u8_sb_0.CoreAHBLite_0.matrix4x16.slavestage_14. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":3534:2:3534:14|Removing user instance u8_sb_0.CoreAHBLite_0.matrix4x16.slavestage_14 because it is equivalent to instance u8_sb_0.CoreAHBLite_0.matrix4x16.slavestage_13. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":3488:2:3488:14|Removing user instance u8_sb_0.CoreAHBLite_0.matrix4x16.slavestage_13 because it is equivalent to instance u8_sb_0.CoreAHBLite_0.matrix4x16.slavestage_12. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":3442:2:3442:14|Removing user instance u8_sb_0.CoreAHBLite_0.matrix4x16.slavestage_12 because it is equivalent to instance u8_sb_0.CoreAHBLite_0.matrix4x16.slavestage_11. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":3396:2:3396:14|Removing user instance u8_sb_0.CoreAHBLite_0.matrix4x16.slavestage_11 because it is equivalent to instance u8_sb_0.CoreAHBLite_0.matrix4x16.slavestage_10. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":3304:2:3304:13|Removing user instance u8_sb_0.CoreAHBLite_0.matrix4x16.slavestage_9 because it is equivalent to instance u8_sb_0.CoreAHBLite_0.matrix4x16.slavestage_10. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":3258:2:3258:13|Removing user instance u8_sb_0.CoreAHBLite_0.matrix4x16.slavestage_8 because it is equivalent to instance u8_sb_0.CoreAHBLite_0.matrix4x16.slavestage_10. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":3212:2:3212:13|Removing user instance u8_sb_0.CoreAHBLite_0.matrix4x16.slavestage_7 because it is equivalent to instance u8_sb_0.CoreAHBLite_0.matrix4x16.slavestage_10. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":3166:2:3166:13|Removing user instance u8_sb_0.CoreAHBLite_0.matrix4x16.slavestage_6 because it is equivalent to instance u8_sb_0.CoreAHBLite_0.matrix4x16.slavestage_10. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":3120:2:3120:13|Removing user instance u8_sb_0.CoreAHBLite_0.matrix4x16.slavestage_5 because it is equivalent to instance u8_sb_0.CoreAHBLite_0.matrix4x16.slavestage_10. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":3074:2:3074:13|Removing user instance u8_sb_0.CoreAHBLite_0.matrix4x16.slavestage_4 because it is equivalent to instance u8_sb_0.CoreAHBLite_0.matrix4x16.slavestage_10. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":3028:2:3028:13|Removing user instance u8_sb_0.CoreAHBLite_0.matrix4x16.slavestage_3 because it is equivalent to instance u8_sb_0.CoreAHBLite_0.matrix4x16.slavestage_10. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":2982:2:2982:13|Removing user instance u8_sb_0.CoreAHBLite_0.matrix4x16.slavestage_2 because it is equivalent to instance u8_sb_0.CoreAHBLite_0.matrix4x16.slavestage_10. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":3350:2:3350:14|Removing user instance u8_sb_0.CoreAHBLite_0.matrix4x16.slavestage_10 because it is equivalent to instance u8_sb_0.CoreAHBLite_0.matrix4x16.slavestage_1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":2936:2:2936:13|Removing user instance u8_sb_0.CoreAHBLite_0.matrix4x16.slavestage_1 because it is equivalent to instance u8_sb_0.CoreAHBLite_0.matrix4x16.slavestage_0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance u8_sb_0.CORERESETP_0.MDDR_DDR_AXI_S_CORE_RESET_N_int because it is equivalent to instance u8_sb_0.CORERESETP_0.FDDR_CORE_RESET_N_int. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: MO111 :"e:\dac\igloo\soc\sdio25\component\work\u8_sb\fabosc_0\u8_sb_fabosc_0_osc.v":17:7:17:20|Tristate driver RCOSC_1MHZ_CCC (in view: work.u8_sb_FABOSC_0_OSC(verilog)) on net RCOSC_1MHZ_CCC (in view: work.u8_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"e:\dac\igloo\soc\sdio25\component\work\u8_sb\fabosc_0\u8_sb_fabosc_0_osc.v":18:7:18:20|Tristate driver RCOSC_1MHZ_O2F (in view: work.u8_sb_FABOSC_0_OSC(verilog)) on net RCOSC_1MHZ_O2F (in view: work.u8_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"e:\dac\igloo\soc\sdio25\component\work\u8_sb\fabosc_0\u8_sb_fabosc_0_osc.v":15:7:15:24|Tristate driver RCOSC_25_50MHZ_CCC (in view: work.u8_sb_FABOSC_0_OSC(verilog)) on net RCOSC_25_50MHZ_CCC (in view: work.u8_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"e:\dac\igloo\soc\sdio25\component\work\u8_sb\fabosc_0\u8_sb_fabosc_0_osc.v":19:7:19:16|Tristate driver XTLOSC_CCC (in view: work.u8_sb_FABOSC_0_OSC(verilog)) on net XTLOSC_CCC (in view: work.u8_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"e:\dac\igloo\soc\sdio25\component\work\u8_sb\fabosc_0\u8_sb_fabosc_0_osc.v":20:7:20:16|Tristate driver XTLOSC_O2F (in view: work.u8_sb_FABOSC_0_OSC(verilog)) on net XTLOSC_O2F (in view: work.u8_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@W: MO129 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":676:4:676:9|Sequential instance u8_sb_0.CORERESETP_0.SDIF0_PERST_N_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":695:4:695:9|Sequential instance u8_sb_0.CORERESETP_0.SDIF1_PERST_N_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":714:4:714:9|Sequential instance u8_sb_0.CORERESETP_0.SDIF2_PERST_N_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":733:4:733:9|Sequential instance u8_sb_0.CORERESETP_0.SDIF3_PERST_N_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":769:4:769:9|Sequential instance u8_sb_0.CORERESETP_0.sm1_areset_n_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":676:4:676:9|Sequential instance u8_sb_0.CORERESETP_0.SDIF0_PERST_N_q2 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":695:4:695:9|Sequential instance u8_sb_0.CORERESETP_0.SDIF1_PERST_N_q2 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":714:4:714:9|Sequential instance u8_sb_0.CORERESETP_0.SDIF2_PERST_N_q2 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":733:4:733:9|Sequential instance u8_sb_0.CORERESETP_0.SDIF3_PERST_N_q2 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":769:4:769:9|Sequential instance u8_sb_0.CORERESETP_0.sm1_areset_n_clk_base is reduced to a combinational gate by constant propagation.
+@W: MO129 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":676:4:676:9|Sequential instance u8_sb_0.CORERESETP_0.SDIF0_PERST_N_q3 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":695:4:695:9|Sequential instance u8_sb_0.CORERESETP_0.SDIF1_PERST_N_q3 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":714:4:714:9|Sequential instance u8_sb_0.CORERESETP_0.SDIF2_PERST_N_q3 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":733:4:733:9|Sequential instance u8_sb_0.CORERESETP_0.SDIF3_PERST_N_q3 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1388:4:1388:9|Sequential instance u8_sb_0.CORERESETP_0.RESET_N_F2M_int is reduced to a combinational gate by constant propagation.
+@N: BN362 :"e:\dac\igloo\work\sd.v":575:0:575:5|Removing sequential instance demo_mute (in view: work.sdtop(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN115 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":639:4:639:19|Removing instance default_slave_sm (in view: COREAHBLITE_LIB.COREAHBLITE_MASTERSTAGE_1_1_85_0s_0_1_0_2(verilog)) of type view:COREAHBLITE_LIB.COREAHBLITE_DEFAULTSLAVESM_0s_0_1_1_0(verilog) because it does not drive other instances.
+@N: BN115 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":209:2:209:15|Removing instance address_decode (in view: COREAHBLITE_LIB.COREAHBLITE_MASTERSTAGE_1_1_85_0s_0_1_0_2(verilog)) of type view:COREAHBLITE_LIB.COREAHBLITE_ADDRDEC_Z2_0(verilog) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":163:0:163:5|Removing sequential instance regHTRANS (in view: COREAHBLITE_LIB.COREAHBLITE_MASTERSTAGE_1_1_85_0s_0_1_0_2(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN115 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":639:4:639:19|Removing instance default_slave_sm (in view: COREAHBLITE_LIB.COREAHBLITE_MASTERSTAGE_1_1_85_0s_0_1_0_1(verilog)) of type view:COREAHBLITE_LIB.COREAHBLITE_DEFAULTSLAVESM_0s_0_1_1_1(verilog) because it does not drive other instances.
+@N: BN115 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":209:2:209:15|Removing instance address_decode (in view: COREAHBLITE_LIB.COREAHBLITE_MASTERSTAGE_1_1_85_0s_0_1_0_1(verilog)) of type view:COREAHBLITE_LIB.COREAHBLITE_ADDRDEC_Z2_1(verilog) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":163:0:163:5|Removing sequential instance regHTRANS (in view: COREAHBLITE_LIB.COREAHBLITE_MASTERSTAGE_1_1_85_0s_0_1_0_1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN115 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":639:4:639:19|Removing instance default_slave_sm (in view: COREAHBLITE_LIB.COREAHBLITE_MASTERSTAGE_1_1_85_0s_0_1_0_0(verilog)) of type view:COREAHBLITE_LIB.COREAHBLITE_DEFAULTSLAVESM_0s_0_1_1_2(verilog) because it does not drive other instances.
+@N: BN115 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":209:2:209:15|Removing instance address_decode (in view: COREAHBLITE_LIB.COREAHBLITE_MASTERSTAGE_1_1_85_0s_0_1_0_0(verilog)) of type view:COREAHBLITE_LIB.COREAHBLITE_ADDRDEC_Z2_2(verilog) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":163:0:163:5|Removing sequential instance regHTRANS (in view: COREAHBLITE_LIB.COREAHBLITE_MASTERSTAGE_1_1_85_0s_0_1_0_0(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN115 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":2703:2:2703:14|Removing instance masterstage_1 (in view: COREAHBLITE_LIB.COREAHBLITE_MATRIX4X16_1_1_85_65536_0_0_0_0s(verilog)) of type view:COREAHBLITE_LIB.COREAHBLITE_MASTERSTAGE_1_1_85_0s_0_1_0_2(verilog) because it does not drive other instances.
+@N: BN115 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":2767:2:2767:14|Removing instance masterstage_2 (in view: COREAHBLITE_LIB.COREAHBLITE_MATRIX4X16_1_1_85_65536_0_0_0_0s(verilog)) of type view:COREAHBLITE_LIB.COREAHBLITE_MASTERSTAGE_1_1_85_0s_0_1_0_1(verilog) because it does not drive other instances.
+@N: BN115 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":2831:2:2831:14|Removing instance masterstage_3 (in view: COREAHBLITE_LIB.COREAHBLITE_MATRIX4X16_1_1_85_65536_0_0_0_0s(verilog)) of type view:COREAHBLITE_LIB.COREAHBLITE_MASTERSTAGE_1_1_85_0s_0_1_0_0(verilog) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\work\sd.v":1441:0:1441:5|Removing sequential instance read_en (in view: work.sd_data(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\work\ram.v":116:0:116:5|Removing sequential instance data (in view: work.mem_controller(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance DDR_READY_int (in view: work.CoreResetP_Z5(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance SDIF_READY_int (in view: work.CoreResetP_Z5(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance SDIF_RELEASED_int (in view: work.CoreResetP_Z5(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance FDDR_CORE_RESET_N_int (in view: work.CoreResetP_Z5(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1170:4:1170:9|Removing sequential instance SDIF0_PHY_RESET_N_int (in view: work.CoreResetP_Z5(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1170:4:1170:9|Removing sequential instance SDIF0_CORE_RESET_N_0 (in view: work.CoreResetP_Z5(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1235:4:1235:9|Removing sequential instance SDIF1_PHY_RESET_N_int (in view: work.CoreResetP_Z5(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1235:4:1235:9|Removing sequential instance SDIF1_CORE_RESET_N_0 (in view: work.CoreResetP_Z5(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1300:4:1300:9|Removing sequential instance SDIF2_PHY_RESET_N_int (in view: work.CoreResetP_Z5(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1300:4:1300:9|Removing sequential instance SDIF2_CORE_RESET_N_0 (in view: work.CoreResetP_Z5(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1365:4:1365:9|Removing sequential instance SDIF3_PHY_RESET_N_int (in view: work.CoreResetP_Z5(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1365:4:1365:9|Removing sequential instance SDIF3_CORE_RESET_N_0 (in view: work.CoreResetP_Z5(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN115 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":2890:1:2890:12|Removing instance slavestage_0 (in view: COREAHBLITE_LIB.COREAHBLITE_MATRIX4X16_1_1_85_65536_0_0_0_0s(verilog)) of type view:COREAHBLITE_LIB.COREAHBLITE_SLAVESTAGE_0s_0_0_1(verilog) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1170:4:1170:9|Removing sequential instance sdif0_state[3:0] (in view: work.CoreResetP_Z5(verilog)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1235:4:1235:9|Removing sequential instance sdif1_state[3:0] (in view: work.CoreResetP_Z5(verilog)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1300:4:1300:9|Removing sequential instance sdif2_state[3:0] (in view: work.CoreResetP_Z5(verilog)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1365:4:1365:9|Removing sequential instance sdif3_state[3:0] (in view: work.CoreResetP_Z5(verilog)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\work\ram.v":116:0:116:5|Removing sequential instance pcm[31:0] (in view: work.mem_controller(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavestage.v":79:4:79:9|Removing sequential instance masterDataInProg[3:0] (in view: COREAHBLITE_LIB.COREAHBLITE_SLAVESTAGE_0s_0_0_1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":797:4:797:9|Removing sequential instance sdif0_areset_n_clk_base (in view: work.CoreResetP_Z5(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":811:4:811:9|Removing sequential instance sdif1_areset_n_clk_base (in view: work.CoreResetP_Z5(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":825:4:825:9|Removing sequential instance sdif2_areset_n_clk_base (in view: work.CoreResetP_Z5(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":839:4:839:9|Removing sequential instance sdif3_areset_n_clk_base (in view: work.CoreResetP_Z5(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN115 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavestage.v":87:56:87:68|Removing instance slave_arbiter (in view: COREAHBLITE_LIB.COREAHBLITE_SLAVESTAGE_0s_0_0_1(verilog)) of type view:COREAHBLITE_LIB.COREAHBLITE_SLAVEARBITER_Z3_0(verilog) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":797:4:797:9|Removing sequential instance sdif0_areset_n_q1 (in view: work.CoreResetP_Z5(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":811:4:811:9|Removing sequential instance sdif1_areset_n_q1 (in view: work.CoreResetP_Z5(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":825:4:825:9|Removing sequential instance sdif2_areset_n_q1 (in view: work.CoreResetP_Z5(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":839:4:839:9|Removing sequential instance sdif3_areset_n_q1 (in view: work.CoreResetP_Z5(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavearbiter.v":449:4:449:9|Removing sequential instance arbRegSMCurrentState[15:0] (in view: COREAHBLITE_LIB.COREAHBLITE_SLAVEARBITER_Z3_0(verilog)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: FX1184 |Applying syn_allowed_resources blockrams=31 on top level netlist u8 
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 214MB peak: 214MB)
+
+@W: MT548 :"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":8:0:8:0|Source for clock gl0 not found in netlist.
+@W: MT548 :"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":12:0:12:0|Source for clock dsd_clk not found in netlist.
+@W: MT548 :"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":13:0:13:0|Source for clock spdif_clock not found in netlist.
+@W: MT548 :"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":14:0:14:0|Source for clock dop_clock not found in netlist.
+@W: MT548 :"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":15:0:15:0|Source for clock dem_clk not found in netlist.
+
+
+Clock Summary
+******************
+
+          Start                                                         Requested     Requested     Clock        Clock                    Clock
+Level     Clock                                                         Frequency     Period        Type         Group                    Load 
+-----------------------------------------------------------------------------------------------------------------------------------------------
+0 -       mclk4549                                                      62.5 MHz      16.000        declared     default_clkgroup         667  
+                                                                                                                                               
+0 -       sdclk_n                                                       62.5 MHz      16.000        declared     default_clkgroup         356  
+                                                                                                                                               
+0 -       mclk                                                          125.0 MHz     8.000         declared     default_clkgroup         33   
+                                                                                                                                               
+0 -       clock138_bck                                                  62.5 MHz      16.000        declared     default_clkgroup         18   
+                                                                                                                                               
+0 -       clock_divider|clk2_inferred_clock                             100.0 MHz     10.000        inferred     Inferred_clkgroup_1      314  
+                                                                                                                                               
+0 -       clock_divider|clk4_inferred_clock                             100.0 MHz     10.000        inferred     Inferred_clkgroup_2      314  
+                                                                                                                                               
+0 -       clock_divider|clk8_inferred_clock                             100.0 MHz     10.000        inferred     Inferred_clkgroup_3      314  
+                                                                                                                                               
+0 -       clock_divider|clk16_inferred_clock                            100.0 MHz     10.000        inferred     Inferred_clkgroup_9      314  
+                                                                                                                                               
+0 -       u8_sb_CCC_0_FCCC|GL0_net_inferred_clock                       100.0 MHz     10.000        inferred     Inferred_clkgroup_4      113  
+                                                                                                                                               
+0 -       sdtop|dsd_clkr_inferred_clock                                 100.0 MHz     10.000        inferred     Inferred_clkgroup_0      86   
+                                                                                                                                               
+0 -       u8_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     100.0 MHz     10.000        inferred     Inferred_clkgroup_5      15   
+                                                                                                                                               
+0 -       u8|sdclk                                                      100.0 MHz     10.000        inferred     Inferred_clkgroup_6      5    
+                                                                                                                                               
+0 -       inctrl|master_lrck_inferred_clock                             100.0 MHz     10.000        inferred     Inferred_clkgroup_10     1    
+                                                                                                                                               
+0 -       sdtop|clk_d2_inferred_clock                                   100.0 MHz     10.000        inferred     Inferred_clkgroup_7      1    
+                                                                                                                                               
+0 -       sdtop|clk_d4_inferred_clock                                   100.0 MHz     10.000        inferred     Inferred_clkgroup_8      1    
+===============================================================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                                                              Clock     Source                                                       Clock Pin                                        Non-clock Pin     Non-clock Pin                                              
+Clock                                                         Load      Pin                                                          Seq Example                                      Seq Example       Comb Example                                               
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+mclk4549                                                      667       test_0.UCK1.Y(CLKINT_PRESERVE)                               test_0.dsdlq[7:0].C                              -                 test_0.UCK300.I(BUFG)                                      
+                                                                                                                                                                                                                                                                   
+sdclk_n                                                       356       test_0.UCK3.Y(CLKINT_PRESERVE)                               test_0.u100.no_crc.C                             -                 test_0.u100.uctrl.ufifo.sdclk_n_1.I[0](keepbuf)            
+                                                                                                                                                                                                                                                                   
+mclk                                                          33        mclk(port)                                                   test_0.mclk_d2.C                                 -                 -                                                          
+                                                                                                                                                                                                                                                                   
+clock138_bck                                                  18        clock138_bck(port)                                           test_0.u200.olrck.C                              -                 -                                                          
+                                                                                                                                                                                                                                                                   
+clock_divider|clk2_inferred_clock                             314       test_0.u100.DSD138.UIN100.UCK0.clk2.Q[0](dffr)               test_0.dsdlq[7:0].C                              -                 test_0.UCK300.I(BUFG)                                      
+                                                                                                                                                                                                                                                                   
+clock_divider|clk4_inferred_clock                             314       test_0.u100.DSD138.UIN100.UCK0.clk4.Q[0](dffr)               test_0.dsdlq[7:0].C                              -                 test_0.UCK300.I(BUFG)                                      
+                                                                                                                                                                                                                                                                   
+clock_divider|clk8_inferred_clock                             314       test_0.u100.DSD138.UIN100.UCK0.clk8.Q[0](dffr)               test_0.dsdlq[7:0].C                              -                 test_0.UCK300.I(BUFG)                                      
+                                                                                                                                                                                                                                                                   
+clock_divider|clk16_inferred_clock                            314       test_0.u100.DSD138.UIN100.UCK0.clk16.Q[0](dffr)              test_0.dsdlq[7:0].C                              -                 test_0.UCK300.I(BUFG)                                      
+                                                                                                                                                                                                                                                                   
+u8_sb_CCC_0_FCCC|GL0_net_inferred_clock                       113       u8_sb_0.CCC_0.CCC_INST.GL0(CCC)                              u8_sb_0.u8_sb_HPMS_0.MSS_ADLIB_INST.CLK_BASE     -                 u8_sb_0.CCC_0.GL0_INST.I(BUFG)                             
+                                                                                                                                                                                                                                                                   
+sdtop|dsd_clkr_inferred_clock                                 86        test_0.u100.dsd_clkr.Q[0](dff)                               test_0.dsdlq[7:0].C                              -                 test_0.UCK300.I(BUFG)                                      
+                                                                                                                                                                                                                                                                   
+u8_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     15        u8_sb_0.FABOSC_0.I_RCOSC_25_50MHZ.CLKOUT(RCOSC_25_50MHZ)     u8_sb_0.CORERESETP_0.release_sdif0_core.C        -                 u8_sb_0.FABOSC_0.I_RCOSC_25_50MHZ_FAB.A(RCOSC_25_50MHZ_FAB)
+                                                                                                                                                                                                                                                                   
+u8|sdclk                                                      5         sdclk(port)                                                  test_0.u100.cmd0.C                               -                 test_0.ns.I[0](inv)                                        
+                                                                                                                                                                                                                                                                   
+inctrl|master_lrck_inferred_clock                             1         test_0.u100.DSD138.UIN100.master_lrck.OUT(and)               test_0.u100.master_lrckd2.C                      -                 -                                                          
+                                                                                                                                                                                                                                                                   
+sdtop|clk_d2_inferred_clock                                   1         test_0.u100.clk_d2.Q[0](dffr)                                test_0.u100.clk_d4.C                             -                 -                                                          
+                                                                                                                                                                                                                                                                   
+sdtop|clk_d4_inferred_clock                                   1         test_0.u100.clk_d4.Q[0](dffr)                                test_0.u100.clk_d8.C                             -                 -                                                          
+===================================================================================================================================================================================================================================================================
+
+@W: MT530 :"e:\dac\igloo\work\sound.v":1227:0:1227:5|Found inferred clock sdtop|dsd_clkr_inferred_clock which controls 86 sequential elements including test_0.u100.UDSDTX.i[4:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"e:\dac\igloo\work\sound.v":59:0:59:5|Found inferred clock clock_divider|clk2_inferred_clock which controls 314 sequential elements including test_0.u100.DSD138.UIN100.UCK0.clk4. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"e:\dac\igloo\work\sound.v":62:0:62:5|Found inferred clock clock_divider|clk4_inferred_clock which controls 314 sequential elements including test_0.u100.DSD138.UIN100.UCK0.clk8. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"e:\dac\igloo\work\sound.v":65:0:65:5|Found inferred clock clock_divider|clk8_inferred_clock which controls 314 sequential elements including test_0.u100.DSD138.UIN100.UCK0.clk16. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_defaultslavesm.v":64:4:64:9|Found inferred clock u8_sb_CCC_0_FCCC|GL0_net_inferred_clock which controls 113 sequential elements including u8_sb_0.CoreAHBLite_0.matrix4x16.masterstage_0.default_slave_sm.defSlaveSMCurrentState. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":912:4:912:9|Found inferred clock u8_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock which controls 15 sequential elements including u8_sb_0.CORERESETP_0.sdif3_areset_n_rcosc_q1. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"e:\dac\igloo\work\sd.v":1436:0:1436:5|Found inferred clock u8|sdclk which controls 5 sequential elements including test_0.u100.UD100.data0[3:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"e:\dac\igloo\work\sd.v":240:0:240:5|Found inferred clock sdtop|clk_d2_inferred_clock which controls 1 sequential elements including test_0.u100.clk_d4. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"e:\dac\igloo\work\sd.v":241:0:241:5|Found inferred clock sdtop|clk_d4_inferred_clock which controls 1 sequential elements including test_0.u100.clk_d8. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"e:\dac\igloo\work\sound.v":68:0:68:5|Found inferred clock clock_divider|clk16_inferred_clock which controls 314 sequential elements including test_0.u100.DSD138.UIN100.UCK0.clk32. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"e:\dac\igloo\work\sd.v":394:0:394:5|Found inferred clock inctrl|master_lrck_inferred_clock which controls 1 sequential elements including test_0.u100.master_lrckd2. This clock has no specified timing constraint which may adversely impact design performance. 
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file E:\DAC\igloo\soc\sdio25\synthesis\u8.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 191MB peak: 215MB)
+
+Encoding state machine state[7:0] (in view: work.sd_data(verilog))
+original code -> new code
+   0000 -> 00000001
+   0001 -> 00000010
+   0010 -> 00000100
+   0011 -> 00001000
+   0100 -> 00010000
+   0101 -> 00100000
+   0110 -> 01000000
+   0111 -> 10000000
+Encoding state machine state[4:0] (in view: work.bigfifo(verilog))
+original code -> new code
+   000 -> 00001
+   001 -> 00010
+   010 -> 00100
+   011 -> 01000
+   100 -> 10000
+Encoding state machine state[3:0] (in view: work.mem_controller(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"e:\dac\igloo\work\ram.v":116:0:116:5|There are no possible illegal states for state machine state[3:0] (in view: work.mem_controller(verilog)); safe FSM implementation is not required.
+Encoding state machine state[12:0] (in view: work.sdtop(verilog))
+original code -> new code
+   0000 -> 0000000000001
+   0001 -> 0000000000010
+   0010 -> 0000000000100
+   0011 -> 0000000001000
+   0100 -> 0000000010000
+   0101 -> 0000000100000
+   0110 -> 0000001000000
+   0111 -> 0000010000000
+   1000 -> 0000100000000
+   1001 -> 0001000000000
+   1010 -> 0010000000000
+   1011 -> 0100000000000
+   1100 -> 1000000000000
+Encoding state machine arbRegSMCurrentState[15:0] (in view: COREAHBLITE_LIB.COREAHBLITE_SLAVEARBITER_Z3_1(verilog))
+original code -> new code
+   0000 -> 0000000000000001
+   0001 -> 0000000000000010
+   0010 -> 0000000000000100
+   0011 -> 0000000000001000
+   0100 -> 0000000000010000
+   0101 -> 0000000000100000
+   0110 -> 0000000001000000
+   0111 -> 0000000010000000
+   1000 -> 0000000100000000
+   1001 -> 0000001000000000
+   1010 -> 0000010000000000
+   1011 -> 0000100000000000
+   1100 -> 0001000000000000
+   1101 -> 0010000000000000
+   1110 -> 0100000000000000
+   1111 -> 1000000000000000
+Encoding state machine sm0_state[6:0] (in view: work.CoreResetP_Z5(verilog))
+original code -> new code
+   000 -> 0000001
+   001 -> 0000010
+   010 -> 0000100
+   011 -> 0001000
+   100 -> 0010000
+   101 -> 0100000
+   110 -> 1000000
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 194MB peak: 215MB)
+
+@W: MF511 |Found issues with constraints. Please check constraint checker report "E:\DAC\igloo\soc\sdio25\synthesis\u8_cck.rpt" .
+
+Finished constraint checker (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 195MB peak: 215MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 102MB peak: 215MB)
+
+Process took 0h:00m:04s realtime, 0h:00m:04s cputime
+# Wed Aug 11 17:01:41 2021
+
+###########################################################]

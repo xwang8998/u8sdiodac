@@ -1,0 +1,26 @@
+Microsemi Corporation - Microsemi Libero Software Release v11.8 (Version 11.8.0.26)
+
+Date      :  Wed Aug 23 16:41:23 2017
+Project   :  D:\820\igloo\soc\z
+Component :  AHB_IF_1
+Family    :  IGLOO2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    D:/820/igloo/soc/z/component/Actel/DirectCore/CoreAHBLite/5.3.101/rtl/vlog/core/coreahblite_addrdec.v
+    D:/820/igloo/soc/z/component/Actel/DirectCore/CoreAHBLite/5.3.101/rtl/vlog/core/coreahblite_defaultslavesm.v
+    D:/820/igloo/soc/z/component/Actel/DirectCore/CoreAHBLite/5.3.101/rtl/vlog/core/coreahblite_masterstage.v
+    D:/820/igloo/soc/z/component/Actel/DirectCore/CoreAHBLite/5.3.101/rtl/vlog/core/coreahblite_matrix4x16.v
+    D:/820/igloo/soc/z/component/Actel/DirectCore/CoreAHBLite/5.3.101/rtl/vlog/core/coreahblite_slavearbiter.v
+    D:/820/igloo/soc/z/component/Actel/DirectCore/CoreAHBLite/5.3.101/rtl/vlog/core/coreahblite_slavestage.v
+    D:/820/igloo/soc/z/component/work/AHB_IF_1/AHB_IF_1.v
+    D:/820/igloo/soc/z/component/work/AHB_IF_1/AHB_IF_1_0/rtl/vlog/core/coreahblite.v
+
+Stimulus files for all Simulation tools:
+    D:/820/igloo/soc/z/component/Actel/DirectCore/CoreAHBLite/5.3.101/rtl/vlog/amba_bfm/bfm_ahbl.v
+    D:/820/igloo/soc/z/component/Actel/DirectCore/CoreAHBLite/5.3.101/rtl/vlog/amba_bfm/bfm_ahbslave.v
+    D:/820/igloo/soc/z/component/Actel/DirectCore/CoreAHBLite/5.3.101/rtl/vlog/amba_bfm/bfm_ahbslaveext.v
+    D:/820/igloo/soc/z/component/Actel/DirectCore/CoreAHBLite/5.3.101/rtl/vlog/amba_bfm/bfm_main.v
+    D:/820/igloo/soc/z/component/work/AHB_IF_1/AHB_IF_1_0/coreparameters.v
+    D:/820/igloo/soc/z/component/work/AHB_IF_1/AHB_IF_1_0/rtl/vlog/test/user/testbench.v
+

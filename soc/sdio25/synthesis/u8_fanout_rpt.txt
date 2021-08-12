@@ -1,0 +1,30 @@
+
+########			REPORT FOR HIGH FANOUT NETS			########
+
+CLOCK GLOBAL THRESHOLD - 2
+ASYNC GLOBAL THRESHOLD - 12
+GLOBAL THRESHOLD - 5000
+
+NET NAME                               CLOCK LOADS     ASYNC RST LOADS     DATA LOADS     TOTAL FANOUT     GLOBAL BUFFER PRESENT
+--------------------------------------------------------------------------------------------------------------------------------
+test_0.mclk_1                          351             0                   3              354              YES                  
+test_0.sdclk_n_1                       338             0                   0              338              YES                  
+test_0.u100.dop_clock_1                102             0                   0              102              YES                  
+test_0.u100.in_bck_1                   87              0                   1              88               YES                  
+test_0.u100.spdif_clock_1              70              0                   0              70               YES                  
+test_0.u100.dsd_clk_1                  69              0                   1              70               YES                  
+u8_sb_0.GL0_INST                       37              0                   0              37               YES                  
+mclk_c                                 33              0                   1              34               YES                  
+clock138_bck_c                         18              0                   0              18               YES                  
+test_0.dem_clk                         16              0                   0              16               YES                  
+test_0.sdclk_p                         5               0                   0              5                YES                  
+MSS_HPMS_READY_int_arst                0               320                 0              320              YES                  
+test_0.u100.uctrl.un1_reset_n_1        0               157                 0              157              YES                  
+test_0.u100.reset_n_arst               0               155                 0              155              YES                  
+test_0.u100.N_1800_i                   0               102                 0              102              YES                  
+test_0.u100.USPDIF_TX.reset_n_arst     0               81                  0              81               YES                  
+test_0.u100.UDSDTX.reset_n             0               68                  0              68               YES                  
+test_0.u100.UD100.crc_clr              0               64                  0              64               YES                  
+test_0.u100.UPCMTX.reset_n             0               38                  0              38               YES                  
+test_0.u200.reset_n                    0               18                  0              18               YES                  
+================================================================================================================================

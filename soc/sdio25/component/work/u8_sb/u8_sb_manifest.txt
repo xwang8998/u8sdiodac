@@ -1,0 +1,38 @@
+Microsemi Corporation - Microsemi Libero Software Release v12.6 (Version 12.900.20.24)
+
+Date      :  Tue Aug 10 15:34:36 2021
+Project   :  E:\DAC\igloo\soc\sdio25
+Component :  u8_sb
+Family    :  IGLOO2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    E:/DAC/igloo/soc/sdio25/component/work/u8_sb/u8_sb.v
+    E:/DAC/igloo/soc/sdio25/component/work/u8_sb/u8_sb.v
+    E:/DAC/igloo/soc/sdio25/component/work/u8_sb/CCC_0/u8_sb_CCC_0_FCCC.v
+    E:/DAC/igloo/soc/sdio25/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite_addrdec.v
+    E:/DAC/igloo/soc/sdio25/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite_defaultslavesm.v
+    E:/DAC/igloo/soc/sdio25/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite_slavearbiter.v
+    E:/DAC/igloo/soc/sdio25/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite_masterstage.v
+    E:/DAC/igloo/soc/sdio25/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite_slavestage.v
+    E:/DAC/igloo/soc/sdio25/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite_matrix4x16.v
+    E:/DAC/igloo/soc/sdio25/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite.v
+    E:/DAC/igloo/soc/sdio25/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v
+    E:/DAC/igloo/soc/sdio25/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp_pcie_hotreset.v
+    E:/DAC/igloo/soc/sdio25/component/work/u8_sb/FABOSC_0/u8_sb_FABOSC_0_OSC.v
+    E:/DAC/igloo/soc/sdio25/component/work/u8_sb/u8_sb.v
+    E:/DAC/igloo/soc/sdio25/component/work/u8_sb_HPMS/u8_sb_HPMS.v
+
+HDL source files for Synopsys SynplifyPro Synthesis tool:
+    E:/DAC/igloo/soc/sdio25/component/Actel/SgCore/OSC/2.0.101/osc_comps.v
+    E:/DAC/igloo/soc/sdio25/component/work/u8_sb_HPMS/u8_sb_HPMS_syn.v
+
+HDL source files for Mentor Precision Synthesis tool:
+    E:/DAC/igloo/soc/sdio25/component/Actel/SgCore/OSC/2.0.101/osc_comps_pre.v
+    E:/DAC/igloo/soc/sdio25/component/work/u8_sb_HPMS/u8_sb_HPMS_pre.v
+
+Stimulus files for all Simulation tools:
+    E:/DAC/igloo/soc/sdio25/component/work/u8_sb/subsystem.bfm
+    E:/DAC/igloo/soc/sdio25/component/work/u8_sb/subsystem.bfm
+    E:/DAC/igloo/soc/sdio25/component/work/u8_sb/subsystem.bfm
+

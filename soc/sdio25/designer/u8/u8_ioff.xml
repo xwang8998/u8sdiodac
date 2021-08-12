@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet href="rptstyle.xsl" type="text/xsl" ?>
+<doc>
+<title>I/O Register Combining Report</title>
+<text>Microsemi Corporation - Microsemi Libero Software Release v12.6 (Version 12.900.20.24)</text>
+<text>Date: Wed Aug 11 17:05:39 2021
+</text>
+<section><name>I/O Register Combining Summary</name></section>
+<table>
+<header>
+ <cell>Port Name</cell>
+ <cell>Register Type</cell>
+ <cell>Register Name</cell>
+</header>
+<row>
+ <cell>cmd</cell>
+ <cell>Output</cell>
+ <cell>test_0/u100/cmdo</cell>
+</row>
+<row>
+ <cell>cmd</cell>
+ <cell>Enable</cell>
+ <cell>test_0/u100/cmden</cell>
+</row>
+<row>
+ <cell>dsd_ln0</cell>
+ <cell>Output</cell>
+ <cell>test_0/dsd_lnn[7]</cell>
+</row>
+<row>
+ <cell>dsd_ln1</cell>
+ <cell>Output</cell>
+ <cell>test_0/dsd_lnn[6]</cell>
+</row>
+<row>
+ <cell>dsd_ln2</cell>
+ <cell>Output</cell>
+ <cell>test_0/dsd_lnn[5]</cell>
+</row>
+<row>
+ <cell>dsd_ln3</cell>
+ <cell>Output</cell>
+ <cell>test_0/dsd_lnn[4]</cell>
+</row>
+<row>
+ <cell>dsd_ln4</cell>
+ <cell>Output</cell>
+ <cell>test_0/dsd_lnn[3]</cell>
+</row>
+<row>
+ <cell>dsd_ln5</cell>
+ <cell>Output</cell>
+ <cell>test_0/dsd_lnn[2]</cell>
+</row>
+<row>
+ <cell>dsd_ln6</cell>
+ <cell>Output</cell>
+ <cell>test_0/dsd_lnn[1]</cell>
+</row>
+<row>
+ <cell>dsd_ln7</cell>
+ <cell>Output</cell>
+ <cell>test_0/dsd_lnn[0]</cell>
+</row>
+<row>
+ <cell>dsd_lp0</cell>
+ <cell>Output</cell>
+ <cell>test_0/dsd_lpp[0]</cell>
+</row>
+<row>
+ <cell>dsd_lp1</cell>
+ <cell>Output</cell>
+ <cell>test_0/dsd_lpp[1]</cell>
+</row>
+<row>
+ <cell>dsd_lp2</cell>
+ <cell>Output</cell>
+ <cell>test_0/dsd_lpp[2]</cell>
+</row>
+<row>
+ <cell>dsd_lp3</cell>
+ <cell>Output</cell>
+ <cell>test_0/dsd_lpp[3]</cell>
+</row>
+<row>
+ <cell>dsd_lp4</cell>
+ <cell>Output</cell>
+ <cell>test_0/dsd_lpp[4]</cell>
+</row>
+<row>
+ <cell>dsd_lp5</cell>
+ <cell>Output</cell>
+ <cell>test_0/dsd_lpp[5]</cell>
+</row>
+<row>
+ <cell>dsd_lp6</cell>
+ <cell>Output</cell>
+ <cell>test_0/dsd_lpp[6]</cell>
+</row>
+<row>
+ <cell>dsd_lp7</cell>
+ <cell>Output</cell>
+ <cell>test_0/dsd_lpp[7]</cell>
+</row>
+<row>
+ <cell>dsd_rn0</cell>
+ <cell>Output</cell>
+ <cell>test_0/dsd_rnn[7]</cell>
+</row>
+<row>
+ <cell>dsd_rn1</cell>
+ <cell>Output</cell>
+ <cell>test_0/dsd_rnn[6]</cell>
+</row>
+<row>
+ <cell>dsd_rn2</cell>
+ <cell>Output</cell>
+ <cell>test_0/dsd_rnn[5]</cell>
+</row>
+<row>
+ <cell>dsd_rn3</cell>
+ <cell>Output</cell>
+ <cell>test_0/dsd_rnn[4]</cell>
+</row>
+<row>
+ <cell>dsd_rn4</cell>
+ <cell>Output</cell>
+ <cell>test_0/dsd_rnn[3]</cell>
+</row>
+<row>
+ <cell>dsd_rn5</cell>
+ <cell>Output</cell>
+ <cell>test_0/dsd_rnn[2]</cell>
+</row>
+<row>
+ <cell>dsd_rn6</cell>
+ <cell>Output</cell>
+ <cell>test_0/dsd_rnn[1]</cell>
+</row>
+<row>
+ <cell>dsd_rn7</cell>
+ <cell>Output</cell>
+ <cell>test_0/dsd_rnn[0]</cell>
+</row>
+<row>
+ <cell>dsd_rp0</cell>
+ <cell>Output</cell>
+ <cell>test_0/dsd_rpp[0]</cell>
+</row>
+<row>
+ <cell>dsd_rp1</cell>
+ <cell>Output</cell>
+ <cell>test_0/dsd_rpp[1]</cell>
+</row>
+<row>
+ <cell>dsd_rp2</cell>
+ <cell>Output</cell>
+ <cell>test_0/dsd_rpp[2]</cell>
+</row>
+<row>
+ <cell>dsd_rp3</cell>
+ <cell>Output</cell>
+ <cell>test_0/dsd_rpp[3]</cell>
+</row>
+<row>
+ <cell>dsd_rp4</cell>
+ <cell>Output</cell>
+ <cell>test_0/dsd_rpp[4]</cell>
+</row>
+<row>
+ <cell>dsd_rp5</cell>
+ <cell>Output</cell>
+ <cell>test_0/dsd_rpp[5]</cell>
+</row>
+<row>
+ <cell>dsd_rp6</cell>
+ <cell>Output</cell>
+ <cell>test_0/dsd_rpp[6]</cell>
+</row>
+<row>
+ <cell>dsd_rp7</cell>
+ <cell>Output</cell>
+ <cell>test_0/dsd_rpp[7]</cell>
+</row>
+<row>
+ <cell>sd_d0</cell>
+ <cell>Output</cell>
+ <cell>test_0/u100/UD100/data_out[0]</cell>
+</row>
+<row>
+ <cell>sd_d1</cell>
+ <cell>Output</cell>
+ <cell>test_0/u100/UD100/data_out[1]</cell>
+</row>
+<row>
+ <cell>sd_d2</cell>
+ <cell>Output</cell>
+ <cell>test_0/u100/UD100/data_out[2]</cell>
+</row>
+<row>
+ <cell>sd_d3</cell>
+ <cell>Output</cell>
+ <cell>test_0/u100/UD100/data_out[3]</cell>
+</row>
+</table>
+<section><name>I/O DDR Register Combining Summary</name></section>
+<table>
+<header>
+</header>
+</table>
+</doc>

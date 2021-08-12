@@ -1,0 +1,338 @@
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03M-SP1
+Install: C:\Microsemi\Libero_SoC_v12.6\SynplifyPro
+OS: Windows 6.1
+
+Hostname: WIN7-2020MEADRD
+
+Implementation : synthesis
+
+# Written on Wed Aug 11 17:01:40 2021
+
+##### DESIGN INFO #######################################################
+
+Top View:                "u8"
+Constraint File(s):      "E:\DAC\igloo\soc\sdio25\designer\u8\synthesis.fdc"
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 57 issues in 26 out of 37 constraints
+
+
+##### DETAILS ############################################################
+
+
+
+Clock Relationships
+*******************
+
+Starting                                                      Ending                                                        |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+mclk                                                          System                                                        |     8.000            |     No paths         |     No paths         |     No paths                         
+mclk                                                          mclk                                                          |     8.000            |     No paths         |     No paths         |     No paths                         
+sdclk_n                                                       sdclk_n                                                       |     16.000           |     No paths         |     No paths         |     No paths                         
+sdclk_n                                                       clock138_bck                                                  |     16.000           |     No paths         |     No paths         |     No paths                         
+sdclk_n                                                       mclk4549                                                      |     16.000           |     No paths         |     No paths         |     No paths                         
+sdclk_n                                                       sdtop|dsd_clkr_inferred_clock                                 |     Diff grp         |     No paths         |     No paths         |     No paths                         
+sdclk_n                                                       clock_divider|clk2_inferred_clock                             |     Diff grp         |     No paths         |     No paths         |     No paths                         
+sdclk_n                                                       clock_divider|clk4_inferred_clock                             |     Diff grp         |     No paths         |     No paths         |     No paths                         
+sdclk_n                                                       clock_divider|clk8_inferred_clock                             |     Diff grp         |     No paths         |     No paths         |     No paths                         
+sdclk_n                                                       u8|sdclk                                                      |     Diff grp         |     No paths         |     No paths         |     No paths                         
+sdclk_n                                                       sdtop|clk_d2_inferred_clock                                   |     Diff grp         |     No paths         |     No paths         |     No paths                         
+sdclk_n                                                       sdtop|clk_d4_inferred_clock                                   |     Diff grp         |     No paths         |     No paths         |     No paths                         
+sdclk_n                                                       clock_divider|clk16_inferred_clock                            |     Diff grp         |     No paths         |     No paths         |     No paths                         
+sdclk_n                                                       inctrl|master_lrck_inferred_clock                             |     Diff grp         |     No paths         |     No paths         |     No paths                         
+clock138_bck                                                  clock138_bck                                                  |     16.000           |     No paths         |     No paths         |     No paths                         
+mclk4549                                                      mclk                                                          |     No paths         |     No paths         |     No paths         |     8.000                            
+mclk4549                                                      sdclk_n                                                       |     16.000           |     No paths         |     No paths         |     No paths                         
+mclk4549                                                      mclk4549                                                      |     16.000           |     16.000           |     8.000            |     No paths                         
+mclk4549                                                      sdtop|dsd_clkr_inferred_clock                                 |     Diff grp         |     Diff grp         |     Diff grp         |     No paths                         
+mclk4549                                                      clock_divider|clk2_inferred_clock                             |     Diff grp         |     Diff grp         |     Diff grp         |     No paths                         
+mclk4549                                                      clock_divider|clk4_inferred_clock                             |     Diff grp         |     Diff grp         |     Diff grp         |     No paths                         
+mclk4549                                                      clock_divider|clk8_inferred_clock                             |     Diff grp         |     Diff grp         |     Diff grp         |     No paths                         
+mclk4549                                                      u8_sb_CCC_0_FCCC|GL0_net_inferred_clock                       |     Diff grp         |     No paths         |     No paths         |     No paths                         
+mclk4549                                                      clock_divider|clk16_inferred_clock                            |     Diff grp         |     Diff grp         |     Diff grp         |     No paths                         
+sdtop|dsd_clkr_inferred_clock                                 mclk                                                          |     No paths         |     No paths         |     No paths         |     Diff grp                         
+sdtop|dsd_clkr_inferred_clock                                 mclk4549                                                      |     No paths         |     Diff grp         |     Diff grp         |     No paths                         
+sdtop|dsd_clkr_inferred_clock                                 sdtop|dsd_clkr_inferred_clock                                 |     10.000           |     10.000           |     5.000            |     No paths                         
+sdtop|dsd_clkr_inferred_clock                                 clock_divider|clk2_inferred_clock                             |     No paths         |     Diff grp         |     Diff grp         |     No paths                         
+sdtop|dsd_clkr_inferred_clock                                 clock_divider|clk4_inferred_clock                             |     No paths         |     Diff grp         |     Diff grp         |     No paths                         
+sdtop|dsd_clkr_inferred_clock                                 clock_divider|clk8_inferred_clock                             |     No paths         |     Diff grp         |     Diff grp         |     No paths                         
+sdtop|dsd_clkr_inferred_clock                                 clock_divider|clk16_inferred_clock                            |     No paths         |     Diff grp         |     Diff grp         |     No paths                         
+clock_divider|clk2_inferred_clock                             mclk                                                          |     No paths         |     No paths         |     No paths         |     Diff grp                         
+clock_divider|clk2_inferred_clock                             mclk4549                                                      |     Diff grp         |     Diff grp         |     Diff grp         |     No paths                         
+clock_divider|clk2_inferred_clock                             sdtop|dsd_clkr_inferred_clock                                 |     Diff grp         |     Diff grp         |     Diff grp         |     No paths                         
+clock_divider|clk2_inferred_clock                             clock_divider|clk2_inferred_clock                             |     10.000           |     10.000           |     5.000            |     No paths                         
+clock_divider|clk2_inferred_clock                             clock_divider|clk4_inferred_clock                             |     Diff grp         |     Diff grp         |     Diff grp         |     No paths                         
+clock_divider|clk2_inferred_clock                             clock_divider|clk8_inferred_clock                             |     Diff grp         |     Diff grp         |     Diff grp         |     No paths                         
+clock_divider|clk2_inferred_clock                             clock_divider|clk16_inferred_clock                            |     Diff grp         |     Diff grp         |     Diff grp         |     No paths                         
+clock_divider|clk4_inferred_clock                             mclk                                                          |     No paths         |     No paths         |     No paths         |     Diff grp                         
+clock_divider|clk4_inferred_clock                             mclk4549                                                      |     Diff grp         |     Diff grp         |     Diff grp         |     No paths                         
+clock_divider|clk4_inferred_clock                             sdtop|dsd_clkr_inferred_clock                                 |     Diff grp         |     Diff grp         |     Diff grp         |     No paths                         
+clock_divider|clk4_inferred_clock                             clock_divider|clk2_inferred_clock                             |     Diff grp         |     Diff grp         |     Diff grp         |     No paths                         
+clock_divider|clk4_inferred_clock                             clock_divider|clk4_inferred_clock                             |     10.000           |     10.000           |     5.000            |     No paths                         
+clock_divider|clk4_inferred_clock                             clock_divider|clk8_inferred_clock                             |     Diff grp         |     Diff grp         |     Diff grp         |     No paths                         
+clock_divider|clk4_inferred_clock                             clock_divider|clk16_inferred_clock                            |     Diff grp         |     Diff grp         |     Diff grp         |     No paths                         
+clock_divider|clk8_inferred_clock                             mclk                                                          |     No paths         |     No paths         |     No paths         |     Diff grp                         
+clock_divider|clk8_inferred_clock                             mclk4549                                                      |     Diff grp         |     Diff grp         |     Diff grp         |     No paths                         
+clock_divider|clk8_inferred_clock                             sdtop|dsd_clkr_inferred_clock                                 |     Diff grp         |     Diff grp         |     Diff grp         |     No paths                         
+clock_divider|clk8_inferred_clock                             clock_divider|clk2_inferred_clock                             |     Diff grp         |     Diff grp         |     Diff grp         |     No paths                         
+clock_divider|clk8_inferred_clock                             clock_divider|clk4_inferred_clock                             |     Diff grp         |     Diff grp         |     Diff grp         |     No paths                         
+clock_divider|clk8_inferred_clock                             clock_divider|clk8_inferred_clock                             |     10.000           |     10.000           |     5.000            |     No paths                         
+clock_divider|clk8_inferred_clock                             clock_divider|clk16_inferred_clock                            |     Diff grp         |     Diff grp         |     Diff grp         |     No paths                         
+u8_sb_CCC_0_FCCC|GL0_net_inferred_clock                       mclk                                                          |     Diff grp         |     No paths         |     No paths         |     No paths                         
+u8_sb_CCC_0_FCCC|GL0_net_inferred_clock                       sdclk_n                                                       |     Diff grp         |     No paths         |     No paths         |     No paths                         
+u8_sb_CCC_0_FCCC|GL0_net_inferred_clock                       clock138_bck                                                  |     Diff grp         |     No paths         |     No paths         |     No paths                         
+u8_sb_CCC_0_FCCC|GL0_net_inferred_clock                       mclk4549                                                      |     Diff grp         |     No paths         |     Diff grp         |     No paths                         
+u8_sb_CCC_0_FCCC|GL0_net_inferred_clock                       sdtop|dsd_clkr_inferred_clock                                 |     Diff grp         |     No paths         |     Diff grp         |     No paths                         
+u8_sb_CCC_0_FCCC|GL0_net_inferred_clock                       clock_divider|clk2_inferred_clock                             |     Diff grp         |     No paths         |     Diff grp         |     No paths                         
+u8_sb_CCC_0_FCCC|GL0_net_inferred_clock                       clock_divider|clk4_inferred_clock                             |     Diff grp         |     No paths         |     Diff grp         |     No paths                         
+u8_sb_CCC_0_FCCC|GL0_net_inferred_clock                       clock_divider|clk8_inferred_clock                             |     Diff grp         |     No paths         |     Diff grp         |     No paths                         
+u8_sb_CCC_0_FCCC|GL0_net_inferred_clock                       u8_sb_CCC_0_FCCC|GL0_net_inferred_clock                       |     10.000           |     No paths         |     No paths         |     No paths                         
+u8_sb_CCC_0_FCCC|GL0_net_inferred_clock                       u8_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+u8_sb_CCC_0_FCCC|GL0_net_inferred_clock                       u8|sdclk                                                      |     Diff grp         |     No paths         |     No paths         |     No paths                         
+u8_sb_CCC_0_FCCC|GL0_net_inferred_clock                       sdtop|clk_d2_inferred_clock                                   |     Diff grp         |     No paths         |     No paths         |     No paths                         
+u8_sb_CCC_0_FCCC|GL0_net_inferred_clock                       sdtop|clk_d4_inferred_clock                                   |     Diff grp         |     No paths         |     No paths         |     No paths                         
+u8_sb_CCC_0_FCCC|GL0_net_inferred_clock                       clock_divider|clk16_inferred_clock                            |     Diff grp         |     No paths         |     Diff grp         |     No paths                         
+u8_sb_CCC_0_FCCC|GL0_net_inferred_clock                       inctrl|master_lrck_inferred_clock                             |     Diff grp         |     No paths         |     No paths         |     No paths                         
+u8_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     u8_sb_CCC_0_FCCC|GL0_net_inferred_clock                       |     Diff grp         |     No paths         |     No paths         |     No paths                         
+u8_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     u8_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     |     10.000           |     No paths         |     No paths         |     No paths                         
+u8|sdclk                                                      sdclk_n                                                       |     Diff grp         |     No paths         |     No paths         |     No paths                         
+sdtop|clk_d2_inferred_clock                                   sdtop|clk_d2_inferred_clock                                   |     10.000           |     No paths         |     No paths         |     No paths                         
+sdtop|clk_d4_inferred_clock                                   sdtop|clk_d4_inferred_clock                                   |     10.000           |     No paths         |     No paths         |     No paths                         
+clock_divider|clk16_inferred_clock                            mclk                                                          |     No paths         |     No paths         |     No paths         |     Diff grp                         
+clock_divider|clk16_inferred_clock                            mclk4549                                                      |     Diff grp         |     Diff grp         |     Diff grp         |     No paths                         
+clock_divider|clk16_inferred_clock                            sdtop|dsd_clkr_inferred_clock                                 |     Diff grp         |     Diff grp         |     Diff grp         |     No paths                         
+clock_divider|clk16_inferred_clock                            clock_divider|clk2_inferred_clock                             |     Diff grp         |     Diff grp         |     Diff grp         |     No paths                         
+clock_divider|clk16_inferred_clock                            clock_divider|clk4_inferred_clock                             |     Diff grp         |     Diff grp         |     Diff grp         |     No paths                         
+clock_divider|clk16_inferred_clock                            clock_divider|clk8_inferred_clock                             |     Diff grp         |     Diff grp         |     Diff grp         |     No paths                         
+clock_divider|clk16_inferred_clock                            clock_divider|clk16_inferred_clock                            |     10.000           |     10.000           |     5.000            |     No paths                         
+inctrl|master_lrck_inferred_clock                             mclk4549                                                      |     Diff grp         |     No paths         |     No paths         |     No paths                         
+inctrl|master_lrck_inferred_clock                             inctrl|master_lrck_inferred_clock                             |     10.000           |     No paths         |     No paths         |     No paths                         
+=======================================================================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+Unconstrained Start/End Points
+******************************
+
+p:DEVRST_N
+p:clock138_data
+p:clock138_lrck
+p:cmd (bidir end point)
+p:en45
+p:en49
+p:led0
+p:led1
+p:led2
+p:led3
+p:led4
+p:led5
+p:led6
+p:obck (bidir end point)
+p:obck (bidir start point)
+p:odata (bidir end point)
+p:odata (bidir start point)
+p:olrck (bidir end point)
+p:olrck (bidir start point)
+p:sd_d0 (bidir end point)
+p:sd_d1 (bidir end point)
+p:sd_d2 (bidir end point)
+p:sd_d3 (bidir end point)
+p:spdif_en
+p:spdif_tx
+
+
+Inapplicable constraints
+************************
+
+create_clock -name dem_clk -period 32 -waveform {0 16} [get_pins { test_0.UCK300.Y }]
+	@E:MT548:"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":15:0:15:0|Source for clock dem_clk not found in netlist.
+create_clock -name dop_clock -period 16 -waveform {0 8} [get_pins { *dop_clock* }]
+	@E:MT548:"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":14:0:14:0|Source for clock dop_clock not found in netlist.
+create_clock -name dsd_clk -period 32 -waveform {0 16} [get_pins { test_0.u100.UDSDCLK.Y }]
+	@E:MT548:"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":12:0:12:0|Source for clock dsd_clk not found in netlist.
+create_clock -name gl0 -period 16 -waveform {0 8} [get_pins { u8_sb_0.CCC_0.GL0_INST.Y }]
+	@E:MT548:"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":8:0:8:0|Source for clock gl0 not found in netlist.
+create_clock -name spdif_clock -period 16 -waveform {0 8} [get_pins { *spdif_clock* }]
+	@E:MT548:"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":13:0:13:0|Source for clock spdif_clock not found in netlist.
+set_false_path -from [get_clocks { clock138_bck }] -to test_0.u200*
+	@E::"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":35:0:35:0|Timing constraint (from [get_clocks { clock138_bck }] to test_0.u200*) (false path) was not applied to the design because the to list is incorrect: it contains no clock, primary output, sequential cell, or sequential cell data input pin
+	@E::"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":35:0:35:0|object "test_0.u200*" is missing qualifier which may result in undesired results; "-to" objects must be of type clock (get_clocks), port (get_ports), cell (get_cells), or pin (get_pins)
+set_false_path -from [get_clocks { dop_clock }] -to *USPDIF_TX*
+	@E::"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":39:0:39:0|Timing constraint (from [get_clocks { dop_clock }] to *USPDIF_TX*) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design
+	@E::"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":39:0:39:0|collection "[get_clocks { dop_clock }]" is empty
+	@E::"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":39:0:39:0|object "*USPDIF_TX*" is missing qualifier which may result in undesired results; "-to" objects must be of type clock (get_clocks), port (get_ports), cell (get_cells), or pin (get_pins)
+set_false_path -from [get_clocks { dsd_clk }] -to *dsd_ln*
+	@E::"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":42:0:42:0|Timing constraint (from [get_clocks { dsd_clk }] to *dsd_ln*) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design
+	@E::"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":42:0:42:0|collection "[get_clocks { dsd_clk }]" is empty
+	@E::"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":42:0:42:0|object "*dsd_ln*" is missing qualifier which may result in undesired results; "-to" objects must be of type clock (get_clocks), port (get_ports), cell (get_cells), or pin (get_pins)
+set_false_path -from [get_clocks { dsd_clk }] -to *dsd_lp*
+	@E::"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":40:0:40:0|Timing constraint (from [get_clocks { dsd_clk }] to *dsd_lp*) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design
+	@E::"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":40:0:40:0|collection "[get_clocks { dsd_clk }]" is empty
+	@E::"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":40:0:40:0|object "*dsd_lp*" is missing qualifier which may result in undesired results; "-to" objects must be of type clock (get_clocks), port (get_ports), cell (get_cells), or pin (get_pins)
+set_false_path -from [get_clocks { dsd_clk }] -to *dsd_rn*
+	@E::"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":43:0:43:0|Timing constraint (from [get_clocks { dsd_clk }] to *dsd_rn*) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design
+	@E::"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":43:0:43:0|collection "[get_clocks { dsd_clk }]" is empty
+	@E::"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":43:0:43:0|object "*dsd_rn*" is missing qualifier which may result in undesired results; "-to" objects must be of type clock (get_clocks), port (get_ports), cell (get_cells), or pin (get_pins)
+set_false_path -from [get_clocks { dsd_clk }] -to *dsd_rp*
+	@E::"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":41:0:41:0|Timing constraint (from [get_clocks { dsd_clk }] to *dsd_rp*) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design
+	@E::"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":41:0:41:0|collection "[get_clocks { dsd_clk }]" is empty
+	@E::"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":41:0:41:0|object "*dsd_rp*" is missing qualifier which may result in undesired results; "-to" objects must be of type clock (get_clocks), port (get_ports), cell (get_cells), or pin (get_pins)
+set_false_path -from [get_clocks { gl0 }] -to test_0*
+	@E::"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":23:0:23:0|Timing constraint (from [get_clocks { gl0 }] to test_0*) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design
+	@E::"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":23:0:23:0|collection "[get_clocks { gl0 }]" is empty
+	@E::"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":23:0:23:0|object "test_0*" is missing qualifier which may result in undesired results; "-to" objects must be of type clock (get_clocks), port (get_ports), cell (get_cells), or pin (get_pins)
+set_false_path -from [get_clocks { mclk }] -to test_0.u100*
+	@E::"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":26:0:26:0|Timing constraint (from [get_clocks { mclk }] to test_0.u100*) (false path) was not applied to the design because the to list is incorrect: it contains no clock, primary output, sequential cell, or sequential cell data input pin
+	@E::"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":26:0:26:0|object "test_0.u100*" is missing qualifier which may result in undesired results; "-to" objects must be of type clock (get_clocks), port (get_ports), cell (get_cells), or pin (get_pins)
+set_false_path -from [get_clocks { mclk }] -to test_0.u200*
+	@E::"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":36:0:36:0|Timing constraint (from [get_clocks { mclk }] to test_0.u200*) (false path) was not applied to the design because the to list is incorrect: it contains no clock, primary output, sequential cell, or sequential cell data input pin
+	@E::"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":36:0:36:0|object "test_0.u200*" is missing qualifier which may result in undesired results; "-to" objects must be of type clock (get_clocks), port (get_ports), cell (get_cells), or pin (get_pins)
+set_false_path -from [get_clocks { mclk4549 }] -to *UDOP*
+	@E:MF896:"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":38:0:38:0|Object "*UDOP*" does not exist
+	@E::"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":38:0:38:0|Timing constraint (from [get_clocks { mclk4549 }] to *UDOP*) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design
+	@E::"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":38:0:38:0|object "*UDOP*" is missing qualifier which may result in undesired results; "-to" objects must be of type clock (get_clocks), port (get_ports), cell (get_cells), or pin (get_pins)
+set_false_path -from [get_clocks { mclk4549 }] -to *USPDIF_TX*
+	@E:MF896:"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":25:0:25:0|Object "*USPDIF_TX*" does not exist
+	@E::"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":25:0:25:0|Timing constraint (from [get_clocks { mclk4549 }] to *USPDIF_TX*) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design
+	@E::"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":25:0:25:0|object "*USPDIF_TX*" is missing qualifier which may result in undesired results; "-to" objects must be of type clock (get_clocks), port (get_ports), cell (get_cells), or pin (get_pins)
+set_false_path -from [get_clocks { sdclk_n }] -to *uctrl*
+	@E:MF896:"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":37:0:37:0|Object "*uctrl*" does not exist
+	@E::"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":37:0:37:0|Timing constraint (from [get_clocks { sdclk_n }] to *uctrl*) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design
+	@E::"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":37:0:37:0|object "*uctrl*" is missing qualifier which may result in undesired results; "-to" objects must be of type clock (get_clocks), port (get_ports), cell (get_cells), or pin (get_pins)
+set_false_path -from [get_clocks { sdclk_n }] -to *ufifo*
+	@E:MF896:"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":31:0:31:0|Object "*ufifo*" does not exist
+	@E::"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":31:0:31:0|Timing constraint (from [get_clocks { sdclk_n }] to *ufifo*) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design
+	@E::"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":31:0:31:0|object "*ufifo*" is missing qualifier which may result in undesired results; "-to" objects must be of type clock (get_clocks), port (get_ports), cell (get_cells), or pin (get_pins)
+set_false_path -from [get_clocks { sdclk_n }] -to *usync*
+	@E:MF896:"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":29:0:29:0|Object "*usync*" does not exist
+	@E::"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":29:0:29:0|Timing constraint (from [get_clocks { sdclk_n }] to *usync*) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design
+	@E::"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":29:0:29:0|object "*usync*" is missing qualifier which may result in undesired results; "-to" objects must be of type clock (get_clocks), port (get_ports), cell (get_cells), or pin (get_pins)
+set_false_path -from [get_clocks { sdclk_n }] -to *usync*
+	@E:MF896:"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":30:0:30:0|Object "*usync*" does not exist
+	@E::"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":30:0:30:0|Timing constraint (from [get_clocks { sdclk_n }] to *usync*) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design
+	@E::"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":30:0:30:0|object "*usync*" is missing qualifier which may result in undesired results; "-to" objects must be of type clock (get_clocks), port (get_ports), cell (get_cells), or pin (get_pins)
+set_false_path -from [get_clocks { sdclk_n }] -to test_0.u200*
+	@E::"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":27:0:27:0|Timing constraint (from [get_clocks { sdclk_n }] to test_0.u200*) (false path) was not applied to the design because the to list is incorrect: it contains no clock, primary output, sequential cell, or sequential cell data input pin
+	@E::"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":27:0:27:0|object "test_0.u200*" is missing qualifier which may result in undesired results; "-to" objects must be of type clock (get_clocks), port (get_ports), cell (get_cells), or pin (get_pins)
+
+Applicable constraints with issues
+**********************************
+
+set_false_path -from [get_clocks { mclk4549 }] -to test_0.mclk_d2*
+	@W::"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":28:0:28:0|Timing constraint (from [get_clocks { mclk4549 }] to test_0.mclk_d2*) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design
+	@W::"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":28:0:28:0|object "test_0.mclk_d2*" is missing qualifier which may result in undesired results; "-to" objects must be of type clock (get_clocks), port (get_ports), cell (get_cells), or pin (get_pins)
+set_false_path -from [get_clocks { mclk4549 }] -to u8_sb*
+	@W::"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":24:0:24:0|Timing constraint (from [get_clocks { mclk4549 }] to u8_sb*) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design
+	@W::"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":24:0:24:0|object "u8_sb*" is missing qualifier which may result in undesired results; "-to" objects must be of type clock (get_clocks), port (get_ports), cell (get_cells), or pin (get_pins)
+set_false_path -from [get_clocks { sdclk_n }] -to u8_sb*
+	@W::"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":34:0:34:0|Timing constraint (from [get_clocks { sdclk_n }] to u8_sb*) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design
+	@W::"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":34:0:34:0|object "u8_sb*" is missing qualifier which may result in undesired results; "-to" objects must be of type clock (get_clocks), port (get_ports), cell (get_cells), or pin (get_pins)
+set_false_path -from test_0.u100.uctrl.sound_card_start*
+	@W::"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":32:0:32:0|object "test_0.u100.uctrl.sound_card_start*" is missing qualifier which may result in undesired results; "-from" objects must be of type clock (get_clocks), port (get_ports), cell (get_cells), or pin (get_pins)
+set_false_path -from test_0.u100.uctrl.use_dsd*
+	@W::"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":33:0:33:0|object "test_0.u100.uctrl.use_dsd*" is missing qualifier which may result in undesired results; "-from" objects must be of type clock (get_clocks), port (get_ports), cell (get_cells), or pin (get_pins)
+
+Constraints with matching wildcard expressions
+**********************************************
+
+set_false_path -from [get_clocks { clock138_bck }] -to test_0.u200*
+	@N:MF891:"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":35:0:35:0|expression "test_0.u200*" applies to objects:
+		test_0.u200
+set_false_path -from [get_clocks { mclk }] -to test_0.u100*
+	@N:MF891:"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":26:0:26:0|expression "test_0.u100*" applies to objects:
+		test_0.u100
+set_false_path -from [get_clocks { mclk }] -to test_0.u200*
+	@N:MF891:"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":36:0:36:0|expression "test_0.u200*" applies to objects:
+		test_0.u200
+set_false_path -from [get_clocks { mclk4549 }] -to test_0.mclk_d2*
+	@N:MF891:"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":28:0:28:0|expression "test_0.mclk_d2*" applies to objects:
+		test_0.mclk_d2
+set_false_path -from [get_clocks { mclk4549 }] -to u8_sb*
+	@N:MF891:"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":24:0:24:0|expression "u8_sb*" applies to objects:
+		u8_sb_0
+set_false_path -from [get_clocks { sdclk_n }] -to test_0.u200*
+	@N:MF891:"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":27:0:27:0|expression "test_0.u200*" applies to objects:
+		test_0.u200
+set_false_path -from [get_clocks { sdclk_n }] -to u8_sb*
+	@N:MF891:"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":34:0:34:0|expression "u8_sb*" applies to objects:
+		u8_sb_0
+set_false_path -from [get_ports { DEVRST_N* }]
+	@N:MF891:"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":18:0:18:0|expression "[get_ports { DEVRST_N* }]" applies to objects:
+		DEVRST_N
+set_false_path -from test_0.u100.uctrl.sound_card_start*
+	@N:MF891:"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":32:0:32:0|expression "test_0.u100.uctrl.sound_card_start*" applies to objects:
+		test_0.u100.uctrl.sound_card_start
+set_false_path -from test_0.u100.uctrl.use_dsd*
+	@N:MF891:"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":33:0:33:0|expression "test_0.u100.uctrl.use_dsd*" applies to objects:
+		test_0.u100.uctrl.use_dsd
+set_false_path -to [get_ports { en45* }]
+	@N:MF891:"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":19:0:19:0|expression "[get_ports { en45* }]" applies to objects:
+		en45
+set_false_path -to [get_ports { en49* }]
+	@N:MF891:"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":20:0:20:0|expression "[get_ports { en49* }]" applies to objects:
+		en49
+set_false_path -to [get_ports { led* }]
+	@N:MF891:"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":21:0:21:0|expression "[get_ports { led* }]" applies to objects:
+		led0
+		led1
+		led2
+		led3
+		led4
+		led5
+		led6
+		led7
+set_false_path -to [get_ports { spdif_en* }]
+	@N:MF891:"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":22:0:22:0|expression "[get_ports { spdif_en* }]" applies to objects:
+		spdif_en
+set_output_delay 3.7 -clock mclk [get_ports { *dsd_* }]
+	@N:MF891:"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":16:0:16:0|expression "[get_ports { *dsd_* }]" applies to objects:
+		dsd_ln0
+		dsd_ln1
+		dsd_ln2
+		dsd_ln3
+		dsd_ln4
+		dsd_ln5
+		dsd_ln6
+		dsd_ln7
+		dsd_lp0
+		dsd_lp1
+		dsd_lp2
+		dsd_lp3
+		dsd_lp4
+		dsd_lp5
+		dsd_lp6
+		dsd_lp7
+		dsd_rn0
+		dsd_rn1
+		dsd_rn2
+		dsd_rn3
+		dsd_rn4
+		dsd_rn5
+		dsd_rn6
+		dsd_rn7
+		dsd_rp0
+		dsd_rp1
+		dsd_rp2
+		dsd_rp3
+		dsd_rp4
+		dsd_rp5
+		dsd_rp6
+		dsd_rp7
+
+Library Report
+**************
+
+
+# End of Constraint Checker Report

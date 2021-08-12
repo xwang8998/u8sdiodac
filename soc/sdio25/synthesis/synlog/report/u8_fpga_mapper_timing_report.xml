@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+Max Top 5 critical clocks will be reported. For rest user needs to refer to Detailed report
+*******************************************************************************************-->
+<report_table display_priority="2" name="Timing Summary">
+<report_link name="Detailed report">
+<data>E:\DAC\igloo\soc\sdio25\synthesis\synlog\u8_fpga_mapper.srr</data>
+<title>START OF TIMING REPORT</title>
+</report_link>
+<row>
+<data tcl_name="clock_name">Clock Name</data>
+<data tcl_name="req_freq">Req Freq</data>
+<data tcl_name="est_freq">Est Freq</data>
+<data tcl_name="slack">Slack</data>
+</row>
+<row>
+<data>clock138_bck</data>
+<data>62.5 MHz</data>
+<data>462.7 MHz</data>
+<data>13.839</data>
+</row>
+<row>
+<data>clock_divider|clk2_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>242.9 MHz</data>
+<data>2.955</data>
+</row>
+<row>
+<data>clock_divider|clk4_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>242.9 MHz</data>
+<data>2.955</data>
+</row>
+<row>
+<data>clock_divider|clk8_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>121.5 MHz</data>
+<data>0.883</data>
+</row>
+<row>
+<data>clock_divider|clk16_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>121.5 MHz</data>
+<data>0.883</data>
+</row>
+<row>
+<data>inctrl|master_lrck_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>789.1 MHz</data>
+<data>8.733</data>
+</row>
+<row>
+<data>mclk</data>
+<data>125.0 MHz</data>
+<data>117.6 MHz</data>
+<data>-0.507</data>
+</row>
+<row>
+<data>mclk4549</data>
+<data>62.5 MHz</data>
+<data>165.8 MHz</data>
+<data>5.955</data>
+</row>
+<row>
+<data>sdclk_n</data>
+<data>62.5 MHz</data>
+<data>121.0 MHz</data>
+<data>7.734</data>
+</row>
+<row>
+<data>sdtop|dsd_clkr_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>265.6 MHz</data>
+<data>3.338</data>
+</row>
+<row>
+<data>u8_sb_CCC_0_FCCC|GL0_net_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>117.1 MHz</data>
+<data>1.462</data>
+</row>
+<row>
+<data>u8|sdclk</data>
+<data>100.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>System</data>
+<data>100.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+</report_table>

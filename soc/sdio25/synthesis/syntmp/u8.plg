@@ -1,0 +1,71 @@
+@P:  Worst Slack : -0.507
+@P:  clock138_bck - Estimated Frequency : 462.7 MHz
+@P:  clock138_bck - Requested Frequency : 62.5 MHz
+@P:  clock138_bck - Estimated Period : 2.161
+@P:  clock138_bck - Requested Period : 16.000
+@P:  clock138_bck - Slack : 13.839
+@P:  clock_divider|clk2_inferred_clock - Estimated Frequency : 242.9 MHz
+@P:  clock_divider|clk2_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  clock_divider|clk2_inferred_clock - Estimated Period : 4.117
+@P:  clock_divider|clk2_inferred_clock - Requested Period : 10.000
+@P:  clock_divider|clk2_inferred_clock - Slack : 2.955
+@P:  clock_divider|clk4_inferred_clock - Estimated Frequency : 242.9 MHz
+@P:  clock_divider|clk4_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  clock_divider|clk4_inferred_clock - Estimated Period : 4.117
+@P:  clock_divider|clk4_inferred_clock - Requested Period : 10.000
+@P:  clock_divider|clk4_inferred_clock - Slack : 2.955
+@P:  clock_divider|clk8_inferred_clock - Estimated Frequency : 121.5 MHz
+@P:  clock_divider|clk8_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  clock_divider|clk8_inferred_clock - Estimated Period : 8.233
+@P:  clock_divider|clk8_inferred_clock - Requested Period : 10.000
+@P:  clock_divider|clk8_inferred_clock - Slack : 0.883
+@P:  clock_divider|clk16_inferred_clock - Estimated Frequency : 121.5 MHz
+@P:  clock_divider|clk16_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  clock_divider|clk16_inferred_clock - Estimated Period : 8.233
+@P:  clock_divider|clk16_inferred_clock - Requested Period : 10.000
+@P:  clock_divider|clk16_inferred_clock - Slack : 0.883
+@P:  inctrl|master_lrck_inferred_clock - Estimated Frequency : 789.1 MHz
+@P:  inctrl|master_lrck_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  inctrl|master_lrck_inferred_clock - Estimated Period : 1.267
+@P:  inctrl|master_lrck_inferred_clock - Requested Period : 10.000
+@P:  inctrl|master_lrck_inferred_clock - Slack : 8.733
+@P:  mclk - Estimated Frequency : 117.6 MHz
+@P:  mclk - Requested Frequency : 125.0 MHz
+@P:  mclk - Estimated Period : 8.507
+@P:  mclk - Requested Period : 8.000
+@P:  mclk - Slack : -0.507
+@P:  mclk4549 - Estimated Frequency : 165.8 MHz
+@P:  mclk4549 - Requested Frequency : 62.5 MHz
+@P:  mclk4549 - Estimated Period : 6.031
+@P:  mclk4549 - Requested Period : 16.000
+@P:  mclk4549 - Slack : 5.955
+@P:  sdclk_n - Estimated Frequency : 121.0 MHz
+@P:  sdclk_n - Requested Frequency : 62.5 MHz
+@P:  sdclk_n - Estimated Period : 8.266
+@P:  sdclk_n - Requested Period : 16.000
+@P:  sdclk_n - Slack : 7.734
+@P:  sdtop|dsd_clkr_inferred_clock - Estimated Frequency : 265.6 MHz
+@P:  sdtop|dsd_clkr_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  sdtop|dsd_clkr_inferred_clock - Estimated Period : 3.765
+@P:  sdtop|dsd_clkr_inferred_clock - Requested Period : 10.000
+@P:  sdtop|dsd_clkr_inferred_clock - Slack : 3.338
+@P:  u8_sb_CCC_0_FCCC|GL0_net_inferred_clock - Estimated Frequency : 117.1 MHz
+@P:  u8_sb_CCC_0_FCCC|GL0_net_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  u8_sb_CCC_0_FCCC|GL0_net_inferred_clock - Estimated Period : 8.539
+@P:  u8_sb_CCC_0_FCCC|GL0_net_inferred_clock - Requested Period : 10.000
+@P:  u8_sb_CCC_0_FCCC|GL0_net_inferred_clock - Slack : 1.462
+@P:  u8|sdclk - Estimated Frequency : NA
+@P:  u8|sdclk - Requested Frequency : 100.0 MHz
+@P:  u8|sdclk - Estimated Period : NA
+@P:  u8|sdclk - Requested Period : 10.000
+@P:  u8|sdclk - Slack : NA
+@P:  System - Estimated Frequency : NA
+@P:  System - Requested Frequency : 100.0 MHz
+@P:  System - Estimated Period : NA
+@P:  System - Requested Period : 10.000
+@P:  System - Slack : NA
+@P: u8 Part : m2gl025vf400-1
+@P: u8 Register bits  : 1130 
+@P: u8 DSP Blocks  : 0
+@P: u8 I/O primitives : 57
+@P:  CPU Time : 0h:00m:17s

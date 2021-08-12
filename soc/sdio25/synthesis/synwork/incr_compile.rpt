@@ -1,0 +1,131 @@
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03M-SP1
+Install: C:\Microsemi\Libero_SoC_v12.6\SynplifyPro
+OS: Windows 6.1
+
+Hostname: WIN7-2020MEADRD
+
+Implementation : synthesis
+Synopsys HDL compiler and linker, Version comp202003synp2, Build 170R, Built Oct 21 2020 10:52:30, @
+
+Modified Files: 0
+FID:  path (prevtimestamp, timestamp)
+
+*******************************************************************
+Modules that may have changed as a result of file changes: 0
+MID:  lib.cell.view
+
+*******************************************************************
+Unmodified files: 34
+FID:  path (timestamp)
+0        C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\generic\igloo2.v (2020-11-03 15:58:10)
+1        C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vlog\hypermods.v (2020-11-03 15:58:13)
+2        C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vlog\scemi_objects.v (2020-11-03 15:58:13)
+3        C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vlog\scemi_pipes.svh (2020-11-03 15:58:13)
+4        C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vlog\umr_capim.v (2020-11-03 15:58:13)
+5        E:\DAC\igloo\soc\sdio25\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v (2021-07-22 15:48:19)
+6        E:\DAC\igloo\soc\sdio25\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_addrdec.v (2021-07-22 15:48:19)
+7        E:\DAC\igloo\soc\sdio25\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_defaultslavesm.v (2021-07-22 15:48:19)
+8        E:\DAC\igloo\soc\sdio25\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v (2021-07-22 15:48:19)
+9        E:\DAC\igloo\soc\sdio25\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v (2021-07-22 15:48:19)
+10       E:\DAC\igloo\soc\sdio25\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_slavearbiter.v (2021-07-22 15:48:19)
+11       E:\DAC\igloo\soc\sdio25\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_slavestage.v (2021-07-22 15:48:19)
+12       E:\DAC\igloo\soc\sdio25\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v (2021-07-22 15:48:19)
+13       E:\DAC\igloo\soc\sdio25\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v (2021-07-22 15:48:19)
+14       E:\DAC\igloo\soc\sdio25\component\Actel\SgCore\OSC\2.0.101\osc_comps.v (2021-07-22 15:48:21)
+15       E:\DAC\igloo\soc\sdio25\component\work\u8\u8.v (2021-08-10 17:39:20)
+16       E:\DAC\igloo\soc\sdio25\component\work\u8_sb\CCC_0\u8_sb_CCC_0_FCCC.v (2021-08-10 15:34:33)
+17       E:\DAC\igloo\soc\sdio25\component\work\u8_sb\FABOSC_0\u8_sb_FABOSC_0_OSC.v (2021-08-10 15:34:35)
+18       E:\DAC\igloo\soc\sdio25\component\work\u8_sb\u8_sb.v (2021-08-10 15:34:35)
+19       E:\DAC\igloo\soc\sdio25\component\work\u8_sb_HPMS\u8_sb_HPMS.v (2021-08-10 15:34:30)
+20       E:\DAC\igloo\soc\sdio25\component\work\u8_sb_HPMS\u8_sb_HPMS_syn.v (2021-08-10 15:34:30)
+21       E:\DAC\igloo\work\bigfifo.v (2017-10-25 19:52:43)
+22       E:\DAC\igloo\work\crc7.v (2017-10-25 19:52:43)
+23       E:\DAC\igloo\work\fir.v (2021-08-10 12:58:47)
+24       E:\DAC\igloo\work\fir2.v (2017-10-25 19:52:43)
+25       E:\DAC\igloo\work\mult28x32.v (2017-10-25 19:52:43)
+26       E:\DAC\igloo\work\pipe_pcm.v (2021-08-10 12:58:47)
+27       E:\DAC\igloo\work\ram.v (2021-08-11 16:17:43)
+28       E:\DAC\igloo\work\sd.v (2021-08-11 16:04:59)
+29       E:\DAC\igloo\work\sdm.v (2021-08-10 12:58:47)
+30       E:\DAC\igloo\work\sound.v (2021-08-10 12:58:47)
+31       E:\DAC\igloo\work\tap_rom.v (2017-10-25 19:52:43)
+32       E:\DAC\igloo\work\tap_rom2.v (2017-10-25 19:52:43)
+33       E:\DAC\igloo\work\test.v (2021-08-10 18:11:27)
+
+*******************************************************************
+Unchanged modules: 67
+MID:  lib.cell.view
+0        COREAHBLITE_LIB.COREAHBLITE_ADDRDEC.verilog
+1        COREAHBLITE_LIB.COREAHBLITE_DEFAULTSLAVESM.verilog
+2        COREAHBLITE_LIB.COREAHBLITE_MASTERSTAGE.verilog
+3        COREAHBLITE_LIB.COREAHBLITE_MATRIX4X16.verilog
+4        COREAHBLITE_LIB.COREAHBLITE_SLAVEARBITER.verilog
+5        COREAHBLITE_LIB.COREAHBLITE_SLAVESTAGE.verilog
+6        COREAHBLITE_LIB.CoreAHBLite.verilog
+7        work.CoreResetP.verilog
+8        work.MSS_025.verilog
+9        work.RCOSC_1MHZ.verilog
+10       work.RCOSC_1MHZ_FAB.verilog
+11       work.RCOSC_25_50MHZ.verilog
+12       work.RCOSC_25_50MHZ_FAB.verilog
+13       work.XTLOSC.verilog
+14       work.XTLOSC_FAB.verilog
+15       work.abs_cost.verilog
+16       work.adc_controller.verilog
+17       work.adc_pcm_gear.verilog
+18       work.bigfifo.verilog
+19       work.clock138master.verilog
+20       work.clock_divider.verilog
+21       work.coreresetp_pcie_hotreset.verilog
+22       work.crc16.verilog
+23       work.crc7.verilog
+24       work.dem.verilog
+25       work.dop_gear.verilog
+26       work.dsd_gen.verilog
+27       work.dsd_input_gear.verilog
+28       work.dsd_tx.verilog
+29       work.dsdout.verilog
+30       work.ext_i1.verilog
+31       work.ext_i2.verilog
+32       work.ext_i3.verilog
+33       work.ext_i4.verilog
+34       work.ext_i5.verilog
+35       work.fir_stage_1.verilog
+36       work.fir_stage_2.verilog
+37       work.i2s32_input_gear.verilog
+38       work.inctrl.verilog
+39       work.mem_controller.verilog
+40       work.mi1a1.verilog
+41       work.mi2a2.verilog
+42       work.mi3a3.verilog
+43       work.mi4a4.verilog
+44       work.mi5a5.verilog
+45       work.mi6b6.verilog
+46       work.mulb1.verilog
+47       work.mult28x32.verilog
+48       work.outctrl.verilog
+49       work.pcm2dsd.verilog
+50       work.pcm_tx.verilog
+51       work.pcmin.verilog
+52       work.pipe_pcm.verilog
+53       work.pipe_sdm.verilog
+54       work.ram_2p.verilog
+55       work.sd_data.verilog
+56       work.sdtop.verilog
+57       work.spdif_tx.verilog
+58       work.sync_logic.verilog
+59       work.tap_rom.verilog
+60       work.tap_rom2.verilog
+61       work.test.verilog
+62       work.u8.verilog
+63       work.u8_sb.verilog
+64       work.u8_sb_CCC_0_FCCC.verilog
+65       work.u8_sb_FABOSC_0_OSC.verilog
+66       work.u8_sb_HPMS.verilog

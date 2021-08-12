@@ -1,0 +1,383 @@
+# Microsemi I/O Physical Design Constraints file
+
+# User I/O Constraints file 
+
+# Version: v11.8 11.8.0.26
+
+# Family: IGLOO2 , Die: M2GL025 , Package: 484 FBGA
+
+# Date generated: Thu Oct 05 11:23:38 2017 
+
+
+# 
+# User Locked I/O Bank Settings
+# 
+
+
+# 
+# Unlocked I/O Bank Settings
+# The I/O Bank Settings can be locked by directly editing this file
+# or by making changes in the I/O Attribute Editor
+# 
+
+
+# 
+# User Locked I/O settings
+# 
+
+set_io clock138_bck   \
+    -pinname V21      \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io clock138_data   \
+    -pinname U22       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io clock138_lrck  \
+    -pinname V22      \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io cmd            \
+    -pinname Y10      \
+    -fixed yes        \
+    -DIRECTION INOUT
+
+
+set_io dsd_ln0         \
+    -pinname B1        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io dsd_ln1         \
+    -pinname C1        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io dsd_ln2         \
+    -pinname D1        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io dsd_ln3         \
+    -pinname E1        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io dsd_ln4         \
+    -pinname G1        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io dsd_ln5         \
+    -pinname H1        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io dsd_ln6         \
+    -pinname J1        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io dsd_ln7         \
+    -pinname K1        \
+    -fixed yes         \
+    -iostd LVCMOS25    \
+    -DIRECTION OUTPUT
+
+
+set_io dsd_lp0         \
+    -pinname A2        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io dsd_lp1         \
+    -pinname B2        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io dsd_lp2         \
+    -pinname D2        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io dsd_lp3         \
+    -pinname E2        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io dsd_lp4         \
+    -pinname F2        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io dsd_lp5         \
+    -pinname G2        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io dsd_lp6         \
+    -pinname J2        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io dsd_lp7         \
+    -pinname K2        \
+    -fixed yes         \
+    -iostd LVCMOS25    \
+    -DIRECTION OUTPUT
+
+
+set_io dsd_rn0         \
+    -pinname AA10      \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io dsd_rn1         \
+    -pinname AA11      \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io dsd_rn2         \
+    -pinname AA12      \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io dsd_rn3         \
+    -pinname AA13      \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io dsd_rn4         \
+    -pinname AA15      \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io dsd_rn5         \
+    -pinname AA16      \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io dsd_rn6         \
+    -pinname AA17      \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io dsd_rn7         \
+    -pinname AA18      \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io dsd_rp0         \
+    -pinname AB10      \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io dsd_rp1         \
+    -pinname AB11      \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io dsd_rp2         \
+    -pinname AB13      \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io dsd_rp3         \
+    -pinname AB14      \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io dsd_rp4         \
+    -pinname AB15      \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io dsd_rp5         \
+    -pinname AB17      \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io dsd_rp6         \
+    -pinname AB18      \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io dsd_rp7         \
+    -pinname AB19      \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io en45            \
+    -pinname U15       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io en49            \
+    -pinname U17       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io led0            \
+    -pinname L20       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io led1            \
+    -pinname L21       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io led2            \
+    -pinname M21       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io led3            \
+    -pinname M22       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io led4            \
+    -pinname T21       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io led5            \
+    -pinname K20       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io led6            \
+    -pinname N21       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io led7            \
+    -pinname N22       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io mclk           \
+    -pinname U13      \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io obck           \
+    -pinname K18      \
+    -fixed yes        \
+    -DIRECTION INOUT
+
+
+set_io odata          \
+    -pinname K16      \
+    -fixed yes        \
+    -DIRECTION INOUT
+
+
+set_io olrck          \
+    -pinname K17      \
+    -fixed yes        \
+    -DIRECTION INOUT
+
+
+set_io sd_d0          \
+    -pinname Y15      \
+    -fixed yes        \
+    -DIRECTION INOUT
+
+
+set_io sd_d1          \
+    -pinname Y17      \
+    -fixed yes        \
+    -DIRECTION INOUT
+
+
+set_io sd_d2          \
+    -pinname Y13      \
+    -fixed yes        \
+    -DIRECTION INOUT
+
+
+set_io sd_d3          \
+    -pinname Y12      \
+    -fixed yes        \
+    -DIRECTION INOUT
+
+
+set_io sdclk          \
+    -pinname Y14      \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io spdif_en        \
+    -pinname P17       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io spdif_tx        \
+    -pinname T20       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+
+# 
+# Dedicated Peripheral I/O Settings
+# 
+
+
+# 
+# Unlocked I/O settings
+# The I/Os in this section are unplaced or placed but are not locked
+# the other listed attributes have been applied
+# 
+

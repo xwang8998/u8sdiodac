@@ -1,0 +1,52 @@
+I/O Register Combining Report
+Microsemi Corporation - Microsemi Libero Software Release v12.6 (Version 12.900.20.24)
+Date: Wed Aug 11 17:05:39 2021
+
+I/O Register Combining Summary
++-----------+---------------+-------------------------------+
+| Port Name | Register Type | Register Name                 |
++-----------+---------------+-------------------------------+
+| cmd       | Output        | test_0/u100/cmdo              |
+| cmd       | Enable        | test_0/u100/cmden             |
+| dsd_ln0   | Output        | test_0/dsd_lnn[7]             |
+| dsd_ln1   | Output        | test_0/dsd_lnn[6]             |
+| dsd_ln2   | Output        | test_0/dsd_lnn[5]             |
+| dsd_ln3   | Output        | test_0/dsd_lnn[4]             |
+| dsd_ln4   | Output        | test_0/dsd_lnn[3]             |
+| dsd_ln5   | Output        | test_0/dsd_lnn[2]             |
+| dsd_ln6   | Output        | test_0/dsd_lnn[1]             |
+| dsd_ln7   | Output        | test_0/dsd_lnn[0]             |
+| dsd_lp0   | Output        | test_0/dsd_lpp[0]             |
+| dsd_lp1   | Output        | test_0/dsd_lpp[1]             |
+| dsd_lp2   | Output        | test_0/dsd_lpp[2]             |
+| dsd_lp3   | Output        | test_0/dsd_lpp[3]             |
+| dsd_lp4   | Output        | test_0/dsd_lpp[4]             |
+| dsd_lp5   | Output        | test_0/dsd_lpp[5]             |
+| dsd_lp6   | Output        | test_0/dsd_lpp[6]             |
+| dsd_lp7   | Output        | test_0/dsd_lpp[7]             |
+| dsd_rn0   | Output        | test_0/dsd_rnn[7]             |
+| dsd_rn1   | Output        | test_0/dsd_rnn[6]             |
+| dsd_rn2   | Output        | test_0/dsd_rnn[5]             |
+| dsd_rn3   | Output        | test_0/dsd_rnn[4]             |
+| dsd_rn4   | Output        | test_0/dsd_rnn[3]             |
+| dsd_rn5   | Output        | test_0/dsd_rnn[2]             |
+| dsd_rn6   | Output        | test_0/dsd_rnn[1]             |
+| dsd_rn7   | Output        | test_0/dsd_rnn[0]             |
+| dsd_rp0   | Output        | test_0/dsd_rpp[0]             |
+| dsd_rp1   | Output        | test_0/dsd_rpp[1]             |
+| dsd_rp2   | Output        | test_0/dsd_rpp[2]             |
+| dsd_rp3   | Output        | test_0/dsd_rpp[3]             |
+| dsd_rp4   | Output        | test_0/dsd_rpp[4]             |
+| dsd_rp5   | Output        | test_0/dsd_rpp[5]             |
+| dsd_rp6   | Output        | test_0/dsd_rpp[6]             |
+| dsd_rp7   | Output        | test_0/dsd_rpp[7]             |
+| sd_d0     | Output        | test_0/u100/UD100/data_out[0] |
+| sd_d1     | Output        | test_0/u100/UD100/data_out[1] |
+| sd_d2     | Output        | test_0/u100/UD100/data_out[2] |
+| sd_d3     | Output        | test_0/u100/UD100/data_out[3] |
++-----------+---------------+-------------------------------+
+
+I/O DDR Register Combining Summary
++
++
+

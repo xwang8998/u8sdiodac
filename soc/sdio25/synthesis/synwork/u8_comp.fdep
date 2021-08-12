@@ -1,0 +1,193 @@
+#OPTIONS:"|-layerid|0|-orig_srs|E:\\DAC\\igloo\\soc\\sdio25\\synthesis\\synwork\\u8_comp.srs|-top|u8|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-I|E:\\DAC\\igloo\\soc\\sdio25\\synthesis\\|-I|C:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\lib|-v2001|-devicelib|C:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\lib\\generic\\igloo2.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|work|-lib|work"
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\bin64\\c_ver.exe":1604390270
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\lib\\generic\\igloo2.v":1604390290
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\lib\\vlog\\hypermods.v":1604390293
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\lib\\vlog\\umr_capim.v":1604390293
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\lib\\vlog\\scemi_objects.v":1604390293
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\lib\\vlog\\scemi_pipes.svh":1604390293
+#CUR:"E:\\DAC\\igloo\\work\\test.v":1628590287
+#CUR:"E:\\DAC\\igloo\\work\\crc7.v":1508932363
+#CUR:"E:\\DAC\\igloo\\work\\sound.v":1628571527
+#CUR:"E:\\DAC\\igloo\\work\\mult28x32.v":1508932363
+#CUR:"E:\\DAC\\igloo\\work\\tap_rom.v":1508932363
+#CUR:"E:\\DAC\\igloo\\work\\fir.v":1628571527
+#CUR:"E:\\DAC\\igloo\\work\\tap_rom2.v":1508932363
+#CUR:"E:\\DAC\\igloo\\work\\fir2.v":1508932363
+#CUR:"E:\\DAC\\igloo\\work\\bigfifo.v":1508932363
+#CUR:"E:\\DAC\\igloo\\work\\ram.v":1628669863
+#CUR:"E:\\DAC\\igloo\\work\\pipe_pcm.v":1628571527
+#CUR:"E:\\DAC\\igloo\\work\\sdm.v":1628571527
+#CUR:"E:\\DAC\\igloo\\work\\sd.v":1628669099
+#CUR:"E:\\DAC\\igloo\\soc\\sdio25\\component\\Actel\\DirectCore\\CoreResetP\\7.1.100\\rtl\\vlog\\core\\coreresetp_pcie_hotreset.v":1626940099
+#CUR:"E:\\DAC\\igloo\\soc\\sdio25\\component\\Actel\\DirectCore\\CoreResetP\\7.1.100\\rtl\\vlog\\core\\coreresetp.v":1626940099
+#CUR:"E:\\DAC\\igloo\\soc\\sdio25\\component\\work\\u8_sb\\CCC_0\\u8_sb_CCC_0_FCCC.v":1628580873
+#CUR:"E:\\DAC\\igloo\\soc\\sdio25\\component\\Actel\\SgCore\\OSC\\2.0.101\\osc_comps.v":1626940101
+#CUR:"E:\\DAC\\igloo\\soc\\sdio25\\component\\work\\u8_sb\\FABOSC_0\\u8_sb_FABOSC_0_OSC.v":1628580875
+#CUR:"E:\\DAC\\igloo\\soc\\sdio25\\component\\work\\u8_sb_HPMS\\u8_sb_HPMS_syn.v":1628580870
+#CUR:"E:\\DAC\\igloo\\soc\\sdio25\\component\\work\\u8_sb_HPMS\\u8_sb_HPMS.v":1628580870
+#CUR:"E:\\DAC\\igloo\\soc\\sdio25\\component\\Actel\\DirectCore\\CoreAHBLite\\5.2.100\\rtl\\vlog\\core\\coreahblite_slavearbiter.v":1626940099
+#CUR:"E:\\DAC\\igloo\\soc\\sdio25\\component\\Actel\\DirectCore\\CoreAHBLite\\5.2.100\\rtl\\vlog\\core\\coreahblite_slavestage.v":1626940099
+#CUR:"E:\\DAC\\igloo\\soc\\sdio25\\component\\Actel\\DirectCore\\CoreAHBLite\\5.2.100\\rtl\\vlog\\core\\coreahblite_defaultslavesm.v":1626940099
+#CUR:"E:\\DAC\\igloo\\soc\\sdio25\\component\\Actel\\DirectCore\\CoreAHBLite\\5.2.100\\rtl\\vlog\\core\\coreahblite_addrdec.v":1626940099
+#CUR:"E:\\DAC\\igloo\\soc\\sdio25\\component\\Actel\\DirectCore\\CoreAHBLite\\5.2.100\\rtl\\vlog\\core\\coreahblite_masterstage.v":1626940099
+#CUR:"E:\\DAC\\igloo\\soc\\sdio25\\component\\Actel\\DirectCore\\CoreAHBLite\\5.2.100\\rtl\\vlog\\core\\coreahblite_matrix4x16.v":1626940099
+#CUR:"E:\\DAC\\igloo\\soc\\sdio25\\component\\Actel\\DirectCore\\CoreAHBLite\\5.2.100\\rtl\\vlog\\core\\coreahblite.v":1626940099
+#CUR:"E:\\DAC\\igloo\\soc\\sdio25\\component\\work\\u8_sb\\u8_sb.v":1628580875
+#CUR:"E:\\DAC\\igloo\\soc\\sdio25\\component\\work\\u8\\u8.v":1628588360
+0			"E:\DAC\igloo\work\test.v" verilog
+1			"E:\DAC\igloo\work\crc7.v" verilog
+2			"E:\DAC\igloo\work\sound.v" verilog
+3			"E:\DAC\igloo\work\mult28x32.v" verilog
+4			"E:\DAC\igloo\work\tap_rom.v" verilog
+5			"E:\DAC\igloo\work\fir.v" verilog
+6			"E:\DAC\igloo\work\tap_rom2.v" verilog
+7			"E:\DAC\igloo\work\fir2.v" verilog
+8			"E:\DAC\igloo\work\bigfifo.v" verilog
+9			"E:\DAC\igloo\work\ram.v" verilog
+10			"E:\DAC\igloo\work\pipe_pcm.v" verilog
+11			"E:\DAC\igloo\work\sdm.v" verilog
+12			"E:\DAC\igloo\work\sd.v" verilog
+13			"E:\DAC\igloo\soc\sdio25\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v" verilog
+14			"E:\DAC\igloo\soc\sdio25\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v" verilog
+15			"E:\DAC\igloo\soc\sdio25\component\work\u8_sb\CCC_0\u8_sb_CCC_0_FCCC.v" verilog
+16			"E:\DAC\igloo\soc\sdio25\component\Actel\SgCore\OSC\2.0.101\osc_comps.v" verilog
+17			"E:\DAC\igloo\soc\sdio25\component\work\u8_sb\FABOSC_0\u8_sb_FABOSC_0_OSC.v" verilog
+18			"E:\DAC\igloo\soc\sdio25\component\work\u8_sb_HPMS\u8_sb_HPMS_syn.v" verilog
+19			"E:\DAC\igloo\soc\sdio25\component\work\u8_sb_HPMS\u8_sb_HPMS.v" verilog
+20			"E:\DAC\igloo\soc\sdio25\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_slavearbiter.v" verilog
+21			"E:\DAC\igloo\soc\sdio25\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_slavestage.v" verilog
+22			"E:\DAC\igloo\soc\sdio25\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_defaultslavesm.v" verilog
+23			"E:\DAC\igloo\soc\sdio25\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_addrdec.v" verilog
+24			"E:\DAC\igloo\soc\sdio25\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v" verilog
+25			"E:\DAC\igloo\soc\sdio25\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v" verilog
+26			"E:\DAC\igloo\soc\sdio25\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v" verilog
+27			"E:\DAC\igloo\soc\sdio25\component\work\u8_sb\u8_sb.v" verilog
+28			"E:\DAC\igloo\soc\sdio25\component\work\u8\u8.v" verilog
+#Dependency Lists(Uses List)
+0 12
+1 -1
+2 -1
+3 -1
+4 -1
+5 3 4
+6 -1
+7 3 6
+8 -1
+9 8
+10 -1
+11 -1
+12 9 11 10 7 5 2 1
+13 -1
+14 13
+15 -1
+16 -1
+17 16
+18 -1
+19 18
+20 -1
+21 20
+22 -1
+23 -1
+24 22 23
+25 21 24
+26 25
+27 19 17 14 26 15
+28 27 0
+#Dependency Lists(Users Of)
+0 28
+1 12
+2 12
+3 7 5
+4 5
+5 12
+6 7
+7 12
+8 9
+9 12
+10 12
+11 12
+12 0
+13 14
+14 27
+15 27
+16 17
+17 27
+18 19
+19 27
+20 21
+21 25
+22 24
+23 24
+24 25
+25 26
+26 27
+27 28
+28 -1
+#Design Unit to File Association
+module COREAHBLITE_LIB CoreAHBLite 26
+module COREAHBLITE_LIB COREAHBLITE_MATRIX4X16 25
+module COREAHBLITE_LIB COREAHBLITE_MASTERSTAGE 24
+module COREAHBLITE_LIB COREAHBLITE_ADDRDEC 23
+module COREAHBLITE_LIB COREAHBLITE_DEFAULTSLAVESM 22
+module COREAHBLITE_LIB COREAHBLITE_SLAVESTAGE 21
+module COREAHBLITE_LIB COREAHBLITE_SLAVEARBITER 20
+module work u8 28
+module work u8_sb 27
+module work u8_sb_HPMS 19
+module work MSS_025 18
+module work u8_sb_FABOSC_0_OSC 17
+module work XTLOSC_FAB 16
+module work RCOSC_25_50MHZ_FAB 16
+module work RCOSC_1MHZ_FAB 16
+module work XTLOSC 16
+module work RCOSC_25_50MHZ 16
+module work RCOSC_1MHZ 16
+module work u8_sb_CCC_0_FCCC 15
+module work CoreResetP 14
+module work coreresetp_pcie_hotreset 13
+module work sd_data 12
+module work abs_cost 11
+module work mi6b6 11
+module work mi5a5 11
+module work mi4a4 11
+module work mi3a3 11
+module work mi2a2 11
+module work mi1a1 11
+module work ext_i5 11
+module work ext_i4 11
+module work ext_i3 11
+module work ext_i2 11
+module work ext_i1 11
+module work pipe_sdm 11
+module work mulb1 10
+module work pipe_pcm 10
+module work adc_controller 9
+module work ram_2p 9
+module work sync_logic 9
+module work mem_controller 9
+module work bigfifo 8
+module work fir_stage_2 7
+module work tap_rom2 6
+module work fir_stage_1 5
+module work tap_rom 4
+module work mult28x32 3
+module work dsd_tx 2
+module work pcm_tx 2
+module work i2s32_input_gear 2
+module work dsd_input_gear 2
+module work adc_pcm_gear 2
+module work spdif_tx 2
+module work dop_gear 2
+module work pcm2dsd 2
+module work inctrl 2
+module work pcmin 2
+module work dsdout 2
+module work outctrl 2
+module work clock_divider 2
+module work crc16 1
+module work crc7 1
+module work dem 0
+module work dsd_gen 0
+module work clock138master 0
+module work sdtop 12
+module work test 0

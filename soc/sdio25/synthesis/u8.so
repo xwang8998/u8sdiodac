@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>u8</design>
+	<target_edif>E:\DAC\igloo\soc\sdio25\synthesis\u8.edn</target_edif>
+</SynplifyOutput>

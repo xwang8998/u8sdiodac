@@ -1,0 +1,47 @@
+
+########################### U8 Igloo2 256pin BGA #################################
+# different pins to IGLOO2 FPGA test board:
+# cmd, sd_d0, sd_d1, sd_d2, sd_d3
+# odata
+# led0-7 (use TPs)
+# 
+
+
+set_io DEVRST_N -pinname L11 -DIRECTION INPUT
+
+set_io sdclk -pinname M3 -fixed yes -DIRECTION INPUT
+set_io cmd  -pinname T3 -fixed yes -DIRECTION INOUT
+set_io sd_d0  -pinname T9 -fixed yes -DIRECTION INOUT
+set_io sd_d1  -pinname T8 -fixed yes -DIRECTION INOUT
+set_io sd_d2  -pinname T7 -fixed yes -DIRECTION INOUT
+set_io sd_d3  -pinname T5 -fixed yes -DIRECTION INOUT
+
+set_io mclk -pinname F13 -fixed yes -DIRECTION INPUT
+set_io obck -pinname K16 -fixed yes -DIRECTION OUTPUT
+set_io olrck -pinname K15 -fixed yes -DIRECTION OUTPUT
+set_io odata  -pinname J16 -fixed yes -DIRECTION OUTPUT
+
+set_io en45 -pinname M15 -fixed yes -DIRECTION OUTPUT
+set_io en49 -pinname M16 -fixed yes -DIRECTION OUTPUT
+
+set_io dacmclk -pinname F12 -fixed yes -DIRECTION INPUT
+set_io clock138_bck -pinname E16 -fixed yes -DIRECTION INPUT
+set_io clock138_lrck -pinname D16 -fixed yes -DIRECTION INPUT
+set_io clock138_data -pinname F14 -fixed yes -DIRECTION OUTPUT
+
+###set_io pad_scl  -pinname T8 -fixed yes -DIRECTION INPUT
+###set_io pad_sda  -pinname T9 -fixed yes -DIRECTION INPUT
+
+set_io led0  -pinname B16 -fixed yes -DIRECTION OUTPUT
+set_io led1  -pinname A7 -fixed yes -DIRECTION OUTPUT
+set_io led2  -pinname A15 -fixed yes -DIRECTION OUTPUT
+set_io led3  -pinname A14 -fixed yes -DIRECTION OUTPUT
+set_io led4  -pinname B1 -fixed yes -DIRECTION OUTPUT
+set_io led5  -pinname C1 -fixed yes -DIRECTION OUTPUT
+set_io led6  -pinname H16 -fixed yes -DIRECTION OUTPUT
+set_io led7  -pinname H15 -fixed yes -DIRECTION OUTPUT
+
+set_io spdif_en -pinname L14 -fixed yes -DIRECTION OUTPUT
+set_io spdif_tx -pinname L15 -fixed yes -DIRECTION OUTPUT
+
+

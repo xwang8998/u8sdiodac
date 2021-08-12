@@ -1,0 +1,40 @@
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+5 non-gated/non-generated clock tree(s) driving 745 clock pin(s) of sequential element(s)
+11 gated/generated clock tree(s) driving 386 clock pin(s) of sequential element(s)
+0 instances converted, 386 sequential instances remain driven by gated/generated clocks
+
+============================================ Non-Gated/Non-Generated Clocks ============================================
+Clock Tree ID     Driving Element     Drive Element Type                      Fanout     Sample Instance                
+------------------------------------------------------------------------------------------------------------------------
+@K:CKID0012       sdclk               port                                    5          test_0.u100.cmd0               
+@K:CKID0013       test_0.UCK1         clock definition on CLKINT_PRESERVE     351        test_0.u100.uctrl.old_bck      
+@K:CKID0014       test_0.UCK3         clock definition on CLKINT_PRESERVE     338        test_0.u100.buffer_under_run[7]
+@K:CKID0015       mclk                clock definition on port                33         test_0.mclk_d2                 
+@K:CKID0016       clock138_bck        clock definition on port                18         test_0.u200.i[14]              
+========================================================================================================================
+=========================================================================================== Gated/Generated Clocks ============================================================================================
+Clock Tree ID     Driving Element                                        Drive Element Type     Fanout     Sample Instance                          Explanation                                                
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       test_0.u100.dsd_clkr                                   SLE                    69         test_0.u100.start_dsd_tx                 No gated clock conversion method for cell cell:ACG4.SLE    
+@K:CKID0002       u8_sb_0.CCC_0.CCC_INST                                 CCC                    37         u8_sb_0.u8_sb_HPMS_0.MSS_ADLIB_INST      No gated clock conversion method for cell cell:work.MSS_025
+@K:CKID0003       test_0.u100.DSD138.UIN100.UCK0.clk16                   SLE                    1          test_0.u100.DSD138.UIN100.UCK0.clk32     No gated clock conversion method for cell cell:ACG4.SLE    
+@K:CKID0004       test_0.u100.DSD138.UIN100.UCK0.clk8                    SLE                    1          test_0.u100.DSD138.UIN100.UCK0.clk16     No gated clock conversion method for cell cell:ACG4.SLE    
+@K:CKID0005       test_0.u100.DSD138.UIN100.UCK0.clk4                    SLE                    1          test_0.u100.DSD138.UIN100.UCK0.clk8      No gated clock conversion method for cell cell:ACG4.SLE    
+@K:CKID0006       test_0.u100.DSD138.UIN100.UCK0.clk2                    SLE                    1          test_0.u100.DSD138.UIN100.UCK0.clk4      No gated clock conversion method for cell cell:ACG4.SLE    
+@K:CKID0007       test_0.u100.DSD138.UIN100.un1_started                  CFG4                   102        test_0.u100.UDOP.state                   No gated clock conversion method for cell cell:ACG4.SLE    
+@K:CKID0008       test_0.u100.DSD138.UIN100.UCK0.bcko_6_2_0_RNIKGB51     CFG3                   87         test_0.u100.DSD138.UIN100.cnt[5]         No gated clock conversion method for cell cell:ACG4.SLE    
+@K:CKID0009       test_0.u100.DSD138.UIN100.un1_bckox2                   CFG3                   70         test_0.u100.USPDIF_TX.bit_counter[5]     No gated clock conversion method for cell cell:ACG4.SLE    
+@K:CKID0010       test_0.u100.obck                                       CFG3                   16         test_0.dsdlq[0]                          No gated clock conversion method for cell cell:ACG4.SLE    
+@K:CKID0011       test_0.u100.DSD138.UIN100.master_lrck                  CFG2                   1          test_0.u100.master_lrckd2                No gated clock conversion method for cell cell:ACG4.SLE    
+===============================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+

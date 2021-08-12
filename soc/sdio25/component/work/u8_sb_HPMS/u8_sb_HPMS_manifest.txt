@@ -1,0 +1,17 @@
+Microsemi Corporation - Microsemi Libero Software Release v12.6 (Version 12.900.20.24)
+
+Date      :  Tue Aug 10 15:34:30 2021
+Project   :  E:\DAC\igloo\soc\sdio25
+Component :  u8_sb_HPMS
+Family    :  IGLOO2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    E:/DAC/igloo/soc/sdio25/component/work/u8_sb_HPMS/u8_sb_HPMS.v
+
+HDL source files for Synopsys SynplifyPro Synthesis tool:
+    E:/DAC/igloo/soc/sdio25/component/work/u8_sb_HPMS/u8_sb_HPMS_syn.v
+
+HDL source files for Mentor Precision Synthesis tool:
+    E:/DAC/igloo/soc/sdio25/component/work/u8_sb_HPMS/u8_sb_HPMS_pre.v
+

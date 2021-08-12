@@ -1,0 +1,1711 @@
+# Wed Aug 11 17:01:41 2021
+
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03M-SP1
+Install: C:\Microsemi\Libero_SoC_v12.6\SynplifyPro
+OS: Windows 6.1
+
+Hostname: WIN7-2020MEADRD
+
+Implementation : synthesis
+Synopsys Generic Technology Mapper, Version map202003act, Build 160R, Built Oct 22 2020 12:05:41, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 119MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 123MB peak: 130MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 124MB peak: 130MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 124MB peak: 130MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 126MB peak: 130MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 170MB peak: 170MB)
+
+@N: MO111 :|Tristate driver of_l_t (in view: work.sdtop(verilog)) on net of_l (in view: work.sdtop(verilog)) has its enable tied to GND.
+@N: MO111 :|Tristate driver of_r_t (in view: work.sdtop(verilog)) on net of_r (in view: work.sdtop(verilog)) has its enable tied to GND.
+@N: MO111 :"e:\dac\igloo\soc\sdio25\component\work\u8_sb\fabosc_0\u8_sb_fabosc_0_osc.v":20:7:20:16|Tristate driver XTLOSC_O2F (in view: work.u8_sb_FABOSC_0_OSC(verilog)) on net XTLOSC_O2F (in view: work.u8_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"e:\dac\igloo\soc\sdio25\component\work\u8_sb\fabosc_0\u8_sb_fabosc_0_osc.v":19:7:19:16|Tristate driver XTLOSC_CCC (in view: work.u8_sb_FABOSC_0_OSC(verilog)) on net XTLOSC_CCC (in view: work.u8_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"e:\dac\igloo\soc\sdio25\component\work\u8_sb\fabosc_0\u8_sb_fabosc_0_osc.v":18:7:18:20|Tristate driver RCOSC_1MHZ_O2F (in view: work.u8_sb_FABOSC_0_OSC(verilog)) on net RCOSC_1MHZ_O2F (in view: work.u8_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"e:\dac\igloo\soc\sdio25\component\work\u8_sb\fabosc_0\u8_sb_fabosc_0_osc.v":17:7:17:20|Tristate driver RCOSC_1MHZ_CCC (in view: work.u8_sb_FABOSC_0_OSC(verilog)) on net RCOSC_1MHZ_CCC (in view: work.u8_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"e:\dac\igloo\soc\sdio25\component\work\u8_sb\fabosc_0\u8_sb_fabosc_0_osc.v":15:7:15:24|Tristate driver RCOSC_25_50MHZ_CCC (in view: work.u8_sb_FABOSC_0_OSC(verilog)) on net RCOSC_25_50MHZ_CCC (in view: work.u8_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@W: BN132 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":163:0:163:5|Removing sequential instance u8_sb_0.CoreAHBLite_0.matrix4x16.masterstage_0.regHMASTLOCK because it is equivalent to instance u8_sb_0.CoreAHBLite_0.matrix4x16.masterstage_0.regHTRANS. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Removing sequential instance u8_sb_0.CORERESETP_0.sdif3_spll_lock_q1 because it is equivalent to instance u8_sb_0.CORERESETP_0.CONFIG2_DONE_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":946:4:946:9|Removing sequential instance u8_sb_0.CORERESETP_0.CONFIG2_DONE_q1 because it is equivalent to instance u8_sb_0.CORERESETP_0.CONFIG1_DONE_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":946:4:946:9|Removing sequential instance u8_sb_0.CORERESETP_0.CONFIG2_DONE_clk_base because it is equivalent to instance u8_sb_0.CORERESETP_0.sdif3_spll_lock_q2. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":929:4:929:9|Removing sequential instance u8_sb_0.CORERESETP_0.CONFIG1_DONE_clk_base because it is equivalent to instance u8_sb_0.CORERESETP_0.sdif3_spll_lock_q2. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: BN362 :"e:\dac\igloo\work\sd.v":575:0:575:5|Removing sequential instance demo[17:0] (in view: work.sdtop(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\work\sd.v":241:0:241:5|Removing sequential instance clk_d8 (in view: work.sdtop(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\work\sd.v":240:0:240:5|Removing sequential instance clk_d4 (in view: work.sdtop(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\work\sd.v":239:0:239:5|Removing sequential instance clk_d2 (in view: work.sdtop(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 174MB peak: 174MB)
+
+Encoding state machine state[12:0] (in view: work.sdtop(verilog))
+original code -> new code
+   0000 -> 0000000000001
+   0001 -> 0000000000010
+   0010 -> 0000000000100
+   0011 -> 0000000001000
+   0100 -> 0000000010000
+   0101 -> 0000000100000
+   0110 -> 0000001000000
+   0111 -> 0000010000000
+   1000 -> 0000100000000
+   1001 -> 0001000000000
+   1010 -> 0010000000000
+   1011 -> 0100000000000
+   1100 -> 1000000000000
+@N: MO230 :"e:\dac\igloo\work\sd.v":575:0:575:5|Found up-down counter in view:work.sdtop(verilog) instance i[7:0]  
+@N: MO231 :"e:\dac\igloo\work\sd.v":575:0:575:5|Found counter in view:work.sdtop(verilog) instance buffer_under_run[7:0] 
+@N: MO231 :"e:\dac\igloo\work\sd.v":411:0:411:5|Found counter in view:work.sdtop(verilog) instance wi[6:0] 
+Encoding state machine state[7:0] (in view: work.sd_data(verilog))
+original code -> new code
+   0000 -> 00000001
+   0001 -> 00000010
+   0010 -> 00000100
+   0011 -> 00001000
+   0100 -> 00010000
+   0101 -> 00100000
+   0110 -> 01000000
+   0111 -> 10000000
+@N: MO231 :"e:\dac\igloo\work\sd.v":1441:0:1441:5|Found counter in view:work.sd_data(verilog) instance i[9:0] 
+@N: MO231 :"e:\dac\igloo\work\sound.v":564:0:564:5|Found counter in view:work.inctrl(verilog) instance cnt[5:0] 
+@N: MO231 :"e:\dac\igloo\work\sound.v":1227:0:1227:5|Found counter in view:work.dsd_tx(verilog) instance i[4:0] 
+@N: MO231 :"e:\dac\igloo\work\sound.v":1190:0:1190:5|Found counter in view:work.pcm_tx(verilog) instance i[5:0] 
+@W: MO129 :"e:\dac\igloo\work\sound.v":1190:0:1190:5|Sequential instance test_0.u100.UPCMTX.t1[1] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"e:\dac\igloo\work\sound.v":1190:0:1190:5|Sequential instance test_0.u100.UPCMTX.t1[2] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"e:\dac\igloo\work\sound.v":1190:0:1190:5|Sequential instance test_0.u100.UPCMTX.t1[3] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"e:\dac\igloo\work\sound.v":1190:0:1190:5|Sequential instance test_0.u100.UPCMTX.t1[4] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"e:\dac\igloo\work\sound.v":1190:0:1190:5|Sequential instance test_0.u100.UPCMTX.t1[5] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"e:\dac\igloo\work\sound.v":1190:0:1190:5|Sequential instance test_0.u100.UPCMTX.t1[6] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"e:\dac\igloo\work\sound.v":1190:0:1190:5|Sequential instance test_0.u100.UPCMTX.t1[7] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"e:\dac\igloo\work\sound.v":1190:0:1190:5|Sequential instance test_0.u100.UPCMTX.t1[8] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"e:\dac\igloo\work\sound.v":1190:0:1190:5|Sequential instance test_0.u100.UPCMTX.t1[9] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"e:\dac\igloo\work\sound.v":1190:0:1190:5|Sequential instance test_0.u100.UPCMTX.t1[10] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"e:\dac\igloo\work\sound.v":1190:0:1190:5|Sequential instance test_0.u100.UPCMTX.t1[11] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"e:\dac\igloo\work\sound.v":1190:0:1190:5|Sequential instance test_0.u100.UPCMTX.t1[12] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"e:\dac\igloo\work\sound.v":1190:0:1190:5|Sequential instance test_0.u100.UPCMTX.t1[13] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"e:\dac\igloo\work\sound.v":1190:0:1190:5|Sequential instance test_0.u100.UPCMTX.t1[14] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"e:\dac\igloo\work\sound.v":1190:0:1190:5|Sequential instance test_0.u100.UPCMTX.t1[15] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"e:\dac\igloo\work\sound.v":1190:0:1190:5|Sequential instance test_0.u100.UPCMTX.t1[16] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"e:\dac\igloo\work\sound.v":1190:0:1190:5|Sequential instance test_0.u100.UPCMTX.t1[17] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"e:\dac\igloo\work\sound.v":1190:0:1190:5|Sequential instance test_0.u100.UPCMTX.t1[18] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"e:\dac\igloo\work\sound.v":1190:0:1190:5|Sequential instance test_0.u100.UPCMTX.t1[19] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"e:\dac\igloo\work\sound.v":1190:0:1190:5|Sequential instance test_0.u100.UPCMTX.t1[20] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"e:\dac\igloo\work\sound.v":1190:0:1190:5|Sequential instance test_0.u100.UPCMTX.t1[21] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"e:\dac\igloo\work\sound.v":1190:0:1190:5|Sequential instance test_0.u100.UPCMTX.t1[22] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"e:\dac\igloo\work\sound.v":1190:0:1190:5|Sequential instance test_0.u100.UPCMTX.t1[23] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"e:\dac\igloo\work\sound.v":1190:0:1190:5|Sequential instance test_0.u100.UPCMTX.t1[24] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"e:\dac\igloo\work\sound.v":1190:0:1190:5|Sequential instance test_0.u100.UPCMTX.t1[25] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"e:\dac\igloo\work\sound.v":1190:0:1190:5|Sequential instance test_0.u100.UPCMTX.t1[26] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"e:\dac\igloo\work\sound.v":1190:0:1190:5|Sequential instance test_0.u100.UPCMTX.t1[27] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"e:\dac\igloo\work\sound.v":1190:0:1190:5|Sequential instance test_0.u100.UPCMTX.t1[28] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"e:\dac\igloo\work\sound.v":1190:0:1190:5|Sequential instance test_0.u100.UPCMTX.t1[29] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"e:\dac\igloo\work\sound.v":1190:0:1190:5|Sequential instance test_0.u100.UPCMTX.t1[30] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"e:\dac\igloo\work\sound.v":1190:0:1190:5|Sequential instance test_0.u100.UPCMTX.t1[31] is reduced to a combinational gate by constant propagation.
+@N: MO231 :"e:\dac\igloo\work\sound.v":824:0:824:5|Found counter in view:work.spdif_tx(verilog) instance bit_counter[5:0] 
+@W: BN132 :"e:\dac\igloo\work\sound.v":824:0:824:5|Removing instance test_0.u100.USPDIF_TX.dop_fill[2] because it is equivalent to instance test_0.u100.USPDIF_TX.dop_fill[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"e:\dac\igloo\work\sound.v":824:0:824:5|Removing instance test_0.u100.USPDIF_TX.dop_fill[6] because it is equivalent to instance test_0.u100.USPDIF_TX.dop_fill[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"e:\dac\igloo\work\sound.v":824:0:824:5|Removing instance test_0.u100.USPDIF_TX.dop_fill[7] because it is equivalent to instance test_0.u100.USPDIF_TX.dop_fill[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"e:\dac\igloo\work\sound.v":824:0:824:5|Removing instance test_0.u100.USPDIF_TX.dop_fill[5] because it is equivalent to instance test_0.u100.USPDIF_TX.dop_fill[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"e:\dac\igloo\work\sound.v":824:0:824:5|Removing instance test_0.u100.USPDIF_TX.dop_fill[4] because it is equivalent to instance test_0.u100.USPDIF_TX.dop_fill[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"e:\dac\igloo\work\sound.v":824:0:824:5|Removing instance test_0.u100.USPDIF_TX.dop_fill[3] because it is equivalent to instance test_0.u100.USPDIF_TX.dop_fill[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+Encoding state machine state[3:0] (in view: work.mem_controller(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"e:\dac\igloo\work\ram.v":116:0:116:5|There are no possible illegal states for state machine state[3:0] (in view: work.mem_controller(verilog)); safe FSM implementation is not required.
+@N: MO231 :"e:\dac\igloo\work\ram.v":116:0:116:5|Found counter in view:work.mem_controller(verilog) instance k[4:0] 
+Encoding state machine state[4:0] (in view: work.bigfifo(verilog))
+original code -> new code
+   000 -> 00001
+   001 -> 00010
+   010 -> 00100
+   011 -> 01000
+   100 -> 10000
+@N: MO231 :"e:\dac\igloo\work\bigfifo.v":142:0:142:5|Found counter in view:work.bigfifo(verilog) instance i[7:0] 
+@N: MF179 :|Found 14 by 14 bit equality operator ('==') next_read_addr (in view: work.bigfifo(verilog))
+@N: MO231 :"e:\dac\igloo\work\test.v":413:0:413:5|Found counter in view:work.clock138master(verilog) instance i[14:0] 
+@W: MO160 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":229:0:229:5|Register bit CoreAHBLite_0.matrix4x16.masterstage_0.SDATASELInt[6] (in view view:work.u8_sb(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":229:0:229:5|Register bit CoreAHBLite_0.matrix4x16.masterstage_0.SDATASELInt[4] (in view view:work.u8_sb(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":229:0:229:5|Register bit CoreAHBLite_0.matrix4x16.masterstage_0.SDATASELInt[2] (in view view:work.u8_sb(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":229:0:229:5|Register bit CoreAHBLite_0.matrix4x16.masterstage_0.SDATASELInt[0] (in view view:work.u8_sb(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":163:0:163:5|Register bit CoreAHBLite_0.matrix4x16.masterstage_0.regHSIZE[2] (in view view:work.u8_sb(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":163:0:163:5|Register bit CoreAHBLite_0.matrix4x16.masterstage_0.regHSIZE[0] (in view view:work.u8_sb(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":163:0:163:5|Register bit CoreAHBLite_0.matrix4x16.masterstage_0.regHADDR[31] (in view view:work.u8_sb(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":163:0:163:5|Register bit CoreAHBLite_0.matrix4x16.masterstage_0.regHADDR[28] (in view view:work.u8_sb(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":163:0:163:5|Register bit CoreAHBLite_0.matrix4x16.masterstage_0.regHADDR[27] (in view view:work.u8_sb(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":163:0:163:5|Register bit CoreAHBLite_0.matrix4x16.masterstage_0.regHADDR[26] (in view view:work.u8_sb(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":163:0:163:5|Register bit CoreAHBLite_0.matrix4x16.masterstage_0.regHADDR[25] (in view view:work.u8_sb(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":163:0:163:5|Register bit CoreAHBLite_0.matrix4x16.masterstage_0.regHADDR[24] (in view view:work.u8_sb(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":163:0:163:5|Register bit CoreAHBLite_0.matrix4x16.masterstage_0.regHADDR[23] (in view view:work.u8_sb(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":163:0:163:5|Register bit CoreAHBLite_0.matrix4x16.masterstage_0.regHADDR[22] (in view view:work.u8_sb(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":163:0:163:5|Register bit CoreAHBLite_0.matrix4x16.masterstage_0.regHADDR[21] (in view view:work.u8_sb(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":163:0:163:5|Register bit CoreAHBLite_0.matrix4x16.masterstage_0.regHADDR[20] (in view view:work.u8_sb(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":163:0:163:5|Register bit CoreAHBLite_0.matrix4x16.masterstage_0.regHADDR[19] (in view view:work.u8_sb(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":163:0:163:5|Register bit CoreAHBLite_0.matrix4x16.masterstage_0.regHADDR[18] (in view view:work.u8_sb(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":163:0:163:5|Register bit CoreAHBLite_0.matrix4x16.masterstage_0.regHADDR[1] (in view view:work.u8_sb(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":163:0:163:5|Register bit CoreAHBLite_0.matrix4x16.masterstage_0.regHADDR[0] (in view view:work.u8_sb(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":229:0:229:5|Register bit CoreAHBLite_0.matrix4x16.masterstage_0.SDATASELInt[15] (in view view:work.u8_sb(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":229:0:229:5|Register bit CoreAHBLite_0.matrix4x16.masterstage_0.SDATASELInt[14] (in view view:work.u8_sb(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":229:0:229:5|Register bit CoreAHBLite_0.matrix4x16.masterstage_0.SDATASELInt[13] (in view view:work.u8_sb(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":229:0:229:5|Register bit CoreAHBLite_0.matrix4x16.masterstage_0.SDATASELInt[12] (in view view:work.u8_sb(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":229:0:229:5|Register bit CoreAHBLite_0.matrix4x16.masterstage_0.SDATASELInt[11] (in view view:work.u8_sb(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":229:0:229:5|Register bit CoreAHBLite_0.matrix4x16.masterstage_0.SDATASELInt[10] (in view view:work.u8_sb(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":229:0:229:5|Register bit CoreAHBLite_0.matrix4x16.masterstage_0.SDATASELInt[9] (in view view:work.u8_sb(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":229:0:229:5|Register bit CoreAHBLite_0.matrix4x16.masterstage_0.SDATASELInt[8] (in view view:work.u8_sb(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":229:0:229:5|Register bit CoreAHBLite_0.matrix4x16.masterstage_0.SDATASELInt[7] (in view view:work.u8_sb(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":229:0:229:5|Register bit CoreAHBLite_0.matrix4x16.masterstage_0.SDATASELInt[5] (in view view:work.u8_sb(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":229:0:229:5|Register bit CoreAHBLite_0.matrix4x16.masterstage_0.SDATASELInt[3] (in view view:work.u8_sb(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":229:0:229:5|Register bit CoreAHBLite_0.matrix4x16.masterstage_0.SDATASELInt[1] (in view view:work.u8_sb(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO129 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_defaultslavesm.v":64:4:64:9|Sequential instance u8_sb_0.CoreAHBLite_0.matrix4x16.masterstage_0.default_slave_sm.defSlaveSMCurrentState is reduced to a combinational gate by constant propagation.
+@W: BN132 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":163:0:163:5|Removing instance u8_sb_0.CoreAHBLite_0.matrix4x16.masterstage_0.regHSIZE[1] because it is equivalent to instance u8_sb_0.CoreAHBLite_0.matrix4x16.masterstage_0.regHTRANS. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":163:0:163:5|Removing instance u8_sb_0.CoreAHBLite_0.matrix4x16.masterstage_0.regHADDR[30] because it is equivalent to instance u8_sb_0.CoreAHBLite_0.matrix4x16.masterstage_0.regHADDR[16]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":163:0:163:5|Removing instance u8_sb_0.CoreAHBLite_0.matrix4x16.masterstage_0.regHADDR[17] because it is equivalent to instance u8_sb_0.CoreAHBLite_0.matrix4x16.masterstage_0.regHADDR[16]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavestage.v":79:4:79:9|Removing sequential instance masterDataInProg[3] (in view: COREAHBLITE_LIB.COREAHBLITE_SLAVESTAGE_0s_0_0_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavestage.v":79:4:79:9|Removing sequential instance masterDataInProg[2] (in view: COREAHBLITE_LIB.COREAHBLITE_SLAVESTAGE_0s_0_0_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavestage.v":79:4:79:9|Removing sequential instance masterDataInProg[1] (in view: COREAHBLITE_LIB.COREAHBLITE_SLAVESTAGE_0s_0_0_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+Encoding state machine arbRegSMCurrentState[15:0] (in view: COREAHBLITE_LIB.COREAHBLITE_SLAVEARBITER_Z3_1(verilog))
+original code -> new code
+   0000 -> 0000000000000001
+   0001 -> 0000000000000010
+   0010 -> 0000000000000100
+   0011 -> 0000000000001000
+   0100 -> 0000000000010000
+   0101 -> 0000000000100000
+   0110 -> 0000000001000000
+   0111 -> 0000000010000000
+   1000 -> 0000000100000000
+   1001 -> 0000001000000000
+   1010 -> 0000010000000000
+   1011 -> 0000100000000000
+   1100 -> 0001000000000000
+   1101 -> 0010000000000000
+   1110 -> 0100000000000000
+   1111 -> 1000000000000000
+@W: MO160 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavearbiter.v":449:4:449:9|Register bit arbRegSMCurrentState[12] (in view view:COREAHBLITE_LIB.COREAHBLITE_SLAVEARBITER_Z3_1(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavearbiter.v":449:4:449:9|Register bit arbRegSMCurrentState[8] (in view view:COREAHBLITE_LIB.COREAHBLITE_SLAVEARBITER_Z3_1(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavearbiter.v":449:4:449:9|Register bit arbRegSMCurrentState[4] (in view view:COREAHBLITE_LIB.COREAHBLITE_SLAVEARBITER_Z3_1(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+Encoding state machine sm0_state[6:0] (in view: work.CoreResetP_Z5(verilog))
+original code -> new code
+   000 -> 0000001
+   001 -> 0000010
+   010 -> 0000100
+   011 -> 0001000
+   100 -> 0010000
+   101 -> 0100000
+   110 -> 1000000
+
+Starting factoring (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 180MB peak: 180MB)
+
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance u8_sb_0.CORERESETP_0.INIT_DONE_int (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance u8_sb_0.CORERESETP_0.sm0_state[6] (in view: work.u8(verilog)) because it does not drive other instances.
+
+Finished factoring (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 194MB peak: 194MB)
+
+@W: BN132 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavearbiter.v":449:4:449:9|Removing instance u8_sb_0.CoreAHBLite_0.matrix4x16.slavestage_16.slave_arbiter.arbRegSMCurrentState[7] because it is equivalent to instance u8_sb_0.CoreAHBLite_0.matrix4x16.slavestage_16.slave_arbiter.arbRegSMCurrentState[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavearbiter.v":449:4:449:9|Removing instance u8_sb_0.CoreAHBLite_0.matrix4x16.slavestage_16.slave_arbiter.arbRegSMCurrentState[15] because it is equivalent to instance u8_sb_0.CoreAHBLite_0.matrix4x16.slavestage_16.slave_arbiter.arbRegSMCurrentState[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavearbiter.v":449:4:449:9|Removing instance u8_sb_0.CoreAHBLite_0.matrix4x16.slavestage_16.slave_arbiter.arbRegSMCurrentState[14] because it is equivalent to instance u8_sb_0.CoreAHBLite_0.matrix4x16.slavestage_16.slave_arbiter.arbRegSMCurrentState[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavearbiter.v":449:4:449:9|Removing instance u8_sb_0.CoreAHBLite_0.matrix4x16.slavestage_16.slave_arbiter.arbRegSMCurrentState[6] because it is equivalent to instance u8_sb_0.CoreAHBLite_0.matrix4x16.slavestage_16.slave_arbiter.arbRegSMCurrentState[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavearbiter.v":449:4:449:9|Removing sequential instance u8_sb_0.CoreAHBLite_0.matrix4x16.slavestage_16.slave_arbiter.arbRegSMCurrentState[10] (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavearbiter.v":449:4:449:9|Removing sequential instance u8_sb_0.CoreAHBLite_0.matrix4x16.slavestage_16.slave_arbiter.arbRegSMCurrentState[11] (in view: work.u8(verilog)) because it does not drive other instances.
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 193MB peak: 207MB)
+
+@W: BN132 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavearbiter.v":449:4:449:9|Removing instance u8_sb_0.CoreAHBLite_0.matrix4x16.slavestage_16.slave_arbiter.arbRegSMCurrentState[9] because it is equivalent to instance u8_sb_0.CoreAHBLite_0.matrix4x16.slavestage_16.slave_arbiter.arbRegSMCurrentState[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavearbiter.v":449:4:449:9|Removing sequential instance u8_sb_0.CoreAHBLite_0.matrix4x16.slavestage_16.slave_arbiter.arbRegSMCurrentState[5] (in view: work.u8(verilog)) because it does not drive other instances.
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 195MB peak: 207MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:08s; Memory used current: 195MB peak: 207MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:08s; Memory used current: 195MB peak: 207MB)
+
+@A: BN291 :"e:\dac\igloo\work\test.v":413:0:413:5|Boundary register test_0.u200.data (in view: work.u8(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: MO106 :"e:\dac\igloo\work\test.v":437:12:437:29|Found ROM test_0.u200.key_pmux_0[0:0] (in view: work.u8(verilog)) with 64 words by 1 bit.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1549:4:1549:9|Removing sequential instance u8_sb_0.CORERESETP_0.release_sdif2_core (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1517:4:1517:9|Removing sequential instance u8_sb_0.CORERESETP_0.release_sdif1_core (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1485:4:1485:9|Removing sequential instance u8_sb_0.CORERESETP_0.release_sdif0_core (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Removing sequential instance u8_sb_0.CORERESETP_0.release_sdif3_core_q1 (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Removing sequential instance u8_sb_0.CORERESETP_0.release_sdif2_core_q1 (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Removing sequential instance u8_sb_0.CORERESETP_0.release_sdif1_core_q1 (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Removing sequential instance u8_sb_0.CORERESETP_0.release_sdif0_core_q1 (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Removing sequential instance u8_sb_0.CORERESETP_0.ddr_settled_q1 (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Removing sequential instance u8_sb_0.CORERESETP_0.sdif3_spll_lock_q2 (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":929:4:929:9|Removing sequential instance u8_sb_0.CORERESETP_0.CONFIG1_DONE_q1 (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":856:4:856:9|Removing sequential instance u8_sb_0.CORERESETP_0.sm0_areset_n_rcosc_q1 (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":856:4:856:9|Removing sequential instance u8_sb_0.CORERESETP_0.sm0_areset_n_rcosc (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":755:4:755:9|Removing sequential instance u8_sb_0.CORERESETP_0.sm0_areset_n_q1 (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":755:4:755:9|Removing sequential instance u8_sb_0.CORERESETP_0.sm0_areset_n_clk_base (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Removing sequential instance u8_sb_0.CORERESETP_0.release_sdif3_core_clk_base (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Removing sequential instance u8_sb_0.CORERESETP_0.release_sdif2_core_clk_base (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Removing sequential instance u8_sb_0.CORERESETP_0.release_sdif1_core_clk_base (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Removing sequential instance u8_sb_0.CORERESETP_0.release_sdif0_core_clk_base (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Removing sequential instance u8_sb_0.CORERESETP_0.ddr_settled_clk_base (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1613:4:1613:9|Removing sequential instance u8_sb_0.CORERESETP_0.ddr_settled (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1581:4:1581:9|Removing sequential instance u8_sb_0.CORERESETP_0.release_sdif3_core (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":912:4:912:9|Removing sequential instance u8_sb_0.CORERESETP_0.sdif3_areset_n_rcosc_q1 (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":912:4:912:9|Removing sequential instance u8_sb_0.CORERESETP_0.sdif3_areset_n_rcosc (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":898:4:898:9|Removing sequential instance u8_sb_0.CORERESETP_0.sdif2_areset_n_rcosc_q1 (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":898:4:898:9|Removing sequential instance u8_sb_0.CORERESETP_0.sdif2_areset_n_rcosc (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":884:4:884:9|Removing sequential instance u8_sb_0.CORERESETP_0.sdif1_areset_n_rcosc_q1 (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":884:4:884:9|Removing sequential instance u8_sb_0.CORERESETP_0.sdif1_areset_n_rcosc (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":870:4:870:9|Removing sequential instance u8_sb_0.CORERESETP_0.sdif0_areset_n_rcosc_q1 (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":870:4:870:9|Removing sequential instance u8_sb_0.CORERESETP_0.sdif0_areset_n_rcosc (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance u8_sb_0.CORERESETP_0.sm0_state[5] (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance u8_sb_0.CORERESETP_0.sm0_state[4] (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance u8_sb_0.CORERESETP_0.sm0_state[3] (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance u8_sb_0.CORERESETP_0.sm0_state[2] (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance u8_sb_0.CORERESETP_0.sm0_state[1] (in view: work.u8(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\soc\sdio25\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance u8_sb_0.CORERESETP_0.sm0_state[0] (in view: work.u8(verilog)) because it does not drive other instances.
+
+Finished preparing to map (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:09s; Memory used current: 196MB peak: 207MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 221MB peak: 221MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:10s		    -0.90ns		1670 /      1129
+   2		0h:00m:10s		    -0.90ns		1593 /      1129
+   3		0h:00m:10s		    -0.27ns		1593 /      1129
+   4		0h:00m:10s		    -0.27ns		1593 /      1129
+@N: FX271 :"e:\dac\igloo\work\sound.v":782:22:782:26|Replicating instance test_0.u100.UDOP.n_tmp_left_0_sqmuxa (in view: work.u8(verilog)) with 64 loads 3 times to improve timing.
+Timing driven replication report
+Added 0 Registers via timing driven replication
+Added 3 LUTs via timing driven replication
+
+   5		0h:00m:13s		    -0.11ns		1597 /      1129
+   6		0h:00m:13s		     0.11ns		1599 /      1129
+@N: FP130 |Promoting Net MSS_HPMS_READY_int_arst on CLKINT  I_400 
+@N: FP130 |Promoting Net test_0.u100.uctrl.un1_reset_n_1 on CLKINT  I_401 
+@N: FP130 |Promoting Net test_0.u100.reset_n_arst on CLKINT  I_402 
+@N: FP130 |Promoting Net test_0.u100.N_1800_i on CLKINT  I_403 
+@N: FP130 |Promoting Net test_0.u100.USPDIF_TX.reset_n_arst on CLKINT  I_404 
+@N: FP130 |Promoting Net test_0.u100.UDSDTX.reset_n on CLKINT  I_405 
+@N: FP130 |Promoting Net test_0.u100.UD100.crc_clr on CLKINT  I_406 
+@N: FP130 |Promoting Net test_0.u100.UPCMTX.reset_n on CLKINT  I_407 
+@N: FP130 |Promoting Net mclk_c on CLKINT  I_408 
+@N: FP130 |Promoting Net test_0.u200.reset_n on CLKINT  I_409 
+@N: FP130 |Promoting Net clock138_bck_c on CLKINT  I_410 
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:14s; CPU Time elapsed 0h:00m:14s; Memory used current: 226MB peak: 226MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:14s; CPU Time elapsed 0h:00m:14s; Memory used current: 226MB peak: 226MB)
+
+@N: MT611 :|Automatically generated clock u8_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock is not used and is being removed
+@N: MT611 :|Automatically generated clock sdtop|clk_d2_inferred_clock is not used and is being removed
+@N: MT611 :|Automatically generated clock sdtop|clk_d4_inferred_clock is not used and is being removed
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+5 non-gated/non-generated clock tree(s) driving 745 clock pin(s) of sequential element(s)
+11 gated/generated clock tree(s) driving 386 clock pin(s) of sequential element(s)
+0 instances converted, 386 sequential instances remain driven by gated/generated clocks
+
+============================================ Non-Gated/Non-Generated Clocks ============================================
+Clock Tree ID     Driving Element     Drive Element Type                      Fanout     Sample Instance                
+------------------------------------------------------------------------------------------------------------------------
+@K:CKID0012       sdclk               port                                    5          test_0.u100.cmd0               
+@K:CKID0013       test_0.UCK1         clock definition on CLKINT_PRESERVE     351        test_0.u100.uctrl.old_bck      
+@K:CKID0014       test_0.UCK3         clock definition on CLKINT_PRESERVE     338        test_0.u100.buffer_under_run[7]
+@K:CKID0015       mclk                clock definition on port                33         test_0.mclk_d2                 
+@K:CKID0016       clock138_bck        clock definition on port                18         test_0.u200.i[14]              
+========================================================================================================================
+=========================================================================================== Gated/Generated Clocks ============================================================================================
+Clock Tree ID     Driving Element                                        Drive Element Type     Fanout     Sample Instance                          Explanation                                                
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       test_0.u100.dsd_clkr                                   SLE                    69         test_0.u100.start_dsd_tx                 No gated clock conversion method for cell cell:ACG4.SLE    
+@K:CKID0002       u8_sb_0.CCC_0.CCC_INST                                 CCC                    37         u8_sb_0.u8_sb_HPMS_0.MSS_ADLIB_INST      No gated clock conversion method for cell cell:work.MSS_025
+@K:CKID0003       test_0.u100.DSD138.UIN100.UCK0.clk16                   SLE                    1          test_0.u100.DSD138.UIN100.UCK0.clk32     No gated clock conversion method for cell cell:ACG4.SLE    
+@K:CKID0004       test_0.u100.DSD138.UIN100.UCK0.clk8                    SLE                    1          test_0.u100.DSD138.UIN100.UCK0.clk16     No gated clock conversion method for cell cell:ACG4.SLE    
+@K:CKID0005       test_0.u100.DSD138.UIN100.UCK0.clk4                    SLE                    1          test_0.u100.DSD138.UIN100.UCK0.clk8      No gated clock conversion method for cell cell:ACG4.SLE    
+@K:CKID0006       test_0.u100.DSD138.UIN100.UCK0.clk2                    SLE                    1          test_0.u100.DSD138.UIN100.UCK0.clk4      No gated clock conversion method for cell cell:ACG4.SLE    
+@K:CKID0007       test_0.u100.DSD138.UIN100.un1_started                  CFG4                   102        test_0.u100.UDOP.state                   No gated clock conversion method for cell cell:ACG4.SLE    
+@K:CKID0008       test_0.u100.DSD138.UIN100.UCK0.bcko_6_2_0_RNIKGB51     CFG3                   87         test_0.u100.DSD138.UIN100.cnt[5]         No gated clock conversion method for cell cell:ACG4.SLE    
+@K:CKID0009       test_0.u100.DSD138.UIN100.un1_bckox2                   CFG3                   70         test_0.u100.USPDIF_TX.bit_counter[5]     No gated clock conversion method for cell cell:ACG4.SLE    
+@K:CKID0010       test_0.u100.obck                                       CFG3                   16         test_0.dsdlq[0]                          No gated clock conversion method for cell cell:ACG4.SLE    
+@K:CKID0011       test_0.u100.DSD138.UIN100.master_lrck                  CFG2                   1          test_0.u100.master_lrckd2                No gated clock conversion method for cell cell:ACG4.SLE    
+===============================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:15s; CPU Time elapsed 0h:00m:14s; Memory used current: 188MB peak: 226MB)
+
+Writing Analyst data base E:\DAC\igloo\soc\sdio25\synthesis\synwork\u8_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:15s; CPU Time elapsed 0h:00m:15s; Memory used current: 221MB peak: 226MB)
+
+Writing EDIF Netlist and constraint files
+@N: FX1056 |Writing EDF file: E:\DAC\igloo\soc\sdio25\synthesis\u8.edn
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: BW150 :|Clock u8_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock in set_clock_groups command cannot be found and will not be forward annotated
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: BW150 :|Clock sdtop|clk_d2_inferred_clock in set_clock_groups command cannot be found and will not be forward annotated
+@W: BW150 :|Clock sdtop|clk_d4_inferred_clock in set_clock_groups command cannot be found and will not be forward annotated
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+Writing FDC file E:\DAC\igloo\soc\sdio25\synthesis\u8_synplify.fdc
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:16s; CPU Time elapsed 0h:00m:16s; Memory used current: 223MB peak: 226MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:17s; CPU Time elapsed 0h:00m:17s; Memory used current: 218MB peak: 226MB)
+
+@W: MT246 :"e:\dac\igloo\soc\sdio25\component\work\u8_sb\ccc_0\u8_sb_ccc_0_fccc.v":20:36:20:43|Blackbox CCC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@N: MT615 |Found clock mclk with period 8.00ns 
+@N: MT615 |Found clock sdclk_n with period 16.00ns 
+@N: MT615 |Found clock clock138_bck with period 16.00ns 
+@N: MT615 |Found clock mclk4549 with period 16.00ns 
+@W: MT420 |Found inferred clock sdtop|dsd_clkr_inferred_clock with period 10.00ns. Please declare a user-defined clock on net test_0.u100.dsd_clkr.
+@W: MT420 |Found inferred clock clock_divider|clk2_inferred_clock with period 10.00ns. Please declare a user-defined clock on net test_0.u100.DSD138.UIN100.UCK0.clk2.
+@W: MT420 |Found inferred clock clock_divider|clk4_inferred_clock with period 10.00ns. Please declare a user-defined clock on net test_0.u100.DSD138.UIN100.UCK0.clk4.
+@W: MT420 |Found inferred clock clock_divider|clk8_inferred_clock with period 10.00ns. Please declare a user-defined clock on net test_0.u100.DSD138.UIN100.UCK0.clk8.
+@W: MT420 |Found inferred clock u8_sb_CCC_0_FCCC|GL0_net_inferred_clock with period 10.00ns. Please declare a user-defined clock on net u8_sb_0.CCC_0.GL0_net.
+@W: MT420 |Found inferred clock u8|sdclk with period 10.00ns. Please declare a user-defined clock on port sdclk.
+@W: MT420 |Found inferred clock clock_divider|clk16_inferred_clock with period 10.00ns. Please declare a user-defined clock on net test_0.u100.DSD138.UIN100.UCK0.clk16.
+@W: MT420 |Found inferred clock inctrl|master_lrck_inferred_clock with period 10.00ns. Please declare a user-defined clock on net test_0.u100.DSD138.UIN100.master_lrck.
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Wed Aug 11 17:01:59 2021
+#
+
+
+Top view:               u8
+Requested Frequency:    62.5 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    E:\DAC\igloo\soc\sdio25\designer\u8\synthesis.fdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -0.507
+
+                                            Requested     Estimated     Requested     Estimated                Clock        Clock               
+Starting Clock                              Frequency     Frequency     Period        Period        Slack      Type         Group               
+------------------------------------------------------------------------------------------------------------------------------------------------
+clock138_bck                                62.5 MHz      462.7 MHz     16.000        2.161         13.839     declared     default_clkgroup    
+clock_divider|clk2_inferred_clock           100.0 MHz     242.9 MHz     10.000        4.117         2.955      inferred     Inferred_clkgroup_1 
+clock_divider|clk4_inferred_clock           100.0 MHz     242.9 MHz     10.000        4.117         2.955      inferred     Inferred_clkgroup_2 
+clock_divider|clk8_inferred_clock           100.0 MHz     121.5 MHz     10.000        8.233         0.883      inferred     Inferred_clkgroup_3 
+clock_divider|clk16_inferred_clock          100.0 MHz     121.5 MHz     10.000        8.233         0.883      inferred     Inferred_clkgroup_9 
+inctrl|master_lrck_inferred_clock           100.0 MHz     789.1 MHz     10.000        1.267         8.733      inferred     Inferred_clkgroup_10
+mclk                                        125.0 MHz     117.6 MHz     8.000         8.507         -0.507     declared     default_clkgroup    
+mclk4549                                    62.5 MHz      165.8 MHz     16.000        6.031         5.955      declared     default_clkgroup    
+sdclk_n                                     62.5 MHz      121.0 MHz     16.000        8.266         7.734      declared     default_clkgroup    
+sdtop|dsd_clkr_inferred_clock               100.0 MHz     265.6 MHz     10.000        3.765         3.338      inferred     Inferred_clkgroup_0 
+u8_sb_CCC_0_FCCC|GL0_net_inferred_clock     100.0 MHz     117.1 MHz     10.000        8.539         1.462      inferred     Inferred_clkgroup_4 
+u8|sdclk                                    100.0 MHz     NA            10.000        NA            NA         inferred     Inferred_clkgroup_6 
+System                                      100.0 MHz     NA            10.000        NA            NA         system       system_clkgroup     
+================================================================================================================================================
+Estimated period and frequency reported as NA means no slack depends directly on the clock waveform
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                            |    rise  to  rise    |    fall  to  fall    |    rise  to  fall   |    fall  to  rise 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                 Ending                                   |  constraint  slack   |  constraint  slack   |  constraint  slack  |  constraint  slack
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+mclk                                     System                                   |  8.000       5.876   |  No paths    -       |  No paths    -      |  No paths    -    
+mclk                                     mclk                                     |  8.000       -0.507  |  No paths    -       |  No paths    -      |  No paths    -    
+sdclk_n                                  sdclk_n                                  |  16.000      7.734   |  No paths    -       |  No paths    -      |  No paths    -    
+sdclk_n                                  mclk4549                                 |  16.000      12.461  |  No paths    -       |  No paths    -      |  No paths    -    
+sdclk_n                                  clock_divider|clk2_inferred_clock        |  Diff grp    -       |  No paths    -       |  No paths    -      |  No paths    -    
+sdclk_n                                  clock_divider|clk4_inferred_clock        |  Diff grp    -       |  No paths    -       |  No paths    -      |  No paths    -    
+sdclk_n                                  clock_divider|clk8_inferred_clock        |  Diff grp    -       |  No paths    -       |  No paths    -      |  No paths    -    
+sdclk_n                                  clock_divider|clk16_inferred_clock       |  Diff grp    -       |  No paths    -       |  No paths    -      |  No paths    -    
+clock138_bck                             clock138_bck                             |  16.000      13.839  |  No paths    -       |  No paths    -      |  No paths    -    
+mclk4549                                 mclk                                     |  No paths    -       |  No paths    -       |  No paths    -      |  8.000       6.733
+mclk4549                                 sdclk_n                                  |  16.000      15.270  |  No paths    -       |  No paths    -      |  No paths    -    
+mclk4549                                 mclk4549                                 |  16.000      9.969   |  16.000      15.054  |  8.000       5.955  |  No paths    -    
+mclk4549                                 sdtop|dsd_clkr_inferred_clock            |  Diff grp    -       |  Diff grp    -       |  Diff grp    -      |  No paths    -    
+mclk4549                                 clock_divider|clk2_inferred_clock        |  Diff grp    -       |  Diff grp    -       |  Diff grp    -      |  No paths    -    
+mclk4549                                 clock_divider|clk4_inferred_clock        |  Diff grp    -       |  Diff grp    -       |  Diff grp    -      |  No paths    -    
+mclk4549                                 clock_divider|clk8_inferred_clock        |  Diff grp    -       |  Diff grp    -       |  Diff grp    -      |  No paths    -    
+mclk4549                                 u8_sb_CCC_0_FCCC|GL0_net_inferred_clock  |  Diff grp    -       |  No paths    -       |  No paths    -      |  No paths    -    
+mclk4549                                 clock_divider|clk16_inferred_clock       |  Diff grp    -       |  Diff grp    -       |  Diff grp    -      |  No paths    -    
+sdtop|dsd_clkr_inferred_clock            mclk                                     |  No paths    -       |  No paths    -       |  No paths    -      |  Diff grp    -    
+sdtop|dsd_clkr_inferred_clock            mclk4549                                 |  No paths    -       |  Diff grp    -       |  Diff grp    -      |  No paths    -    
+sdtop|dsd_clkr_inferred_clock            sdtop|dsd_clkr_inferred_clock            |  10.000      6.235   |  10.000      9.054   |  5.000       3.338  |  No paths    -    
+sdtop|dsd_clkr_inferred_clock            clock_divider|clk2_inferred_clock        |  No paths    -       |  Diff grp    -       |  Diff grp    -      |  No paths    -    
+sdtop|dsd_clkr_inferred_clock            clock_divider|clk4_inferred_clock        |  No paths    -       |  Diff grp    -       |  Diff grp    -      |  No paths    -    
+sdtop|dsd_clkr_inferred_clock            clock_divider|clk8_inferred_clock        |  No paths    -       |  Diff grp    -       |  Diff grp    -      |  No paths    -    
+sdtop|dsd_clkr_inferred_clock            clock_divider|clk16_inferred_clock       |  No paths    -       |  Diff grp    -       |  Diff grp    -      |  No paths    -    
+clock_divider|clk2_inferred_clock        mclk                                     |  No paths    -       |  No paths    -       |  No paths    -      |  Diff grp    -    
+clock_divider|clk2_inferred_clock        mclk4549                                 |  Diff grp    -       |  Diff grp    -       |  Diff grp    -      |  No paths    -    
+clock_divider|clk2_inferred_clock        sdtop|dsd_clkr_inferred_clock            |  Diff grp    -       |  Diff grp    -       |  Diff grp    -      |  No paths    -    
+clock_divider|clk2_inferred_clock        clock_divider|clk2_inferred_clock        |  10.000      5.883   |  10.000      9.054   |  5.000       2.955  |  No paths    -    
+clock_divider|clk2_inferred_clock        clock_divider|clk4_inferred_clock        |  Diff grp    -       |  Diff grp    -       |  Diff grp    -      |  No paths    -    
+clock_divider|clk2_inferred_clock        clock_divider|clk8_inferred_clock        |  Diff grp    -       |  Diff grp    -       |  Diff grp    -      |  No paths    -    
+clock_divider|clk2_inferred_clock        clock_divider|clk16_inferred_clock       |  Diff grp    -       |  Diff grp    -       |  Diff grp    -      |  No paths    -    
+clock_divider|clk4_inferred_clock        mclk                                     |  No paths    -       |  No paths    -       |  No paths    -      |  Diff grp    -    
+clock_divider|clk4_inferred_clock        mclk4549                                 |  Diff grp    -       |  Diff grp    -       |  Diff grp    -      |  No paths    -    
+clock_divider|clk4_inferred_clock        sdtop|dsd_clkr_inferred_clock            |  Diff grp    -       |  Diff grp    -       |  Diff grp    -      |  No paths    -    
+clock_divider|clk4_inferred_clock        clock_divider|clk2_inferred_clock        |  Diff grp    -       |  Diff grp    -       |  Diff grp    -      |  No paths    -    
+clock_divider|clk4_inferred_clock        clock_divider|clk4_inferred_clock        |  10.000      5.883   |  10.000      9.054   |  5.000       2.955  |  No paths    -    
+clock_divider|clk4_inferred_clock        clock_divider|clk8_inferred_clock        |  Diff grp    -       |  Diff grp    -       |  Diff grp    -      |  No paths    -    
+clock_divider|clk4_inferred_clock        clock_divider|clk16_inferred_clock       |  Diff grp    -       |  Diff grp    -       |  Diff grp    -      |  No paths    -    
+clock_divider|clk8_inferred_clock        mclk                                     |  No paths    -       |  No paths    -       |  No paths    -      |  Diff grp    -    
+clock_divider|clk8_inferred_clock        mclk4549                                 |  Diff grp    -       |  Diff grp    -       |  Diff grp    -      |  Diff grp    -    
+clock_divider|clk8_inferred_clock        sdtop|dsd_clkr_inferred_clock            |  Diff grp    -       |  Diff grp    -       |  Diff grp    -      |  No paths    -    
+clock_divider|clk8_inferred_clock        clock_divider|clk2_inferred_clock        |  Diff grp    -       |  Diff grp    -       |  Diff grp    -      |  Diff grp    -    
+clock_divider|clk8_inferred_clock        clock_divider|clk4_inferred_clock        |  Diff grp    -       |  Diff grp    -       |  Diff grp    -      |  Diff grp    -    
+clock_divider|clk8_inferred_clock        clock_divider|clk8_inferred_clock        |  10.000      5.883   |  10.000      9.054   |  5.000       2.955  |  5.000       0.883
+clock_divider|clk8_inferred_clock        clock_divider|clk16_inferred_clock       |  Diff grp    -       |  Diff grp    -       |  Diff grp    -      |  Diff grp    -    
+u8_sb_CCC_0_FCCC|GL0_net_inferred_clock  mclk4549                                 |  Diff grp    -       |  No paths    -       |  No paths    -      |  No paths    -    
+u8_sb_CCC_0_FCCC|GL0_net_inferred_clock  clock_divider|clk2_inferred_clock        |  Diff grp    -       |  No paths    -       |  No paths    -      |  No paths    -    
+u8_sb_CCC_0_FCCC|GL0_net_inferred_clock  clock_divider|clk4_inferred_clock        |  Diff grp    -       |  No paths    -       |  No paths    -      |  No paths    -    
+u8_sb_CCC_0_FCCC|GL0_net_inferred_clock  clock_divider|clk8_inferred_clock        |  Diff grp    -       |  No paths    -       |  No paths    -      |  No paths    -    
+u8_sb_CCC_0_FCCC|GL0_net_inferred_clock  u8_sb_CCC_0_FCCC|GL0_net_inferred_clock  |  10.000      1.462   |  No paths    -       |  No paths    -      |  No paths    -    
+u8_sb_CCC_0_FCCC|GL0_net_inferred_clock  clock_divider|clk16_inferred_clock       |  Diff grp    -       |  No paths    -       |  No paths    -      |  No paths    -    
+u8|sdclk                                 sdclk_n                                  |  Diff grp    -       |  No paths    -       |  No paths    -      |  No paths    -    
+clock_divider|clk16_inferred_clock       mclk                                     |  Diff grp    -       |  No paths    -       |  No paths    -      |  Diff grp    -    
+clock_divider|clk16_inferred_clock       mclk4549                                 |  Diff grp    -       |  Diff grp    -       |  Diff grp    -      |  Diff grp    -    
+clock_divider|clk16_inferred_clock       sdtop|dsd_clkr_inferred_clock            |  Diff grp    -       |  Diff grp    -       |  Diff grp    -      |  Diff grp    -    
+clock_divider|clk16_inferred_clock       clock_divider|clk2_inferred_clock        |  Diff grp    -       |  Diff grp    -       |  Diff grp    -      |  Diff grp    -    
+clock_divider|clk16_inferred_clock       clock_divider|clk4_inferred_clock        |  Diff grp    -       |  Diff grp    -       |  Diff grp    -      |  Diff grp    -    
+clock_divider|clk16_inferred_clock       clock_divider|clk8_inferred_clock        |  Diff grp    -       |  Diff grp    -       |  Diff grp    -      |  Diff grp    -    
+clock_divider|clk16_inferred_clock       clock_divider|clk16_inferred_clock       |  10.000      5.883   |  10.000      7.955   |  5.000       2.955  |  5.000       0.883
+inctrl|master_lrck_inferred_clock        mclk4549                                 |  Diff grp    -       |  No paths    -       |  No paths    -      |  No paths    -    
+inctrl|master_lrck_inferred_clock        inctrl|master_lrck_inferred_clock        |  10.000      8.733   |  No paths    -       |  No paths    -      |  No paths    -    
+==========================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+
+
+Output Ports: 
+
+Port        Starting             User                      Arrival     Required           
+Name        Reference            Constraint                Time        Time         Slack 
+            Clock                                                                         
+------------------------------------------------------------------------------------------
+cmd         sdclk_n (rising)     0.500(sdclk_n rising)     7.756       15.500       7.744 
+dsd_ln0     mclk (rising)        3.700(mclk rising)        4.807       4.300        -0.507
+dsd_ln1     mclk (rising)        3.700(mclk rising)        4.807       4.300        -0.507
+dsd_ln2     mclk (rising)        3.700(mclk rising)        4.807       4.300        -0.507
+dsd_ln3     mclk (rising)        3.700(mclk rising)        4.807       4.300        -0.507
+dsd_ln4     mclk (rising)        3.700(mclk rising)        4.807       4.300        -0.507
+dsd_ln5     mclk (rising)        3.700(mclk rising)        4.807       4.300        -0.507
+dsd_ln6     mclk (rising)        3.700(mclk rising)        4.807       4.300        -0.507
+dsd_ln7     mclk (rising)        3.700(mclk rising)        4.807       4.300        -0.507
+dsd_lp0     mclk (rising)        3.700(mclk rising)        4.807       4.300        -0.507
+dsd_lp1     mclk (rising)        3.700(mclk rising)        4.807       4.300        -0.507
+dsd_lp2     mclk (rising)        3.700(mclk rising)        4.807       4.300        -0.507
+dsd_lp3     mclk (rising)        3.700(mclk rising)        4.807       4.300        -0.507
+dsd_lp4     mclk (rising)        3.700(mclk rising)        4.807       4.300        -0.507
+dsd_lp5     mclk (rising)        3.700(mclk rising)        4.807       4.300        -0.507
+dsd_lp6     mclk (rising)        3.700(mclk rising)        4.807       4.300        -0.507
+dsd_lp7     mclk (rising)        3.700(mclk rising)        4.807       4.300        -0.507
+dsd_rn0     mclk (rising)        3.700(mclk rising)        4.807       4.300        -0.507
+dsd_rn1     mclk (rising)        3.700(mclk rising)        4.807       4.300        -0.507
+dsd_rn2     mclk (rising)        3.700(mclk rising)        4.807       4.300        -0.507
+dsd_rn3     mclk (rising)        3.700(mclk rising)        4.807       4.300        -0.507
+dsd_rn4     mclk (rising)        3.700(mclk rising)        4.807       4.300        -0.507
+dsd_rn5     mclk (rising)        3.700(mclk rising)        4.807       4.300        -0.507
+dsd_rn6     mclk (rising)        3.700(mclk rising)        4.807       4.300        -0.507
+dsd_rn7     mclk (rising)        3.700(mclk rising)        4.807       4.300        -0.507
+dsd_rp0     mclk (rising)        3.700(mclk rising)        4.807       4.300        -0.507
+dsd_rp1     mclk (rising)        3.700(mclk rising)        4.807       4.300        -0.507
+dsd_rp2     mclk (rising)        3.700(mclk rising)        4.807       4.300        -0.507
+dsd_rp3     mclk (rising)        3.700(mclk rising)        4.807       4.300        -0.507
+dsd_rp4     mclk (rising)        3.700(mclk rising)        4.807       4.300        -0.507
+dsd_rp5     mclk (rising)        3.700(mclk rising)        4.807       4.300        -0.507
+dsd_rp6     mclk (rising)        3.700(mclk rising)        4.807       4.300        -0.507
+dsd_rp7     mclk (rising)        3.700(mclk rising)        4.807       4.300        -0.507
+sd_d0       sdclk_n (rising)     0.500(sdclk_n rising)     7.766       15.500       7.734 
+sd_d1       sdclk_n (rising)     0.500(sdclk_n rising)     7.766       15.500       7.734 
+sd_d2       sdclk_n (rising)     0.500(sdclk_n rising)     7.766       15.500       7.734 
+sd_d3       sdclk_n (rising)     0.500(sdclk_n rising)     7.766       15.500       7.734 
+==========================================================================================
+
+
+
+====================================
+Detailed Report for Clock: clock138_bck
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                      Starting                                    Arrival           
+Instance              Reference        Type     Pin     Net       Time        Slack 
+                      Clock                                                         
+------------------------------------------------------------------------------------
+test_0.u200.i[11]     clock138_bck     SLE      Q       i[11]     0.076       13.839
+test_0.u200.i[10]     clock138_bck     SLE      Q       i[10]     0.094       13.881
+test_0.u200.i[13]     clock138_bck     SLE      Q       i[13]     0.076       14.023
+test_0.u200.i[14]     clock138_bck     SLE      Q       i[14]     0.076       14.095
+test_0.u200.i[8]      clock138_bck     SLE      Q       i[8]      0.076       14.126
+test_0.u200.i[7]      clock138_bck     SLE      Q       i[7]      0.094       14.177
+test_0.u200.i[9]      clock138_bck     SLE      Q       i[9]      0.094       14.284
+test_0.u200.work      clock138_bck     SLE      Q       work      0.094       14.341
+test_0.u200.i[0]      clock138_bck     SLE      Q       i[0]      0.094       14.613
+test_0.u200.i[12]     clock138_bck     SLE      Q       i[12]     0.094       14.768
+====================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                Starting                                     Required           
+Instance                        Reference        Type     Pin     Net        Time         Slack 
+                                Clock                                                           
+------------------------------------------------------------------------------------------------
+test_0.u200.key_pmux_0_dreg     clock138_bck     SLE      D       i4_mux     15.778       13.839
+test_0.u200.i[0]                clock138_bck     SLE      EN      ie         15.707       14.023
+test_0.u200.i[1]                clock138_bck     SLE      EN      ie         15.707       14.023
+test_0.u200.i[2]                clock138_bck     SLE      EN      ie         15.707       14.023
+test_0.u200.i[3]                clock138_bck     SLE      EN      ie         15.707       14.023
+test_0.u200.i[4]                clock138_bck     SLE      EN      ie         15.707       14.023
+test_0.u200.i[5]                clock138_bck     SLE      EN      ie         15.707       14.023
+test_0.u200.i[6]                clock138_bck     SLE      EN      ie         15.707       14.023
+test_0.u200.i[7]                clock138_bck     SLE      EN      ie         15.707       14.023
+test_0.u200.i[8]                clock138_bck     SLE      EN      ie         15.707       14.023
+================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      16.000
+    - Setup time:                            0.222
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         15.778
+
+    - Propagation time:                      1.939
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 13.839
+
+    Number of logic level(s):                3
+    Starting point:                          test_0.u200.i[11] / Q
+    Ending point:                            test_0.u200.key_pmux_0_dreg / D
+    The start point is clocked by            clock138_bck [rising] (rise=0.000 fall=8.000 period=16.000) on pin CLK
+    The end   point is clocked by            clock138_bck [rising] (rise=0.000 fall=8.000 period=16.000) on pin CLK
+
+Instance / Net                                  Pin      Pin               Arrival     No. of    
+Name                                   Type     Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------
+test_0.u200.i[11]                      SLE      Q        Out     0.076     0.076 r     -         
+i[11]                                  Net      -        -       0.648     -           3         
+test_0.u200.key_pmux_0_0_0_.m6_1_3     CFG3     C        In      -         0.724 r     -         
+test_0.u200.key_pmux_0_0_0_.m6_1_3     CFG3     Y        Out     0.196     0.920 f     -         
+m6_1_3                                 Net      -        -       0.216     -           1         
+test_0.u200.key_pmux_0_0_0_.m6         CFG4     C        In      -         1.137 f     -         
+test_0.u200.key_pmux_0_0_0_.m6         CFG4     Y        Out     0.194     1.331 r     -         
+i5_mux                                 Net      -        -       0.216     -           1         
+test_0.u200.key_pmux_0_0_0_.m10        CFG3     C        In      -         1.547 r     -         
+test_0.u200.key_pmux_0_0_0_.m10        CFG3     Y        Out     0.177     1.723 r     -         
+i4_mux                                 Net      -        -       0.216     -           1         
+test_0.u200.key_pmux_0_dreg            SLE      D        In      -         1.939 r     -         
+=================================================================================================
+Total path delay (propagation time + setup) of 2.161 is 0.865(40.0%) logic and 1.296(60.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: clock_divider|clk2_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                           Starting                                                                    Arrival          
+Instance                                   Reference                             Type     Pin     Net                  Time        Slack
+                                           Clock                                                                                        
+----------------------------------------------------------------------------------------------------------------------------------------
+test_0.u100.UPCMTX.i[5]                    clock_divider|clk2_inferred_clock     SLE      Q       olrck2               0.076       2.955
+test_0.u100.UPCMTX.d1                      clock_divider|clk2_inferred_clock     SLE      Q       odata2               0.076       3.447
+test_0.u100.USPDIF_TX.bit_counter[0]       clock_divider|clk2_inferred_clock     SLE      Q       bit_counter[0]       0.094       5.883
+test_0.u100.USPDIF_TX.bit_counter[5]       clock_divider|clk2_inferred_clock     SLE      Q       bit_counter[5]       0.076       5.924
+test_0.u100.USPDIF_TX.bit_counter[1]       clock_divider|clk2_inferred_clock     SLE      Q       bit_counter[1]       0.094       5.958
+test_0.u100.USPDIF_TX.bit_counter[4]       clock_divider|clk2_inferred_clock     SLE      Q       bit_counter[4]       0.076       6.003
+test_0.u100.USPDIF_TX.frame_counter[1]     clock_divider|clk2_inferred_clock     SLE      Q       frame_counter[1]     0.094       6.061
+test_0.u100.USPDIF_TX.bit_counter[2]       clock_divider|clk2_inferred_clock     SLE      Q       bit_counter[2]       0.094       6.096
+test_0.u100.USPDIF_TX.frame_counter[4]     clock_divider|clk2_inferred_clock     SLE      Q       frame_counter[4]     0.094       6.106
+test_0.u100.USPDIF_TX.frame_counter[2]     clock_divider|clk2_inferred_clock     SLE      Q       frame_counter[2]     0.094       6.126
+========================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                  Starting                                                                                Required          
+Instance                                          Reference                             Type     Pin     Net                              Time         Slack
+                                                  Clock                                                                                                     
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+test_0.dsdlq[0]                                   clock_divider|clk2_inferred_clock     SLE      D       olrck_o                          4.778        2.955
+test_0.dsdrq[0]                                   clock_divider|clk2_inferred_clock     SLE      D       odata_o                          4.778        3.447
+test_0.u100.USPDIF_TX.data_out_buffer[2]          clock_divider|clk2_inferred_clock     SLE      D       data_out_buffer_14_0_iv_i[2]     9.778        5.883
+test_0.u100.USPDIF_TX.data_out_buffer[0]          clock_divider|clk2_inferred_clock     SLE      D       data_out_buffer_14[0]            9.778        5.924
+test_0.u100.USPDIF_TX.data_out_buffer[6]          clock_divider|clk2_inferred_clock     SLE      D       data_out_buffer_14[6]            9.778        6.020
+test_0.u100.USPDIF_TX.data_out_buffer[4]          clock_divider|clk2_inferred_clock     SLE      D       data_out_buffer_14_0_iv_i[4]     9.778        6.030
+test_0.u100.USPDIF_TX.channel_status_shift[6]     clock_divider|clk2_inferred_clock     SLE      EN      un1_frame_counter15_i            9.707        6.076
+test_0.u100.USPDIF_TX.channel_status_shift[7]     clock_divider|clk2_inferred_clock     SLE      EN      un1_frame_counter15_i            9.707        6.076
+test_0.u100.USPDIF_TX.channel_status_shift[8]     clock_divider|clk2_inferred_clock     SLE      EN      un1_frame_counter15_i            9.707        6.076
+test_0.u100.USPDIF_TX.channel_status_shift[9]     clock_divider|clk2_inferred_clock     SLE      EN      un1_frame_counter15_i            9.707        6.076
+============================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      5.000
+    - Setup time:                            0.222
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.778
+
+    - Propagation time:                      1.823
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 2.955
+
+    Number of logic level(s):                1
+    Starting point:                          test_0.u100.UPCMTX.i[5] / Q
+    Ending point:                            test_0.dsdlq[0] / D
+    The start point is clocked by            clock_divider|clk2_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            clock_divider|clk2_inferred_clock [falling] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+
+Instance / Net                       Pin      Pin               Arrival     No. of    
+Name                        Type     Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------
+test_0.u100.UPCMTX.i[5]     SLE      Q        Out     0.076     0.076 r     -         
+olrck2                      Net      -        -       0.708     -           4         
+test_0.u100.olrck           CFG3     A        In      -         0.784 r     -         
+test_0.u100.olrck           CFG3     Y        Out     0.067     0.852 r     -         
+olrck_o                     Net      -        -       0.971     -           2         
+test_0.dsdlq[0]             SLE      D        In      -         1.823 r     -         
+======================================================================================
+Total path delay (propagation time + setup) of 2.045 is 0.365(17.9%) logic and 1.680(82.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: clock_divider|clk4_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                           Starting                                                                    Arrival          
+Instance                                   Reference                             Type     Pin     Net                  Time        Slack
+                                           Clock                                                                                        
+----------------------------------------------------------------------------------------------------------------------------------------
+test_0.u100.UPCMTX.i[5]                    clock_divider|clk4_inferred_clock     SLE      Q       olrck2               0.076       2.955
+test_0.u100.UPCMTX.d1                      clock_divider|clk4_inferred_clock     SLE      Q       odata2               0.076       3.447
+test_0.u100.USPDIF_TX.bit_counter[0]       clock_divider|clk4_inferred_clock     SLE      Q       bit_counter[0]       0.094       5.883
+test_0.u100.USPDIF_TX.bit_counter[5]       clock_divider|clk4_inferred_clock     SLE      Q       bit_counter[5]       0.076       5.924
+test_0.u100.USPDIF_TX.bit_counter[1]       clock_divider|clk4_inferred_clock     SLE      Q       bit_counter[1]       0.094       5.958
+test_0.u100.USPDIF_TX.bit_counter[4]       clock_divider|clk4_inferred_clock     SLE      Q       bit_counter[4]       0.076       6.003
+test_0.u100.USPDIF_TX.frame_counter[1]     clock_divider|clk4_inferred_clock     SLE      Q       frame_counter[1]     0.094       6.061
+test_0.u100.USPDIF_TX.bit_counter[2]       clock_divider|clk4_inferred_clock     SLE      Q       bit_counter[2]       0.094       6.096
+test_0.u100.USPDIF_TX.frame_counter[4]     clock_divider|clk4_inferred_clock     SLE      Q       frame_counter[4]     0.094       6.106
+test_0.u100.USPDIF_TX.frame_counter[2]     clock_divider|clk4_inferred_clock     SLE      Q       frame_counter[2]     0.094       6.126
+========================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                  Starting                                                                                Required          
+Instance                                          Reference                             Type     Pin     Net                              Time         Slack
+                                                  Clock                                                                                                     
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+test_0.dsdlq[0]                                   clock_divider|clk4_inferred_clock     SLE      D       olrck_o                          4.778        2.955
+test_0.dsdrq[0]                                   clock_divider|clk4_inferred_clock     SLE      D       odata_o                          4.778        3.447
+test_0.u100.USPDIF_TX.data_out_buffer[2]          clock_divider|clk4_inferred_clock     SLE      D       data_out_buffer_14_0_iv_i[2]     9.778        5.883
+test_0.u100.USPDIF_TX.data_out_buffer[0]          clock_divider|clk4_inferred_clock     SLE      D       data_out_buffer_14[0]            9.778        5.924
+test_0.u100.USPDIF_TX.data_out_buffer[6]          clock_divider|clk4_inferred_clock     SLE      D       data_out_buffer_14[6]            9.778        6.020
+test_0.u100.USPDIF_TX.data_out_buffer[4]          clock_divider|clk4_inferred_clock     SLE      D       data_out_buffer_14_0_iv_i[4]     9.778        6.030
+test_0.u100.USPDIF_TX.channel_status_shift[6]     clock_divider|clk4_inferred_clock     SLE      EN      un1_frame_counter15_i            9.707        6.076
+test_0.u100.USPDIF_TX.channel_status_shift[7]     clock_divider|clk4_inferred_clock     SLE      EN      un1_frame_counter15_i            9.707        6.076
+test_0.u100.USPDIF_TX.channel_status_shift[8]     clock_divider|clk4_inferred_clock     SLE      EN      un1_frame_counter15_i            9.707        6.076
+test_0.u100.USPDIF_TX.channel_status_shift[9]     clock_divider|clk4_inferred_clock     SLE      EN      un1_frame_counter15_i            9.707        6.076
+============================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      5.000
+    - Setup time:                            0.222
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.778
+
+    - Propagation time:                      1.823
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 2.955
+
+    Number of logic level(s):                1
+    Starting point:                          test_0.u100.UPCMTX.i[5] / Q
+    Ending point:                            test_0.dsdlq[0] / D
+    The start point is clocked by            clock_divider|clk4_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            clock_divider|clk4_inferred_clock [falling] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+
+Instance / Net                       Pin      Pin               Arrival     No. of    
+Name                        Type     Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------
+test_0.u100.UPCMTX.i[5]     SLE      Q        Out     0.076     0.076 r     -         
+olrck2                      Net      -        -       0.708     -           4         
+test_0.u100.olrck           CFG3     A        In      -         0.784 r     -         
+test_0.u100.olrck           CFG3     Y        Out     0.067     0.852 r     -         
+olrck_o                     Net      -        -       0.971     -           2         
+test_0.dsdlq[0]             SLE      D        In      -         1.823 r     -         
+======================================================================================
+Total path delay (propagation time + setup) of 2.045 is 0.365(17.9%) logic and 1.680(82.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: clock_divider|clk8_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                           Starting                                                                    Arrival          
+Instance                                   Reference                             Type     Pin     Net                  Time        Slack
+                                           Clock                                                                                        
+----------------------------------------------------------------------------------------------------------------------------------------
+test_0.u100.USPDIF_TX.bit_counter[0]       clock_divider|clk8_inferred_clock     SLE      Q       bit_counter[0]       0.094       0.883
+test_0.u100.USPDIF_TX.bit_counter[5]       clock_divider|clk8_inferred_clock     SLE      Q       bit_counter[5]       0.076       0.924
+test_0.u100.USPDIF_TX.bit_counter[1]       clock_divider|clk8_inferred_clock     SLE      Q       bit_counter[1]       0.094       0.958
+test_0.u100.USPDIF_TX.bit_counter[4]       clock_divider|clk8_inferred_clock     SLE      Q       bit_counter[4]       0.076       1.003
+test_0.u100.USPDIF_TX.frame_counter[1]     clock_divider|clk8_inferred_clock     SLE      Q       frame_counter[1]     0.094       1.061
+test_0.u100.USPDIF_TX.bit_counter[2]       clock_divider|clk8_inferred_clock     SLE      Q       bit_counter[2]       0.094       1.096
+test_0.u100.USPDIF_TX.frame_counter[4]     clock_divider|clk8_inferred_clock     SLE      Q       frame_counter[4]     0.094       1.107
+test_0.u100.USPDIF_TX.frame_counter[2]     clock_divider|clk8_inferred_clock     SLE      Q       frame_counter[2]     0.094       1.126
+test_0.u100.USPDIF_TX.frame_counter[3]     clock_divider|clk8_inferred_clock     SLE      Q       frame_counter[3]     0.094       1.168
+test_0.u100.USPDIF_TX.frame_counter[5]     clock_divider|clk8_inferred_clock     SLE      Q       frame_counter[5]     0.094       1.175
+========================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                   Starting                                                                                Required          
+Instance                                           Reference                             Type     Pin     Net                              Time         Slack
+                                                   Clock                                                                                                     
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+test_0.u100.USPDIF_TX.data_out_buffer[2]           clock_divider|clk8_inferred_clock     SLE      D       data_out_buffer_14_0_iv_i[2]     4.778        0.883
+test_0.u100.USPDIF_TX.data_out_buffer[0]           clock_divider|clk8_inferred_clock     SLE      D       data_out_buffer_14[0]            4.778        0.924
+test_0.u100.USPDIF_TX.data_out_buffer[6]           clock_divider|clk8_inferred_clock     SLE      D       data_out_buffer_14[6]            4.778        1.020
+test_0.u100.USPDIF_TX.data_out_buffer[4]           clock_divider|clk8_inferred_clock     SLE      D       data_out_buffer_14_0_iv_i[4]     4.778        1.030
+test_0.u100.USPDIF_TX.channel_status_shift[6]      clock_divider|clk8_inferred_clock     SLE      EN      un1_frame_counter15_i            4.707        1.076
+test_0.u100.USPDIF_TX.channel_status_shift[7]      clock_divider|clk8_inferred_clock     SLE      EN      un1_frame_counter15_i            4.707        1.076
+test_0.u100.USPDIF_TX.channel_status_shift[8]      clock_divider|clk8_inferred_clock     SLE      EN      un1_frame_counter15_i            4.707        1.076
+test_0.u100.USPDIF_TX.channel_status_shift[9]      clock_divider|clk8_inferred_clock     SLE      EN      un1_frame_counter15_i            4.707        1.076
+test_0.u100.USPDIF_TX.channel_status_shift[10]     clock_divider|clk8_inferred_clock     SLE      EN      un1_frame_counter15_i            4.707        1.076
+test_0.u100.USPDIF_TX.channel_status_shift[11]     clock_divider|clk8_inferred_clock     SLE      EN      un1_frame_counter15_i            4.707        1.076
+=============================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      5.000
+    - Setup time:                            0.222
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.778
+
+    - Propagation time:                      3.895
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 0.883
+
+    Number of logic level(s):                4
+    Starting point:                          test_0.u100.USPDIF_TX.bit_counter[0] / Q
+    Ending point:                            test_0.u100.USPDIF_TX.data_out_buffer[2] / D
+    The start point is clocked by            clock_divider|clk8_inferred_clock [falling] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            clock_divider|clk8_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+
+Instance / Net                                                      Pin      Pin               Arrival     No. of    
+Name                                                       Type     Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------
+test_0.u100.USPDIF_TX.bit_counter[0]                       SLE      Q        Out     0.094     0.094 f     -         
+bit_counter[0]                                             Net      -        -       0.814     -           7         
+test_0.u100.USPDIF_TX.data_out_buffer64                    CFG3     C        In      -         0.908 f     -         
+test_0.u100.USPDIF_TX.data_out_buffer64                    CFG3     Y        Out     0.182     1.091 f     -         
+data_out_buffer64                                          Net      -        -       0.995     -           16        
+test_0.u100.USPDIF_TX.data_out_buffer_0_sqmuxa             CFG4     B        In      -         2.085 f     -         
+test_0.u100.USPDIF_TX.data_out_buffer_0_sqmuxa             CFG4     Y        Out     0.143     2.228 f     -         
+data_out_buffer_0_sqmuxa                                   Net      -        -       0.708     -           4         
+test_0.u100.USPDIF_TX.data_out_buffer_14_0_iv_i_1_0[2]     CFG4     D        In      -         2.936 f     -         
+test_0.u100.USPDIF_TX.data_out_buffer_14_0_iv_i_1_0[2]     CFG4     Y        Out     0.250     3.187 f     -         
+data_out_buffer_14_0_iv_i_1_0[2]                           Net      -        -       0.216     -           1         
+test_0.u100.USPDIF_TX.data_out_buffer_14_0_iv_i[2]         CFG4     D        In      -         3.403 f     -         
+test_0.u100.USPDIF_TX.data_out_buffer_14_0_iv_i[2]         CFG4     Y        Out     0.276     3.679 r     -         
+data_out_buffer_14_0_iv_i[2]                               Net      -        -       0.216     -           1         
+test_0.u100.USPDIF_TX.data_out_buffer[2]                   SLE      D        In      -         3.895 r     -         
+=====================================================================================================================
+Total path delay (propagation time + setup) of 4.117 is 1.167(28.4%) logic and 2.949(71.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: clock_divider|clk16_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                           Starting                                                                     Arrival          
+Instance                                   Reference                              Type     Pin     Net                  Time        Slack
+                                           Clock                                                                                         
+-----------------------------------------------------------------------------------------------------------------------------------------
+test_0.u100.USPDIF_TX.bit_counter[0]       clock_divider|clk16_inferred_clock     SLE      Q       bit_counter[0]       0.094       0.883
+test_0.u100.USPDIF_TX.bit_counter[5]       clock_divider|clk16_inferred_clock     SLE      Q       bit_counter[5]       0.076       0.924
+test_0.u100.USPDIF_TX.bit_counter[1]       clock_divider|clk16_inferred_clock     SLE      Q       bit_counter[1]       0.094       0.958
+test_0.u100.USPDIF_TX.bit_counter[4]       clock_divider|clk16_inferred_clock     SLE      Q       bit_counter[4]       0.076       1.003
+test_0.u100.USPDIF_TX.frame_counter[1]     clock_divider|clk16_inferred_clock     SLE      Q       frame_counter[1]     0.094       1.061
+test_0.u100.USPDIF_TX.bit_counter[2]       clock_divider|clk16_inferred_clock     SLE      Q       bit_counter[2]       0.094       1.096
+test_0.u100.USPDIF_TX.frame_counter[4]     clock_divider|clk16_inferred_clock     SLE      Q       frame_counter[4]     0.094       1.107
+test_0.u100.USPDIF_TX.frame_counter[2]     clock_divider|clk16_inferred_clock     SLE      Q       frame_counter[2]     0.094       1.126
+test_0.u100.USPDIF_TX.frame_counter[3]     clock_divider|clk16_inferred_clock     SLE      Q       frame_counter[3]     0.094       1.168
+test_0.u100.USPDIF_TX.frame_counter[5]     clock_divider|clk16_inferred_clock     SLE      Q       frame_counter[5]     0.094       1.175
+=========================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                   Starting                                                                                 Required          
+Instance                                           Reference                              Type     Pin     Net                              Time         Slack
+                                                   Clock                                                                                                      
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+test_0.u100.USPDIF_TX.data_out_buffer[2]           clock_divider|clk16_inferred_clock     SLE      D       data_out_buffer_14_0_iv_i[2]     4.778        0.883
+test_0.u100.USPDIF_TX.data_out_buffer[0]           clock_divider|clk16_inferred_clock     SLE      D       data_out_buffer_14[0]            4.778        0.924
+test_0.u100.USPDIF_TX.data_out_buffer[6]           clock_divider|clk16_inferred_clock     SLE      D       data_out_buffer_14[6]            4.778        1.020
+test_0.u100.USPDIF_TX.data_out_buffer[4]           clock_divider|clk16_inferred_clock     SLE      D       data_out_buffer_14_0_iv_i[4]     4.778        1.030
+test_0.u100.USPDIF_TX.channel_status_shift[6]      clock_divider|clk16_inferred_clock     SLE      EN      un1_frame_counter15_i            4.707        1.076
+test_0.u100.USPDIF_TX.channel_status_shift[7]      clock_divider|clk16_inferred_clock     SLE      EN      un1_frame_counter15_i            4.707        1.076
+test_0.u100.USPDIF_TX.channel_status_shift[8]      clock_divider|clk16_inferred_clock     SLE      EN      un1_frame_counter15_i            4.707        1.076
+test_0.u100.USPDIF_TX.channel_status_shift[9]      clock_divider|clk16_inferred_clock     SLE      EN      un1_frame_counter15_i            4.707        1.076
+test_0.u100.USPDIF_TX.channel_status_shift[10]     clock_divider|clk16_inferred_clock     SLE      EN      un1_frame_counter15_i            4.707        1.076
+test_0.u100.USPDIF_TX.channel_status_shift[11]     clock_divider|clk16_inferred_clock     SLE      EN      un1_frame_counter15_i            4.707        1.076
+==============================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      5.000
+    - Setup time:                            0.222
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.778
+
+    - Propagation time:                      3.895
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 0.883
+
+    Number of logic level(s):                4
+    Starting point:                          test_0.u100.USPDIF_TX.bit_counter[0] / Q
+    Ending point:                            test_0.u100.USPDIF_TX.data_out_buffer[2] / D
+    The start point is clocked by            clock_divider|clk16_inferred_clock [falling] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            clock_divider|clk16_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+
+Instance / Net                                                      Pin      Pin               Arrival     No. of    
+Name                                                       Type     Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------
+test_0.u100.USPDIF_TX.bit_counter[0]                       SLE      Q        Out     0.094     0.094 f     -         
+bit_counter[0]                                             Net      -        -       0.814     -           7         
+test_0.u100.USPDIF_TX.data_out_buffer64                    CFG3     C        In      -         0.908 f     -         
+test_0.u100.USPDIF_TX.data_out_buffer64                    CFG3     Y        Out     0.182     1.091 f     -         
+data_out_buffer64                                          Net      -        -       0.995     -           16        
+test_0.u100.USPDIF_TX.data_out_buffer_0_sqmuxa             CFG4     B        In      -         2.085 f     -         
+test_0.u100.USPDIF_TX.data_out_buffer_0_sqmuxa             CFG4     Y        Out     0.143     2.228 f     -         
+data_out_buffer_0_sqmuxa                                   Net      -        -       0.708     -           4         
+test_0.u100.USPDIF_TX.data_out_buffer_14_0_iv_i_1_0[2]     CFG4     D        In      -         2.936 f     -         
+test_0.u100.USPDIF_TX.data_out_buffer_14_0_iv_i_1_0[2]     CFG4     Y        Out     0.250     3.187 f     -         
+data_out_buffer_14_0_iv_i_1_0[2]                           Net      -        -       0.216     -           1         
+test_0.u100.USPDIF_TX.data_out_buffer_14_0_iv_i[2]         CFG4     D        In      -         3.403 f     -         
+test_0.u100.USPDIF_TX.data_out_buffer_14_0_iv_i[2]         CFG4     Y        Out     0.276     3.679 r     -         
+data_out_buffer_14_0_iv_i[2]                               Net      -        -       0.216     -           1         
+test_0.u100.USPDIF_TX.data_out_buffer[2]                   SLE      D        In      -         3.895 r     -         
+=====================================================================================================================
+Total path delay (propagation time + setup) of 4.117 is 1.167(28.4%) logic and 2.949(71.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: inctrl|master_lrck_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                              Starting                                                                 Arrival          
+Instance                      Reference                             Type     Pin     Net               Time        Slack
+                              Clock                                                                                     
+------------------------------------------------------------------------------------------------------------------------
+test_0.u100.master_lrckd2     inctrl|master_lrck_inferred_clock     SLE      Q       master_lrckd2     0.094       8.733
+========================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                              Starting                                                                   Required          
+Instance                      Reference                             Type     Pin     Net                 Time         Slack
+                              Clock                                                                                        
+---------------------------------------------------------------------------------------------------------------------------
+test_0.u100.master_lrckd2     inctrl|master_lrck_inferred_clock     SLE      D       master_lrckd2_i     9.778        8.733
+===========================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.222
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.778
+
+    - Propagation time:                      1.045
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 8.733
+
+    Number of logic level(s):                1
+    Starting point:                          test_0.u100.master_lrckd2 / Q
+    Ending point:                            test_0.u100.master_lrckd2 / D
+    The start point is clocked by            inctrl|master_lrck_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            inctrl|master_lrck_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+
+Instance / Net                             Pin      Pin               Arrival     No. of    
+Name                              Type     Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------
+test_0.u100.master_lrckd2         SLE      Q        Out     0.094     0.094 f     -         
+master_lrckd2                     Net      -        -       0.648     -           3         
+test_0.u100.master_lrckd2_RNO     CFG1     A        In      -         0.742 f     -         
+test_0.u100.master_lrckd2_RNO     CFG1     Y        Out     0.087     0.829 r     -         
+master_lrckd2_i                   Net      -        -       0.216     -           1         
+test_0.u100.master_lrckd2         SLE      D        In      -         1.045 r     -         
+============================================================================================
+Total path delay (propagation time + setup) of 1.267 is 0.403(31.8%) logic and 0.864(68.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: mclk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                      Starting                                     Arrival           
+Instance              Reference     Type     Pin     Net           Time        Slack 
+                      Clock                                                          
+-------------------------------------------------------------------------------------
+test_0.dsd_lnn[0]     mclk          SLE      Q       dsd_ln7_c     0.094       -0.507
+test_0.dsd_lnn[1]     mclk          SLE      Q       dsd_ln6_c     0.094       -0.507
+test_0.dsd_lnn[2]     mclk          SLE      Q       dsd_ln5_c     0.094       -0.507
+test_0.dsd_lnn[3]     mclk          SLE      Q       dsd_ln4_c     0.094       -0.507
+test_0.dsd_lnn[4]     mclk          SLE      Q       dsd_ln3_c     0.094       -0.507
+test_0.dsd_lnn[5]     mclk          SLE      Q       dsd_ln2_c     0.094       -0.507
+test_0.dsd_lnn[6]     mclk          SLE      Q       dsd_ln1_c     0.094       -0.507
+test_0.dsd_lnn[7]     mclk          SLE      Q       dsd_ln0_c     0.094       -0.507
+test_0.dsd_lpp[0]     mclk          SLE      Q       dsd_lp0_c     0.094       -0.507
+test_0.dsd_lpp[1]     mclk          SLE      Q       dsd_lp1_c     0.094       -0.507
+=====================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+             Starting                                       Required           
+Instance     Reference     Type     Pin         Net         Time         Slack 
+             Clock                                                             
+-------------------------------------------------------------------------------
+dsd_ln0      mclk          Port     dsd_ln0     dsd_ln0     4.300        -0.507
+dsd_ln1      mclk          Port     dsd_ln1     dsd_ln1     4.300        -0.507
+dsd_ln2      mclk          Port     dsd_ln2     dsd_ln2     4.300        -0.507
+dsd_ln3      mclk          Port     dsd_ln3     dsd_ln3     4.300        -0.507
+dsd_ln4      mclk          Port     dsd_ln4     dsd_ln4     4.300        -0.507
+dsd_ln5      mclk          Port     dsd_ln5     dsd_ln5     4.300        -0.507
+dsd_ln6      mclk          Port     dsd_ln6     dsd_ln6     4.300        -0.507
+dsd_ln7      mclk          Port     dsd_ln7     dsd_ln7     4.300        -0.507
+dsd_lp0      mclk          Port     dsd_lp0     dsd_lp0     4.300        -0.507
+dsd_lp1      mclk          Port     dsd_lp1     dsd_lp1     4.300        -0.507
+===============================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      8.000
+    - User constraint on ending point:       3.700
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.300
+
+    - Propagation time:                      4.807
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.507
+
+    Number of logic level(s):                1
+    Starting point:                          test_0.dsd_lnn[0] / Q
+    Ending point:                            dsd_ln7 / dsd_ln7
+    The start point is clocked by            mclk [rising] (rise=0.000 fall=4.000 period=8.000) on pin CLK
+    The end   point is clocked by            mclk [rising] (rise=0.000 fall=4.000 period=8.000)
+
+Instance / Net                   Pin         Pin               Arrival     No. of    
+Name                  Type       Name        Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------
+test_0.dsd_lnn[0]     SLE        Q           Out     0.094     0.094 f     -         
+dsd_ln7_c             Net        -           -       0.971     -           1         
+dsd_ln7_obuf          OUTBUF     D           In      -         1.066 f     -         
+dsd_ln7_obuf          OUTBUF     PAD         Out     3.741     4.807 f     -         
+dsd_ln7               Net        -           -       0.000     -           1         
+dsd_ln7               Port       dsd_ln7     Out     -         4.807 f     -         
+=====================================================================================
+Total path delay (propagation time + setup) of 4.807 is 3.835(79.8%) logic and 0.971(20.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      8.000
+    - User constraint on ending point:       3.700
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.300
+
+    - Propagation time:                      4.807
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.507
+
+    Number of logic level(s):                1
+    Starting point:                          test_0.dsd_lnn[1] / Q
+    Ending point:                            dsd_ln6 / dsd_ln6
+    The start point is clocked by            mclk [rising] (rise=0.000 fall=4.000 period=8.000) on pin CLK
+    The end   point is clocked by            mclk [rising] (rise=0.000 fall=4.000 period=8.000)
+
+Instance / Net                   Pin         Pin               Arrival     No. of    
+Name                  Type       Name        Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------
+test_0.dsd_lnn[1]     SLE        Q           Out     0.094     0.094 f     -         
+dsd_ln6_c             Net        -           -       0.971     -           1         
+dsd_ln6_obuf          OUTBUF     D           In      -         1.066 f     -         
+dsd_ln6_obuf          OUTBUF     PAD         Out     3.741     4.807 f     -         
+dsd_ln6               Net        -           -       0.000     -           1         
+dsd_ln6               Port       dsd_ln6     Out     -         4.807 f     -         
+=====================================================================================
+Total path delay (propagation time + setup) of 4.807 is 3.835(79.8%) logic and 0.971(20.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      8.000
+    - User constraint on ending point:       3.700
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.300
+
+    - Propagation time:                      4.807
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.507
+
+    Number of logic level(s):                1
+    Starting point:                          test_0.dsd_lnn[2] / Q
+    Ending point:                            dsd_ln5 / dsd_ln5
+    The start point is clocked by            mclk [rising] (rise=0.000 fall=4.000 period=8.000) on pin CLK
+    The end   point is clocked by            mclk [rising] (rise=0.000 fall=4.000 period=8.000)
+
+Instance / Net                   Pin         Pin               Arrival     No. of    
+Name                  Type       Name        Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------
+test_0.dsd_lnn[2]     SLE        Q           Out     0.094     0.094 f     -         
+dsd_ln5_c             Net        -           -       0.971     -           1         
+dsd_ln5_obuf          OUTBUF     D           In      -         1.066 f     -         
+dsd_ln5_obuf          OUTBUF     PAD         Out     3.741     4.807 f     -         
+dsd_ln5               Net        -           -       0.000     -           1         
+dsd_ln5               Port       dsd_ln5     Out     -         4.807 f     -         
+=====================================================================================
+Total path delay (propagation time + setup) of 4.807 is 3.835(79.8%) logic and 0.971(20.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      8.000
+    - User constraint on ending point:       3.700
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.300
+
+    - Propagation time:                      4.807
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.507
+
+    Number of logic level(s):                1
+    Starting point:                          test_0.dsd_lnn[3] / Q
+    Ending point:                            dsd_ln4 / dsd_ln4
+    The start point is clocked by            mclk [rising] (rise=0.000 fall=4.000 period=8.000) on pin CLK
+    The end   point is clocked by            mclk [rising] (rise=0.000 fall=4.000 period=8.000)
+
+Instance / Net                   Pin         Pin               Arrival     No. of    
+Name                  Type       Name        Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------
+test_0.dsd_lnn[3]     SLE        Q           Out     0.094     0.094 f     -         
+dsd_ln4_c             Net        -           -       0.971     -           1         
+dsd_ln4_obuf          OUTBUF     D           In      -         1.066 f     -         
+dsd_ln4_obuf          OUTBUF     PAD         Out     3.741     4.807 f     -         
+dsd_ln4               Net        -           -       0.000     -           1         
+dsd_ln4               Port       dsd_ln4     Out     -         4.807 f     -         
+=====================================================================================
+Total path delay (propagation time + setup) of 4.807 is 3.835(79.8%) logic and 0.971(20.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      8.000
+    - User constraint on ending point:       3.700
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.300
+
+    - Propagation time:                      4.807
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.507
+
+    Number of logic level(s):                1
+    Starting point:                          test_0.dsd_lnn[4] / Q
+    Ending point:                            dsd_ln3 / dsd_ln3
+    The start point is clocked by            mclk [rising] (rise=0.000 fall=4.000 period=8.000) on pin CLK
+    The end   point is clocked by            mclk [rising] (rise=0.000 fall=4.000 period=8.000)
+
+Instance / Net                   Pin         Pin               Arrival     No. of    
+Name                  Type       Name        Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------
+test_0.dsd_lnn[4]     SLE        Q           Out     0.094     0.094 f     -         
+dsd_ln3_c             Net        -           -       0.971     -           1         
+dsd_ln3_obuf          OUTBUF     D           In      -         1.066 f     -         
+dsd_ln3_obuf          OUTBUF     PAD         Out     3.741     4.807 f     -         
+dsd_ln3               Net        -           -       0.000     -           1         
+dsd_ln3               Port       dsd_ln3     Out     -         4.807 f     -         
+=====================================================================================
+Total path delay (propagation time + setup) of 4.807 is 3.835(79.8%) logic and 0.971(20.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: mclk4549
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                            Starting                                    Arrival          
+Instance                    Reference     Type     Pin     Net          Time        Slack
+                            Clock                                                        
+-----------------------------------------------------------------------------------------
+test_0.u100.UPCMTX.i[5]     mclk4549      SLE      Q       olrck2       0.076       5.955
+test_0.u100.UPCMTX.d1       mclk4549      SLE      Q       odata2       0.076       6.447
+test_0.dsdlq[0]             mclk4549      SLE      Q       dsdlq[0]     0.094       6.733
+test_0.dsdlq[1]             mclk4549      SLE      Q       dsdlq[1]     0.094       6.733
+test_0.dsdlq[2]             mclk4549      SLE      Q       dsdlq[2]     0.094       6.733
+test_0.dsdlq[3]             mclk4549      SLE      Q       dsdlq[3]     0.094       6.733
+test_0.dsdlq[4]             mclk4549      SLE      Q       dsdlq[4]     0.094       6.733
+test_0.dsdlq[5]             mclk4549      SLE      Q       dsdlq[5]     0.094       6.733
+test_0.dsdlq[6]             mclk4549      SLE      Q       dsdlq[6]     0.094       6.733
+test_0.dsdrq[0]             mclk4549      SLE      Q       dsdrq[0]     0.094       6.733
+=========================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                      Starting                                      Required          
+Instance              Reference     Type     Pin     Net            Time         Slack
+                      Clock                                                           
+--------------------------------------------------------------------------------------
+test_0.dsdlq[0]       mclk4549      SLE      D       olrck_o        7.778        5.955
+test_0.dsdrq[0]       mclk4549      SLE      D       odata_o        7.778        6.447
+test_0.dsd_lnn[0]     mclk4549      SLE      D       dsdlq_i[0]     7.778        6.733
+test_0.dsd_lnn[1]     mclk4549      SLE      D       dsdlq_i[1]     7.778        6.733
+test_0.dsd_lnn[2]     mclk4549      SLE      D       dsdlq_i[2]     7.778        6.733
+test_0.dsd_lnn[3]     mclk4549      SLE      D       dsdlq_i[3]     7.778        6.733
+test_0.dsd_lnn[4]     mclk4549      SLE      D       dsdlq_i[4]     7.778        6.733
+test_0.dsd_lnn[5]     mclk4549      SLE      D       dsdlq_i[5]     7.778        6.733
+test_0.dsd_lnn[6]     mclk4549      SLE      D       dsdlq_i[6]     7.778        6.733
+test_0.dsd_rnn[0]     mclk4549      SLE      D       dsdrq_i[0]     7.778        6.733
+======================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      8.000
+    - Setup time:                            0.222
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         7.778
+
+    - Propagation time:                      1.823
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 5.955
+
+    Number of logic level(s):                1
+    Starting point:                          test_0.u100.UPCMTX.i[5] / Q
+    Ending point:                            test_0.dsdlq[0] / D
+    The start point is clocked by            mclk4549 [rising] (rise=0.000 fall=8.000 period=16.000) on pin CLK
+    The end   point is clocked by            mclk4549 [falling] (rise=0.000 fall=8.000 period=16.000) on pin CLK
+
+Instance / Net                       Pin      Pin               Arrival     No. of    
+Name                        Type     Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------
+test_0.u100.UPCMTX.i[5]     SLE      Q        Out     0.076     0.076 r     -         
+olrck2                      Net      -        -       0.708     -           4         
+test_0.u100.olrck           CFG3     A        In      -         0.784 r     -         
+test_0.u100.olrck           CFG3     Y        Out     0.067     0.852 r     -         
+olrck_o                     Net      -        -       0.971     -           2         
+test_0.dsdlq[0]             SLE      D        In      -         1.823 r     -         
+======================================================================================
+Total path delay (propagation time + setup) of 2.045 is 0.365(17.9%) logic and 1.680(82.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: sdclk_n
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                  Starting                                          Arrival          
+Instance                          Reference     Type     Pin     Net                Time        Slack
+                                  Clock                                                              
+-----------------------------------------------------------------------------------------------------
+test_0.u100.UD100.data_out_en     sdclk_n       SLE      Q       sd_data_out_en     0.094       7.734
+test_0.u100.cmden                 sdclk_n       SLE      Q       cmd_out_en         0.094       7.744
+test_0.u100.cmdo                  sdclk_n       SLE      Q       cmd_out            0.094       7.744
+test_0.u100.UD100.data_out[0]     sdclk_n       SLE      Q       sd_data_out[0]     0.094       7.744
+test_0.u100.UD100.data_out[1]     sdclk_n       SLE      Q       sd_data_out[1]     0.094       7.744
+test_0.u100.UD100.data_out[2]     sdclk_n       SLE      Q       sd_data_out[2]     0.094       7.744
+test_0.u100.UD100.data_out[3]     sdclk_n       SLE      Q       sd_data_out[3]     0.094       7.744
+test_0.u100.UD100.i[3]            sdclk_n       SLE      Q       i[3]               0.094       8.377
+test_0.u100.UD100.i[4]            sdclk_n       SLE      Q       i[4]               0.076       8.502
+test_0.u100.UD100.i[2]            sdclk_n       SLE      Q       i[2]               0.076       8.505
+=====================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                            Starting                                           Required          
+Instance                    Reference     Type     Pin     Net                 Time         Slack
+                            Clock                                                                
+-------------------------------------------------------------------------------------------------
+test_0.u100.UD100.i[9]      sdclk_n       SLE      D       i_s[9]              15.778       8.377
+test_0.u100.UD100.i[8]      sdclk_n       SLE      D       i_s[8]              15.778       8.391
+test_0.u100.UD100.i[7]      sdclk_n       SLE      D       i_s[7]              15.778       8.405
+test_0.u100.UD100.i[6]      sdclk_n       SLE      D       i_s[6]              15.778       8.419
+test_0.u100.UD100.i[1]      sdclk_n       SLE      D       i_s[1]              15.778       8.434
+test_0.u100.UD100.i[5]      sdclk_n       SLE      D       i_s[5]              15.778       8.434
+test_0.u100.UD100.i[4]      sdclk_n       SLE      D       i_s[4]              15.778       8.448
+test_0.u100.UD100.i[3]      sdclk_n       SLE      D       i_s[3]              15.778       8.462
+test_0.u100.UD100.i[2]      sdclk_n       SLE      D       i_s[2]              15.778       8.476
+test_0.u100.response[1]     sdclk_n       SLE      D       n_response_1[1]     15.778       8.520
+=================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      16.000
+    - User constraint on ending point:       0.500
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         15.500
+
+    - Propagation time:                      7.766
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 7.734
+
+    Number of logic level(s):                1
+    Starting point:                          test_0.u100.UD100.data_out_en / Q
+    Ending point:                            sd_d0 / sd_d0
+    The start point is clocked by            sdclk_n [rising] (rise=0.000 fall=8.000 period=16.000) on pin CLK
+    The end   point is clocked by            sdclk_n [rising] (rise=0.000 fall=8.000 period=16.000)
+
+Instance / Net                              Pin       Pin               Arrival     No. of    
+Name                              Type      Name      Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------
+test_0.u100.UD100.data_out_en     SLE       Q         Out     0.094     0.094 f     -         
+sd_data_out_en                    Net       -         -       0.982     -           4         
+test_0.UDAT0                      BIBUF     E         In      -         1.076 f     -         
+test_0.UDAT0                      BIBUF     PAD       Out     6.690     7.766 r     -         
+sd_d0                             Net       -         -       0.000     -           2         
+sd_d0                             Port      sd_d0     Out     -         7.766 r     -         
+==============================================================================================
+Total path delay (propagation time + setup) of 7.766 is 6.784(87.4%) logic and 0.982(12.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: sdtop|dsd_clkr_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                              Starting                                                        Arrival          
+Instance                      Reference                         Type     Pin     Net          Time        Slack
+                              Clock                                                                            
+---------------------------------------------------------------------------------------------------------------
+test_0.u100.UDSDTX.t1[31]     sdtop|dsd_clkr_inferred_clock     SLE      Q       olrck1       0.076       3.338
+test_0.u100.UDSDTX.t2[31]     sdtop|dsd_clkr_inferred_clock     SLE      Q       odata1       0.076       3.338
+test_0.u100.UDSDTX.i[0]       sdtop|dsd_clkr_inferred_clock     SLE      Q       i[0]         0.076       6.235
+test_0.u100.UDSDTX.i[1]       sdtop|dsd_clkr_inferred_clock     SLE      Q       i[1]         0.076       6.358
+test_0.u100.UDSDTX.i[2]       sdtop|dsd_clkr_inferred_clock     SLE      Q       i[2]         0.076       6.490
+test_0.u100.UDSDTX.i[3]       sdtop|dsd_clkr_inferred_clock     SLE      Q       i[3]         0.076       6.743
+test_0.u100.UDSDTX.i[4]       sdtop|dsd_clkr_inferred_clock     SLE      Q       i[4]         0.076       7.214
+test_0.dsdlq[0]               sdtop|dsd_clkr_inferred_clock     SLE      Q       dsdlq[0]     0.076       9.054
+test_0.dsdlq[1]               sdtop|dsd_clkr_inferred_clock     SLE      Q       dsdlq[1]     0.076       9.054
+test_0.dsdlq[2]               sdtop|dsd_clkr_inferred_clock     SLE      Q       dsdlq[2]     0.076       9.054
+===============================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                             Starting                                                       Required          
+Instance                     Reference                         Type     Pin     Net         Time         Slack
+                             Clock                                                                            
+--------------------------------------------------------------------------------------------------------------
+test_0.dsdlq[0]              sdtop|dsd_clkr_inferred_clock     SLE      D       olrck_o     4.778        3.338
+test_0.dsdrq[0]              sdtop|dsd_clkr_inferred_clock     SLE      D       odata_o     4.778        3.338
+test_0.u100.UDSDTX.t2[2]     sdtop|dsd_clkr_inferred_clock     SLE      SLn     N_64_i      9.707        6.235
+test_0.u100.UDSDTX.t2[3]     sdtop|dsd_clkr_inferred_clock     SLE      SLn     N_64_i      9.707        6.235
+test_0.u100.UDSDTX.t2[4]     sdtop|dsd_clkr_inferred_clock     SLE      SLn     N_64_i      9.707        6.235
+test_0.u100.UDSDTX.t2[5]     sdtop|dsd_clkr_inferred_clock     SLE      SLn     N_64_i      9.707        6.235
+test_0.u100.UDSDTX.t2[6]     sdtop|dsd_clkr_inferred_clock     SLE      SLn     N_64_i      9.707        6.235
+test_0.u100.UDSDTX.t2[7]     sdtop|dsd_clkr_inferred_clock     SLE      SLn     N_64_i      9.707        6.235
+test_0.u100.UDSDTX.t2[8]     sdtop|dsd_clkr_inferred_clock     SLE      SLn     N_64_i      9.707        6.235
+test_0.u100.UDSDTX.t2[9]     sdtop|dsd_clkr_inferred_clock     SLE      SLn     N_64_i      9.707        6.235
+==============================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      5.000
+    - Setup time:                            0.222
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.778
+
+    - Propagation time:                      1.440
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 3.338
+
+    Number of logic level(s):                1
+    Starting point:                          test_0.u100.UDSDTX.t1[31] / Q
+    Ending point:                            test_0.dsdlq[0] / D
+    The start point is clocked by            sdtop|dsd_clkr_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            sdtop|dsd_clkr_inferred_clock [falling] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+
+Instance / Net                         Pin      Pin               Arrival     No. of    
+Name                          Type     Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------
+test_0.u100.UDSDTX.t1[31]     SLE      Q        Out     0.076     0.076 r     -         
+olrck1                        Net      -        -       0.216     -           1         
+test_0.u100.olrck             CFG3     C        In      -         0.292 r     -         
+test_0.u100.olrck             CFG3     Y        Out     0.177     0.469 r     -         
+olrck_o                       Net      -        -       0.971     -           2         
+test_0.dsdlq[0]               SLE      D        In      -         1.440 r     -         
+========================================================================================
+Total path delay (propagation time + setup) of 1.662 is 0.475(28.6%) logic and 1.188(71.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: u8_sb_CCC_0_FCCC|GL0_net_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                                          Starting                                                                                                        Arrival          
+Instance                                                                                  Reference                                   Type        Pin                Net                                  Time        Slack
+                                                                                          Clock                                                                                                                            
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+u8_sb_0.CoreAHBLite_0.matrix4x16.masterstage_0.masterRegAddrSel                           u8_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE         Q                  masterRegAddrSel                     0.094       1.462
+u8_sb_0.CoreAHBLite_0.matrix4x16.masterstage_0.regHTRANS                                  u8_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE         Q                  regHTRANS                            0.094       1.759
+u8_sb_0.CoreAHBLite_0.matrix4x16.slavestage_16.slave_arbiter.arbRegSMCurrentState[1]      u8_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE         Q                  arbRegSMCurrentState[1]              0.094       2.100
+u8_sb_0.CoreAHBLite_0.matrix4x16.slavestage_16.slave_arbiter.arbRegSMCurrentState[13]     u8_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE         Q                  arbRegSMCurrentState[13]             0.094       2.334
+u8_sb_0.CoreAHBLite_0.matrix4x16.slavestage_16.slave_arbiter.arbRegSMCurrentState[2]      u8_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE         Q                  arbRegSMCurrentState[2]              0.094       2.446
+u8_sb_0.CoreAHBLite_0.matrix4x16.slavestage_16.slave_arbiter.arbRegSMCurrentState[0]      u8_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE         Q                  arbRegSMCurrentState[0]              0.094       2.873
+u8_sb_0.u8_sb_HPMS_0.MSS_ADLIB_INST                                                       u8_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_025     F_FM0_READYOUT     CoreAHBLite_0_AHBmslave16_HREADY     4.166       2.883
+u8_sb_0.CoreAHBLite_0.matrix4x16.slavestage_16.slave_arbiter.arbRegSMCurrentState[3]      u8_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE         Q                  arbRegSMCurrentState[3]              0.094       2.975
+u8_sb_0.CoreAHBLite_0.matrix4x16.masterstage_0.regHADDR[16]                               u8_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE         Q                  regHADDR[16]                         0.094       4.400
+u8_sb_0.CoreAHBLite_0.matrix4x16.masterstage_0.regHADDR[29]                               u8_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE         Q                  regHADDR[29]                         0.094       4.599
+===========================================================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                        Starting                                                                                                           Required          
+Instance                                Reference                                   Type        Pin                Net                                     Time         Slack
+                                        Clock                                                                                                                                
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+u8_sb_0.u8_sb_HPMS_0.MSS_ADLIB_INST     u8_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_025     F_FM0_TRANS1       CoreAHBLite_0_AHBmslave16_HTRANS[1]     5.949        1.462
+u8_sb_0.u8_sb_HPMS_0.MSS_ADLIB_INST     u8_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_025     F_FM0_WRITE        CoreAHBLite_0_AHBmslave16_HWRITE        6.142        1.480
+u8_sb_0.u8_sb_HPMS_0.MSS_ADLIB_INST     u8_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_025     F_FM0_ADDR[29]     CoreAHBLite_0_AHBmslave16_HADDR[29]     6.422        1.935
+u8_sb_0.u8_sb_HPMS_0.MSS_ADLIB_INST     u8_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_025     F_FM0_ADDR[10]     CoreAHBLite_0_AHBmslave16_HADDR[10]     6.597        1.935
+u8_sb_0.u8_sb_HPMS_0.MSS_ADLIB_INST     u8_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_025     F_FM0_ADDR[14]     CoreAHBLite_0_AHBmslave16_HADDR[14]     6.607        1.945
+u8_sb_0.u8_sb_HPMS_0.MSS_ADLIB_INST     u8_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_025     F_FM0_ADDR[30]     CoreAHBLite_0_AHBmslave16_HADDR[30]     6.439        1.952
+u8_sb_0.u8_sb_HPMS_0.MSS_ADLIB_INST     u8_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_025     F_FM0_ADDR[8]      CoreAHBLite_0_AHBmslave16_HADDR[8]      6.631        1.969
+u8_sb_0.u8_sb_HPMS_0.MSS_ADLIB_INST     u8_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_025     F_FM0_ADDR[9]      CoreAHBLite_0_AHBmslave16_HADDR[9]      6.648        1.986
+u8_sb_0.u8_sb_HPMS_0.MSS_ADLIB_INST     u8_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_025     F_FM0_ADDR[7]      CoreAHBLite_0_AHBmslave16_HADDR[7]      6.706        2.044
+u8_sb_0.u8_sb_HPMS_0.MSS_ADLIB_INST     u8_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_025     F_FM0_ADDR[15]     CoreAHBLite_0_AHBmslave16_HADDR[15]     6.730        2.068
+=============================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            4.051
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.949
+
+    - Propagation time:                      4.487
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 1.462
+
+    Number of logic level(s):                3
+    Starting point:                          u8_sb_0.CoreAHBLite_0.matrix4x16.masterstage_0.masterRegAddrSel / Q
+    Ending point:                            u8_sb_0.u8_sb_HPMS_0.MSS_ADLIB_INST / F_FM0_TRANS1
+    The start point is clocked by            u8_sb_CCC_0_FCCC|GL0_net_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            u8_sb_CCC_0_FCCC|GL0_net_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK_BASE
+
+Instance / Net                                                                                     Pin              Pin               Arrival     No. of    
+Name                                                                                   Type        Name             Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+u8_sb_0.CoreAHBLite_0.matrix4x16.masterstage_0.masterRegAddrSel                        SLE         Q                Out     0.094     0.094 f     -         
+masterRegAddrSel                                                                       Net         -                -       1.040     -           22        
+u8_sb_0.CoreAHBLite_0.matrix4x16.masterstage_0.GATEDHTRANS                             CFG3        A                In      -         1.135 f     -         
+u8_sb_0.CoreAHBLite_0.matrix4x16.masterstage_0.GATEDHTRANS                             CFG3        Y                Out     0.087     1.222 f     -         
+m0s16AddrSel                                                                           Net         -                -       0.920     -           11        
+u8_sb_0.CoreAHBLite_0.matrix4x16.slavestage_16.slave_arbiter.MASTERADDRINPROG_m5_i     CFG4        D                In      -         2.142 f     -         
+u8_sb_0.CoreAHBLite_0.matrix4x16.slavestage_16.slave_arbiter.MASTERADDRINPROG_m5_i     CFG4        Y                Out     0.250     2.392 f     -         
+masterAddrInProg[0]                                                                    Net         -                -       1.048     -           24        
+u8_sb_0.CoreAHBLite_0.matrix4x16.slavestage_16.HTRANS_1                                CFG2        A                In      -         3.440 f     -         
+u8_sb_0.CoreAHBLite_0.matrix4x16.slavestage_16.HTRANS_1                                CFG2        Y                Out     0.076     3.516 f     -         
+CoreAHBLite_0_AHBmslave16_HTRANS[1]                                                    Net         -                -       0.971     -           1         
+u8_sb_0.u8_sb_HPMS_0.MSS_ADLIB_INST                                                    MSS_025     F_FM0_TRANS1     In      -         4.487 f     -         
+============================================================================================================================================================
+Total path delay (propagation time + setup) of 8.538 is 4.558(53.4%) logic and 3.980(46.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+@W: MT447 :"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":18:0:18:0|Timing constraint (from [get_ports { DEVRST_N* }]) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design 
+@W: MT447 :"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":23:0:23:0|Timing constraint (from [get_clocks { gl0 }] to test_0*) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design 
+@W: MT447 :"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":24:0:24:0|Timing constraint (from [get_clocks { mclk4549 }] to u8_sb*) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design 
+@W: MT447 :"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":25:0:25:0|Timing constraint (from [get_clocks { mclk4549 }] to *USPDIF_TX*) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":26:0:26:0|Timing constraint (from [get_clocks { mclk }] to test_0.u100*) (false path) was not applied to the design because the to list is incorrect: it contains no clock, primary output, sequential cell, or sequential cell data input pin 
+@W: MT447 :"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":27:0:27:0|Timing constraint (from [get_clocks { sdclk_n }] to test_0.u200*) (false path) was not applied to the design because the to list is incorrect: it contains no clock, primary output, sequential cell, or sequential cell data input pin 
+@W: MT447 :"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":28:0:28:0|Timing constraint (from [get_clocks { mclk4549 }] to test_0.mclk_d2*) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design 
+@W: MT447 :"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":29:0:29:0|Timing constraint (from [get_clocks { sdclk_n }] to *usync*) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":30:0:30:0|Timing constraint (from [get_clocks { sdclk_n }] to *usync*) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":31:0:31:0|Timing constraint (from [get_clocks { sdclk_n }] to *ufifo*) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":34:0:34:0|Timing constraint (from [get_clocks { sdclk_n }] to u8_sb*) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design 
+@W: MT447 :"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":35:0:35:0|Timing constraint (from [get_clocks { clock138_bck }] to test_0.u200*) (false path) was not applied to the design because the to list is incorrect: it contains no clock, primary output, sequential cell, or sequential cell data input pin 
+@W: MT447 :"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":36:0:36:0|Timing constraint (from [get_clocks { mclk }] to test_0.u200*) (false path) was not applied to the design because the to list is incorrect: it contains no clock, primary output, sequential cell, or sequential cell data input pin 
+@W: MT447 :"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":37:0:37:0|Timing constraint (from [get_clocks { sdclk_n }] to *uctrl*) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":38:0:38:0|Timing constraint (from [get_clocks { mclk4549 }] to *UDOP*) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":39:0:39:0|Timing constraint (from [get_clocks { dop_clock }] to *USPDIF_TX*) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design 
+@W: MT447 :"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":40:0:40:0|Timing constraint (from [get_clocks { dsd_clk }] to *dsd_lp*) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design 
+@W: MT447 :"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":41:0:41:0|Timing constraint (from [get_clocks { dsd_clk }] to *dsd_rp*) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design 
+@W: MT447 :"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":42:0:42:0|Timing constraint (from [get_clocks { dsd_clk }] to *dsd_ln*) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design 
+@W: MT447 :"e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc":43:0:43:0|Timing constraint (from [get_clocks { dsd_clk }] to *dsd_rn*) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design 
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:17s; CPU Time elapsed 0h:00m:17s; Memory used current: 219MB peak: 226MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:17s; CPU Time elapsed 0h:00m:17s; Memory used current: 219MB peak: 226MB)
+
+---------------------------------------
+Resource Usage Report for u8 
+
+Mapping to part: m2gl025vf400-1
+Cell usage:
+CCC             1 use
+CLKINT          18 uses
+CLKINT_PRESERVE  2 uses
+MSS_025         1 use
+SYSRESET        1 use
+CFG1           46 uses
+CFG2           336 uses
+CFG3           345 uses
+CFG4           525 uses
+
+Carry cells:
+ARI1            137 uses - used for arithmetic functions
+ARI1            64 uses - used for Wide-Mux implementation
+Total ARI1      201 uses
+
+
+Sequential Cells: 
+SLE            1130 uses
+
+DSP Blocks:    0 of 34 (0%)
+
+I/O ports: 58
+I/O primitives: 57
+BIBUF          8 uses
+INBUF          4 uses
+OUTBUF         45 uses
+
+
+Global Clock Buffers: 18
+
+Total LUTs:    1453
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K18  Interface Logic : SLEs = 0; LUTs = 0;
+MACC     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  1130 + 0 + 0 + 0 = 1130;
+Total number of LUTs after P&R:  1453 + 0 + 0 + 0 = 1453;
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:18s; CPU Time elapsed 0h:00m:17s; Memory used current: 76MB peak: 226MB)
+
+Process took 0h:00m:18s realtime, 0h:00m:18s cputime
+# Wed Aug 11 17:02:00 2021
+
+###########################################################]

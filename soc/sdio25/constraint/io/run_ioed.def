@@ -1,0 +1,34 @@
+data DESIGN u8
+data HPATH 'D:/820/igloo/soc/sdio25/designer/u8'
+data CPATH 'D:/820/igloo/soc/sdio25/constraint/io'
+data CDIR 'D:/820/igloo/soc/sdio25/constraint'
+data REGION_DEFCOLOR_EMPTY 2143322112
+data REGION_DEFCOLOR_INCLUSIVE 2147442270
+data REGION_DEFCOLOR_EXCLUSIVE 2143338688
+data REGION_DEFCOLOR_CLOCK 16735838
+data ETYPE IO
+data FAM IGLOO2
+data DIE PA4MGL2500_N
+data PACKAGE fg484
+data HYDRA_EXPORT_DATA 1
+data HYDRA_PRESERVE_DATA_FILES 1
+data VCCI_1.2_VOLTR COM
+data VCCI_1.5_VOLTR COM
+data VCCI_1.8_VOLTR COM
+data VCCI_2.5_VOLTR COM
+data VCCI_3.3_VOLTR COM
+data FLOW_TYPE NEW
+data AFL 'D:/820/igloo/soc/sdio25/designer/u8/COMPILE/u8.afl'
+data ADL 'D:/820/igloo/soc/sdio25/designer/u8/u8.adl'
+data LOC 'D:/820/igloo/soc/sdio25/designer/u8/COMPILE/u8.loc'
+data SEG 'D:/820/igloo/soc/sdio25/designer/u8/COMPILE/u8.seg'
+
+data IO_PDC_0 'D:/820/igloo/work/025.pdc'
+data TARGET_IOPDC  'D:/820/igloo/soc/sdio25/constraint/io/user.pdc'
+data TARGET_FPPDC  'D:/820/igloo/soc/sdio25/constraint/fp/user.pdc'
+data RESTRICTPROBEPINS 0
+data RESTRICTSPIPINS 0
+data GDEV_SKIP_UNASSIGN_CMP_CHECK    1 
+data HIDE_MIGRATION_PINS_MENU        1 
+data IO_DEFT_STD LVCMOS33
+

@@ -1,0 +1,169 @@
+
+#1001 : create_clock -name mclk -period 8 -waveform {0 4} [get_ports { mclk }]
+# line 7 in e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc
+
+create_clock -name {mclk} -period {8.000} -waveform {0.000 4.000} [get_ports {mclk}]
+
+#1003 : create_clock -name sdclk_n -period 16 -waveform {0 8} [get_pins { test_0.UCK3.Y }]
+# line 9 in e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc
+
+create_clock -name {sdclk_n} -period {16.000} -waveform {0.000 8.000} [get_pins {test_0.UCK3.Y}]
+
+#1004 : create_clock -name clock138_bck -period 16 -waveform {0 8} [get_ports { clock138_bck }]
+# line 10 in e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc
+
+create_clock -name {clock138_bck} -period {16.000} -waveform {0.000 8.000} [get_ports {clock138_bck}]
+
+#1005 : create_clock -name mclk4549 -period 16 -waveform {0 8} [get_pins { test_0.UCK1.Y }]
+# line 11 in e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc
+
+create_clock -name {mclk4549} -period {16.000} -waveform {0.000 8.000} [get_pins {test_0.UCK1.Y}]
+
+#1010 : set_output_delay 3.7 -clock mclk [get_ports { *dsd_* }]
+# line 16 in e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc
+
+set_output_delay -clock [get_clocks {mclk}] {3.700} [get_ports {dsd_ln0 dsd_ln1 dsd_ln2 dsd_ln3 dsd_ln4 dsd_ln5 dsd_ln6 dsd_ln7 dsd_lp0 dsd_lp1 dsd_lp2 dsd_lp3 dsd_lp4 dsd_lp5 dsd_lp6 dsd_lp7 dsd_rn0 dsd_rn1 dsd_rn2 dsd_rn3 dsd_rn4 dsd_rn5 dsd_rn6 dsd_rn7 dsd_rp0 dsd_rp1 dsd_rp2 dsd_rp3 dsd_rp4 dsd_rp5 dsd_rp6 dsd_rp7}]
+
+#1011 : set_output_delay 0.5 -clock sdclk_n [get_ports { cmd sd_d0 sd_d1 sd_d2 sd_d3 }]
+# line 17 in e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc
+
+set_output_delay -clock [get_clocks {sdclk_n}] {0.500} [get_ports {cmd sd_d0 sd_d1 sd_d2 sd_d3}]
+
+#1012 : set_false_path -from [get_ports { DEVRST_N* }]
+# line 18 in e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc
+
+set_false_path -from [get_ports {DEVRST_N}]
+
+#1013 : set_false_path -to [get_ports { en45* }]
+# line 19 in e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc
+
+set_false_path -to [get_ports {en45}]
+
+#1014 : set_false_path -to [get_ports { en49* }]
+# line 20 in e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc
+
+set_false_path -to [get_ports {en49}]
+
+#1015 : set_false_path -to [get_ports { led* }]
+# line 21 in e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc
+
+set_false_path -to [get_ports {led0 led1 led2 led3 led4 led5 led6 led7}]
+
+#1016 : set_false_path -to [get_ports { spdif_en* }]
+# line 22 in e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc
+
+set_false_path -to [get_ports {spdif_en}]
+
+#1017 : set_false_path -from [get_clocks { gl0 }] -to test_0*
+# line 23 in e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc
+
+set_false_path -from [get_clocks { gl0 }] -to {test_0*}
+
+#1018 : set_false_path -from [get_clocks { mclk4549 }] -to u8_sb*
+# line 24 in e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc
+
+set_false_path -from [get_clocks {mclk4549}] -to [get_clocks {u8_sb_CCC_0_FCCC|GL0_net_inferred_clock}]
+
+#1019 : set_false_path -from [get_clocks { mclk4549 }] -to *USPDIF_TX*
+# line 25 in e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc
+
+set_false_path -from [get_clocks {mclk4549}] -to {*USPDIF_TX*}
+
+#1020 : set_false_path -from [get_clocks { mclk }] -to test_0.u100*
+# line 26 in e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc
+
+set_false_path -from [get_clocks {mclk}] -to {test_0.u100*}
+
+#1021 : set_false_path -from [get_clocks { sdclk_n }] -to test_0.u200*
+# line 27 in e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc
+
+set_false_path -from [get_clocks {sdclk_n}] -to {test_0.u200*}
+
+#1022 : set_false_path -from [get_clocks { mclk4549 }] -to test_0.mclk_d2*
+# line 28 in e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc
+
+set_false_path -from [get_clocks {mclk4549}] -to [get_cells {test_0.mclk_d2}]
+
+#1023 : set_false_path -from [get_clocks { sdclk_n }] -to *usync*
+# line 29 in e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc
+
+set_false_path -from [get_clocks {sdclk_n}] -to {*usync*}
+
+#1024 : set_false_path -from [get_clocks { sdclk_n }] -to *usync*
+# line 30 in e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc
+
+set_false_path -from [get_clocks {sdclk_n}] -to {*usync*}
+
+#1025 : set_false_path -from [get_clocks { sdclk_n }] -to *ufifo*
+# line 31 in e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc
+
+set_false_path -from [get_clocks {sdclk_n}] -to {*ufifo*}
+
+#1026 : set_false_path -from test_0.u100.uctrl.sound_card_start*
+# line 32 in e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc
+
+set_false_path -from [get_cells {test_0.u100.uctrl.sound_card_start}]
+
+#1027 : set_false_path -from test_0.u100.uctrl.use_dsd*
+# line 33 in e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc
+
+set_false_path -from [get_cells {test_0.u100.uctrl.use_dsd}]
+
+#1028 : set_false_path -from [get_clocks { sdclk_n }] -to u8_sb*
+# line 34 in e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc
+
+set_false_path -from [get_clocks {sdclk_n}] -to [get_clocks {u8_sb_CCC_0_FCCC|GL0_net_inferred_clock}]
+
+#1029 : set_false_path -from [get_clocks { clock138_bck }] -to test_0.u200*
+# line 35 in e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc
+
+set_false_path -from [get_clocks {clock138_bck}] -to {test_0.u200*}
+
+#1030 : set_false_path -from [get_clocks { mclk }] -to test_0.u200*
+# line 36 in e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc
+
+set_false_path -from [get_clocks {mclk}] -to {test_0.u200*}
+
+#1031 : set_false_path -from [get_clocks { sdclk_n }] -to *uctrl*
+# line 37 in e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc
+
+set_false_path -from [get_clocks {sdclk_n}] -to {*uctrl*}
+
+#1032 : set_false_path -from [get_clocks { mclk4549 }] -to *UDOP*
+# line 38 in e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc
+
+set_false_path -from [get_clocks {mclk4549}] -to {*UDOP*}
+
+#1033 : set_false_path -from [get_clocks { dop_clock }] -to *USPDIF_TX*
+# line 39 in e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc
+
+set_false_path -from [get_clocks { dop_clock }] -to {*USPDIF_TX*}
+
+#1034 : set_false_path -from [get_clocks { dsd_clk }] -to *dsd_lp*
+# line 40 in e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc
+
+set_false_path -from [get_clocks { dsd_clk }] -to [get_ports {dsd_lp0 dsd_lp1 dsd_lp2 dsd_lp3 dsd_lp4 dsd_lp5 dsd_lp6 dsd_lp7}]
+
+#1035 : set_false_path -from [get_clocks { dsd_clk }] -to *dsd_rp*
+# line 41 in e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc
+
+set_false_path -from [get_clocks { dsd_clk }] -to [get_ports {dsd_rp0 dsd_rp1 dsd_rp2 dsd_rp3 dsd_rp4 dsd_rp5 dsd_rp6 dsd_rp7}]
+
+#1036 : set_false_path -from [get_clocks { dsd_clk }] -to *dsd_ln*
+# line 42 in e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc
+
+set_false_path -from [get_clocks { dsd_clk }] -to [get_ports {dsd_ln0 dsd_ln1 dsd_ln2 dsd_ln3 dsd_ln4 dsd_ln5 dsd_ln6 dsd_ln7}]
+
+#1037 : set_false_path -from [get_clocks { dsd_clk }] -to *dsd_rn*
+# line 43 in e:/dac/igloo/soc/sdio25/designer/u8/synthesis.fdc
+
+set_false_path -from [get_clocks { dsd_clk }] -to [get_ports {dsd_rn0 dsd_rn1 dsd_rn2 dsd_rn3 dsd_rn4 dsd_rn5 dsd_rn6 dsd_rn7}]
+define_attribute {i:test_0.UBB} {syn_noprune} 1
+define_attribute {i:test_0.UDAT0} {syn_noprune} 1
+define_attribute {i:test_0.UDAT1} {syn_noprune} 1
+define_attribute {i:test_0.UDAT2} {syn_noprune} 1
+define_attribute {i:test_0.UDAT3} {syn_noprune} 1
+define_attribute {i:test_0.UDAT20} {syn_noprune} 1
+define_attribute {i:test_0.UDAT21} {syn_noprune} 1
+define_attribute {i:test_0.UDAT22} {syn_noprune} 1
+define_attribute {i:u8_sb_0} {syn_noprune} 1

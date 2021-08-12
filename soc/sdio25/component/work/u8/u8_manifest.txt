@@ -1,0 +1,15 @@
+Microsemi Corporation - Microsemi Libero Software Release v12.6 (Version 12.900.20.24)
+
+Date      :  Tue Aug 10 17:39:21 2021
+Project   :  E:\DAC\igloo\soc\sdio25
+Component :  u8
+Family    :  IGLOO2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    E:/DAC/igloo/soc/sdio25/component/work/u8/u8.v
+
+Stimulus files for all Simulation tools:
+    E:/DAC/igloo/soc/sdio25/component/work/u8/subsystem.bfm
+    E:/DAC/igloo/soc/sdio25/component/work/u8/subsystem.bfm
+

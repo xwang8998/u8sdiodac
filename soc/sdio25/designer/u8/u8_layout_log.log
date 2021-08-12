@@ -1,0 +1,108 @@
+INFO: Reading User SDC file E:\DAC\igloo\work\test.sdc.
+INFO: The option "Abort flow if errors are found in SDC" is turned ON in Project Settings> Design flow page. The Place & Route tool will fail if errors are found in associated SDC files. Please uncheck the option to ignore the errors and continue running the tool.
+
+No errors or warnings found.
+INFO: The option "Abort flow if errors are found in PDC" is turned ON in Project Settings> Design flow page. The Place & Route tool will fail if errors are found in associated PDC files. Please uncheck the option to ignore the errors and continue running the tool
+***** Place and Route Configurations *****
+Timing-driven            : ON
+Power-driven             : OFF
+I/O Register Combining   : ON
+High-effort              : OFF
+Repair min-delay         : ON
+Incremental              : OFF
+Inter-clock optimization : ON
+
+INFO: Reading User PDC file E:\DAC\igloo\work\025.pdc. 0 error(s) and 0 warning(s)
+
+Running the I/O Bank and Globals Assigner.
+Info:  I/O Bank and Globals Assigner identified 57 fixed I/O macros, 0 unfixed I/O macros
+
+I/O Bank and Globals Assigner completed successfully.
+Total time spent in I/O Bank and Globals Assigner: 0 seconds
+
+Placer V5.0 - 12.900.20 
+Design: u8                              Started: Wed Aug 11 17:02:29 2021
+
+Initializing Normal-Effort Timing-Driven Placement ...
+Clustering ...
+Placing ...
+Improving placement ...
+Info:  This design contains global nets which are difficult to route, and extra effort is being applied to find a solution.
+End of placement.
+
+Placer Runtime Summary   :
+Clustering (1 pass)      : 0 seconds
+Placement                : 2 seconds
+Improvement              : 3 seconds
+
+Placer completed successfully.
+
+Design: u8                              
+Finished: Wed Aug 11 17:02:59 2021
+Total CPU Time:     00:00:28            Total Elapsed Time: 00:00:30
+Total Memory Usage: 324.1 Mbytes
+                        o - o - o - o - o - o
+
+
+Warning:  The following clocks are routed using regular routing resources instead of dedicated global resources. Clocks using regular routing are more susceptible to noise than those using dedicated global resources. Microchip recommends promoting these signals to dedicated global resources.
+    Driver: test_0/u100/DSD138/UIN100/master_lrck:Y
+       Net: test_0/u100/master_lrck
+Clock pins: 1
+    Driver: test_0/u100/DSD138/UIN100/UCK0/clk2:Q
+       Net: test_0/u100/DSD138/UIN100/UCK0/clk2
+Clock pins: 1
+    Driver: test_0/u100/DSD138/UIN100/UCK0/clk8:Q
+       Net: test_0/u100/DSD138/UIN100/UCK0/clk8
+Clock pins: 1
+    Driver: test_0/u100/DSD138/UIN100/UCK0/clk16:Q
+       Net: test_0/u100/DSD138/UIN100/UCK0/clk16
+Clock pins: 1
+    Driver: test_0/u100/DSD138/UIN100/UCK0/clk4:Q
+       Net: test_0/u100/DSD138/UIN100/UCK0/clk4
+Clock pins: 1
+
+Router 
+Design: E:\DAC\igloo\soc\sdio25\designer\u8\u8Started: Wed Aug 11 17:03:04 2021
+
+
+Router completed successfully.
+
+Design: E:\DAC\igloo\soc\sdio25\designer\u8\u8
+Finished: Wed Aug 11 17:03:16 2021
+Total CPU Time:     00:00:10            Total Elapsed Time: 00:00:12
+Total Memory Usage: 920.4 Mbytes
+                        o - o - o - o - o - o
+
+Info: Iteration 1:
+  Total violating paths eligible for improvement: 139
+  Worst minimum delay slack: -3.838 ns
+Info: Iteration 2:
+  Total violating paths eligible for improvement: 132
+  Worst minimum delay slack: -3.267 ns
+Info: Iteration 3:
+  Total violating paths eligible for improvement: 92
+  Worst minimum delay slack: -1.807 ns
+Info: Iteration 4:
+  Total violating paths eligible for improvement: 8
+  Worst minimum delay slack: -1.386 ns
+Info: Iteration 5:
+  Total violating paths eligible for improvement: 8
+  Worst minimum delay slack: -1.209 ns
+Resource Usage
++---------------+------+-------+------------+
+| Type          | Used | Total | Percentage |
++---------------+------+-------+------------+
+| 4LUT          | 2152 | 27696 | 7.77       |
+| DFF           | 1092 | 27696 | 3.94       |
+| I/O Register  | 38   | 801   | 4.74       |
+| Logic Element | 2352 | 27696 | 8.49       |
++---------------+------+-------+------------+
+
+I/O Placement
++--------+-------+------------+
+| Type   | Count | Percentage |
++--------+-------+------------+
+| Locked |  57   | 100.00%    |
+| Placed |  0    | 0.00%      |
++--------+-------+------------+
+

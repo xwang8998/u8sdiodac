@@ -1,0 +1,38 @@
+# Microsemi Physical design constraints file
+
+# Version: v12.6 12.900.20.24
+
+# Design Name:  
+
+# Input Netlist Format: EDIF 
+
+# Family: IGLOO2 , Die: M2GL025 , Package: 484 FBGA , Speed grade: -1 
+
+# Date generated: Wed Aug 11 17:02:08 2021 
+
+
+#
+# IO banks setting
+#
+
+
+#
+# Local clock constraints
+#
+
+
+#
+# Region constraints
+#
+
+
+#
+# I/O constraints
+#
+
+set_io DEVRST_N -DIRECTION INPUT -pinname R15
+
+#
+# Core cell constraints
+#
+

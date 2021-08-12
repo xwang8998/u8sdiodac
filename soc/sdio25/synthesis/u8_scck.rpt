@@ -1,0 +1,103 @@
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03M-SP1
+Install: C:\Microsemi\Libero_SoC_v12.6\SynplifyPro
+OS: Windows 6.1
+
+Hostname: WIN7-2020MEADRD
+
+Implementation : synthesis
+
+# Written on Wed Aug 11 17:01:37 2021
+
+##### FILES SYNTAX CHECKED ##############################################
+Constraint File(s):      "E:\DAC\igloo\soc\sdio25\designer\u8\synthesis.fdc"
+
+#Run constraint checker to find more issues with constraints.
+#########################################################################
+
+
+
+No issues found in constraint syntax.
+
+
+
+Clock Summary
+*************
+
+          Start                                                         Requested     Requested     Clock        Clock                    Clock
+Level     Clock                                                         Frequency     Period        Type         Group                    Load 
+-----------------------------------------------------------------------------------------------------------------------------------------------
+0 -       mclk4549                                                      62.5 MHz      16.000        declared     default_clkgroup         667  
+                                                                                                                                               
+0 -       sdclk_n                                                       62.5 MHz      16.000        declared     default_clkgroup         356  
+                                                                                                                                               
+0 -       mclk                                                          125.0 MHz     8.000         declared     default_clkgroup         33   
+                                                                                                                                               
+0 -       clock138_bck                                                  62.5 MHz      16.000        declared     default_clkgroup         18   
+                                                                                                                                               
+0 -       clock_divider|clk2_inferred_clock                             100.0 MHz     10.000        inferred     Inferred_clkgroup_1      314  
+                                                                                                                                               
+0 -       clock_divider|clk4_inferred_clock                             100.0 MHz     10.000        inferred     Inferred_clkgroup_2      314  
+                                                                                                                                               
+0 -       clock_divider|clk8_inferred_clock                             100.0 MHz     10.000        inferred     Inferred_clkgroup_3      314  
+                                                                                                                                               
+0 -       clock_divider|clk16_inferred_clock                            100.0 MHz     10.000        inferred     Inferred_clkgroup_9      314  
+                                                                                                                                               
+0 -       u8_sb_CCC_0_FCCC|GL0_net_inferred_clock                       100.0 MHz     10.000        inferred     Inferred_clkgroup_4      113  
+                                                                                                                                               
+0 -       sdtop|dsd_clkr_inferred_clock                                 100.0 MHz     10.000        inferred     Inferred_clkgroup_0      86   
+                                                                                                                                               
+0 -       u8_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     100.0 MHz     10.000        inferred     Inferred_clkgroup_5      15   
+                                                                                                                                               
+0 -       u8|sdclk                                                      100.0 MHz     10.000        inferred     Inferred_clkgroup_6      5    
+                                                                                                                                               
+0 -       inctrl|master_lrck_inferred_clock                             100.0 MHz     10.000        inferred     Inferred_clkgroup_10     1    
+                                                                                                                                               
+0 -       sdtop|clk_d2_inferred_clock                                   100.0 MHz     10.000        inferred     Inferred_clkgroup_7      1    
+                                                                                                                                               
+0 -       sdtop|clk_d4_inferred_clock                                   100.0 MHz     10.000        inferred     Inferred_clkgroup_8      1    
+===============================================================================================================================================
+
+
+Clock Load Summary
+******************
+
+                                                              Clock     Source                                                       Clock Pin                                        Non-clock Pin     Non-clock Pin                                              
+Clock                                                         Load      Pin                                                          Seq Example                                      Seq Example       Comb Example                                               
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+mclk4549                                                      667       test_0.UCK1.Y(CLKINT_PRESERVE)                               test_0.dsdlq[7:0].C                              -                 test_0.UCK300.I(BUFG)                                      
+                                                                                                                                                                                                                                                                   
+sdclk_n                                                       356       test_0.UCK3.Y(CLKINT_PRESERVE)                               test_0.u100.no_crc.C                             -                 test_0.u100.uctrl.ufifo.sdclk_n_1.I[0](keepbuf)            
+                                                                                                                                                                                                                                                                   
+mclk                                                          33        mclk(port)                                                   test_0.mclk_d2.C                                 -                 -                                                          
+                                                                                                                                                                                                                                                                   
+clock138_bck                                                  18        clock138_bck(port)                                           test_0.u200.olrck.C                              -                 -                                                          
+                                                                                                                                                                                                                                                                   
+clock_divider|clk2_inferred_clock                             314       test_0.u100.DSD138.UIN100.UCK0.clk2.Q[0](dffr)               test_0.dsdlq[7:0].C                              -                 test_0.UCK300.I(BUFG)                                      
+                                                                                                                                                                                                                                                                   
+clock_divider|clk4_inferred_clock                             314       test_0.u100.DSD138.UIN100.UCK0.clk4.Q[0](dffr)               test_0.dsdlq[7:0].C                              -                 test_0.UCK300.I(BUFG)                                      
+                                                                                                                                                                                                                                                                   
+clock_divider|clk8_inferred_clock                             314       test_0.u100.DSD138.UIN100.UCK0.clk8.Q[0](dffr)               test_0.dsdlq[7:0].C                              -                 test_0.UCK300.I(BUFG)                                      
+                                                                                                                                                                                                                                                                   
+clock_divider|clk16_inferred_clock                            314       test_0.u100.DSD138.UIN100.UCK0.clk16.Q[0](dffr)              test_0.dsdlq[7:0].C                              -                 test_0.UCK300.I(BUFG)                                      
+                                                                                                                                                                                                                                                                   
+u8_sb_CCC_0_FCCC|GL0_net_inferred_clock                       113       u8_sb_0.CCC_0.CCC_INST.GL0(CCC)                              u8_sb_0.u8_sb_HPMS_0.MSS_ADLIB_INST.CLK_BASE     -                 u8_sb_0.CCC_0.GL0_INST.I(BUFG)                             
+                                                                                                                                                                                                                                                                   
+sdtop|dsd_clkr_inferred_clock                                 86        test_0.u100.dsd_clkr.Q[0](dff)                               test_0.dsdlq[7:0].C                              -                 test_0.UCK300.I(BUFG)                                      
+                                                                                                                                                                                                                                                                   
+u8_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     15        u8_sb_0.FABOSC_0.I_RCOSC_25_50MHZ.CLKOUT(RCOSC_25_50MHZ)     u8_sb_0.CORERESETP_0.release_sdif0_core.C        -                 u8_sb_0.FABOSC_0.I_RCOSC_25_50MHZ_FAB.A(RCOSC_25_50MHZ_FAB)
+                                                                                                                                                                                                                                                                   
+u8|sdclk                                                      5         sdclk(port)                                                  test_0.u100.cmd0.C                               -                 test_0.ns.I[0](inv)                                        
+                                                                                                                                                                                                                                                                   
+inctrl|master_lrck_inferred_clock                             1         test_0.u100.DSD138.UIN100.master_lrck.OUT(and)               test_0.u100.master_lrckd2.C                      -                 -                                                          
+                                                                                                                                                                                                                                                                   
+sdtop|clk_d2_inferred_clock                                   1         test_0.u100.clk_d2.Q[0](dffr)                                test_0.u100.clk_d4.C                             -                 -                                                          
+                                                                                                                                                                                                                                                                   
+sdtop|clk_d4_inferred_clock                                   1         test_0.u100.clk_d4.Q[0](dffr)                                test_0.u100.clk_d8.C                             -                 -                                                          
+===================================================================================================================================================================================================================================================================
