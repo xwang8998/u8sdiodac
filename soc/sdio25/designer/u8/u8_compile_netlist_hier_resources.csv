@@ -1,22 +1,22 @@
 Detailed Resource Usage
 Module Name,Fabric 4LUT,Fabric DFF,Single-Ended I/O,PLLs and CCCs,Chip Globals,HPMS,10/100/1000 Ethernet
-Primitives/Primitives,1,0,49,0,4,0,0
-test_0/Primitives,18,49,8,0,4,0,0
+Primitives/Primitives,1,0,49,0,2,0,0
+test_0/Primitives,18,48,8,0,4,0,0
 test_0/u100/DSD138/UIN100/Primitives,10,6,0,0,3,0,0
-test_0/u100/DSD138/UIN100/UCK0/Primitives,17,5,0,0,0,0,0
-test_0/u100/Primitives,458,185,0,0,2,0,0
+test_0/u100/DSD138/UIN100/UCK0/Primitives,19,5,0,0,0,0,0
+test_0/u100/Primitives,487,144,0,0,2,0,0
 test_0/u100/UCRC/Primitives,2,7,0,0,0,0,0
-test_0/u100/UD100/Primitives,188,104,0,0,0,0,0
+test_0/u100/UD100/Primitives,200,104,0,0,0,0,0
 test_0/u100/UD100/UCRC0/Primitives,3,16,0,0,0,0,0
 test_0/u100/UD100/UCRC1/Primitives,3,16,0,0,0,0,0
 test_0/u100/UD100/UCRC2/Primitives,3,16,0,0,0,0,0
 test_0/u100/UD100/UCRC3/Primitives,3,16,0,0,0,0,0
-test_0/u100/UDOP/Primitives,44,102,0,0,0,0,0
-test_0/u100/UDSDTX/Primitives,40,68,0,0,0,0,0
-test_0/u100/UPCMTX/Primitives,42,39,0,0,0,0,0
-test_0/u100/USPDIF_TX/Primitives,151,70,0,0,0,0,0
-test_0/u100/uctrl/Primitives,172,112,0,0,1,0,0
-test_0/u100/uctrl/ufifo/Primitives,148,221,0,0,0,0,0
+test_0/u100/UDOP/Primitives,44,102,0,0,1,0,0
+test_0/u100/UDSDTX/Primitives,71,69,0,0,0,0,0
+test_0/u100/UPCMTX/Primitives,74,71,0,0,0,0,0
+test_0/u100/USPDIF_TX/Primitives,152,70,0,0,1,0,0
+test_0/u100/uctrl/Primitives,98,112,0,0,1,0,0
+test_0/u100/uctrl/ufifo/Primitives,147,221,0,0,0,0,0
 test_0/u100/uctrl/usync100/Primitives,3,10,0,0,0,0,0
 test_0/u100/uctrl/usync101/Primitives,3,10,0,0,0,0,0
 test_0/u100/uctrl/usync102/Primitives,3,14,0,0,0,0,0

@@ -272,7 +272,7 @@ always @(posedge mclk or negedge reset_n)
 //assign dsd_rp7 = dsdrq[7];
 //assign dsd_rn0 = ~dsdrq[7];
 
-assign dsd_rp0 = dsd_rpp[0];
+//assign dsd_rp0 = dsd_rpp[0];
 assign dsd_rp1 = dsd_rpp[1];
 assign dsd_rp2 = dsd_rpp[2];
 assign dsd_rp3 = dsd_rpp[3];
@@ -327,6 +327,7 @@ clock138master u200(
 //assign led = db138;
 assign led[7] = mclk;
 assign led[6:0] = 7'b1010101;
+assign dsd_rp0 = mclk_d2;
 endmodule
 
 

@@ -43,7 +43,7 @@
 @N: CG179 :"E:\DAC\igloo\work\crc7.v":33:20:33:22|Removing redundant assignment.
 @N: CG364 :"E:\DAC\igloo\work\sd.v":43:7:43:11|Synthesizing module sdtop in library work.
 @N: CG179 :"E:\DAC\igloo\work\sd.v":426:24:426:35|Removing redundant assignment.
-@N: CG364 :"E:\DAC\igloo\work\test.v":383:7:383:20|Synthesizing module clock138master in library work.
+@N: CG364 :"E:\DAC\igloo\work\test.v":384:7:384:20|Synthesizing module clock138master in library work.
 @N: CG364 :"E:\DAC\igloo\work\test.v":6:7:6:10|Synthesizing module test in library work.
 @N: CG364 :"C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\generic\igloo2.v":376:7:376:9|Synthesizing module VCC in library work.
 @N: CG364 :"C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\generic\igloo2.v":372:7:372:9|Synthesizing module GND in library work.

@@ -21,29 +21,29 @@ Info: List of globals considered for demotion:
     CLK    ASYN   DATA   Instance Name 
     ---    ----   ----   ------------- 
     102    0      0      'test_0/u100/DSD138/UIN100/UCK14' 
-    87     0      1      'test_0/u100/DSD138/UIN100/UCK10' 
+    79     0      3      'test_0/u100/DSD138/UIN100/UCK10' 
+    70     0      1      'test_0/u100/UDSDCLK' 
     70     0      0      'test_0/u100/DSD138/UIN100/UCK12' 
-    69     0      1      'test_0/u100/UDSDCLK' 
-    33     0      1      'mclk_ibuf_RNIC9QA' 
+    32     0      1      'mclk_ibuf_RNIC9QA' 
     18     0      0      'clock138_bck_ibuf_RNIS2E8' 
     16     0      0      'test_0/UCK300' 
     5      0      0      'test_0/UCK4' 
-    0      320    0      'u8_sb_0/CORERESETP_0/MSS_HPMS_READY_int_rep_RNI50M1' 
+    0      319    0      'u8_sb_0/CORERESETP_0/MSS_HPMS_READY_int_rep_RNI50M1' 
     0      157    0      'test_0/u100/uctrl/un1_reset_n_1_RNISV19' 
-    0      155    0      'test_0/u100/reset_n_RNI12DE' 
-    0      102    0      'I_403' 
-    0      81     0      'I_404' 
-    0      68     0      'test_0/u100/UDSDTX/reset_n_RNIBPT3' 
+    0      146    0      'test_0/u100/reset_n_RNI12DE' 
+    0      102    0      'test_0/u100/UDOP/reset_n_RNI7Q8D' 
+    0      81     0      'test_0/u100/USPDIF_TX/reset_n_RNI5VME' 
+    0      70     0      'test_0/u100/UPCMTX/reset_n_RNIGJS5' 
+    0      69     0      'test_0/u100/UDSDTX/reset_n_RNIBPT3' 
     0      64     0      'test_0/u100/UD100/crc_clr_RNI1MED' 
-    0      38     0      'test_0/u100/UPCMTX/reset_n_RNIGJS5' 
     0      18     0      'test_0/u200/reset_n_RNI2CQ7' 
 
 Info: Demotion information: 
-      Disconnected 1 data pins from global 'test_0/u100/DSD138/UIN100/UCK10'. 
+      Disconnected 3 data pins from global 'test_0/u100/DSD138/UIN100/UCK10'. 
       Disconnected 1 data pins from global 'test_0/u100/UDSDCLK'. 
+      Deleted global instance 'test_0/u100/UPCMTX/reset_n_RNIGJS5'.
       Deleted global instance 'test_0/u100/UDSDTX/reset_n_RNIBPT3'.
       Deleted global instance 'test_0/u100/UD100/crc_clr_RNI1MED'.
-      Deleted global instance 'test_0/u100/UPCMTX/reset_n_RNIGJS5'.
       Deleted global instance 'test_0/u200/reset_n_RNI2CQ7'.
 Info: CMPG4-302: Added 0 row global instances.
 Info: CMPG4-303: Deleted 4 global instances.

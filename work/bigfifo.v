@@ -59,7 +59,7 @@ wire [ADDWID - 1:0] read_addr_inc;
 wire [ADDWID - 1:0] fifo_level;
 assign fifo_level = write_addr - read_addr;
 
-parameter ALMOST_FULL_LEVEL = 14'd15800;
+parameter ALMOST_FULL_LEVEL = 14'd1580;
 parameter ALMOST_EMPTY_LEVEL = 14'd5;
 
 //parameter ALMOST_FULL_LEVEL = 14'd7000;

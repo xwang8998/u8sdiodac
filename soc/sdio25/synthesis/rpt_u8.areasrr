@@ -24,19 +24,19 @@ Part:			M2GL025VF400-1 (Microchip)
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      1130               100 %                
+SLE      1121               100 %                
 =================================================
-Total SEQUENTIAL ELEMENTS in the block u8:	1130 (41.33 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block u8:	1121 (40.67 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           1252               100 %                
-ARI1          201                100 %                
+CFG           1294               100 %                
+ARI1          191                100 %                
 BLACK BOX     5                  100 %                
 ======================================================
-Total COMBINATIONAL LOGIC in the block u8:	1458 (53.33 % Utilization)
+Total COMBINATIONAL LOGIC in the block u8:	1490 (54.06 % Utilization)
 
 
 GLOBAL BUFFERS
@@ -44,7 +44,7 @@ Name       Total elements     Utilization     Notes
 ---------------------------------------------------
 GLOBAL     18                 100 %                
 ===================================================
-Total GLOBAL BUFFERS in the block u8:	18 (0.66 % Utilization)
+Total GLOBAL BUFFERS in the block u8:	18 (0.65 % Utilization)
 
 
 IO PADS
@@ -52,7 +52,7 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 IO       57                 100 %                
 =================================================
-Total IO PADS in the block u8:	57 (2.08 % Utilization)
+Total IO PADS in the block u8:	57 (2.07 % Utilization)
 
 ----------------------------------------------------------
 ########   Utilization report for  cell:   test   ########
@@ -62,27 +62,27 @@ Instance path:   u8.test
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      1094               96.8 %               
+SLE      1085               96.8 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block u8.test:	1094 (40.01 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block u8.test:	1085 (39.37 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           1140               91.1 %               
-ARI1          201                100 %                
+CFG           1182               91.3 %               
+ARI1          191                100 %                
 BLACK BOX     2                  40 %                 
 ======================================================
-Total COMBINATIONAL LOGIC in the block u8.test:	1343 (49.12 % Utilization)
+Total COMBINATIONAL LOGIC in the block u8.test:	1375 (49.89 % Utilization)
 
 
 GLOBAL BUFFERS
 Name       Total elements     Utilization     Notes
 ---------------------------------------------------
-GLOBAL     12                 66.7 %               
+GLOBAL     14                 77.8 %               
 ===================================================
-Total GLOBAL BUFFERS in the block u8.test:	12 (0.44 % Utilization)
+Total GLOBAL BUFFERS in the block u8.test:	14 (0.51 % Utilization)
 
 
 IO PADS
@@ -100,18 +100,18 @@ Instance path:   test.clock138master
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      18                 1.59 %               
+SLE      18                 1.61 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block test.clock138master:	18 (0.66 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block test.clock138master:	18 (0.65 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      8                  0.6390 %             
-ARI1     15                 7.46 %               
+CFG      8                  0.6180 %             
+ARI1     15                 7.85 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block test.clock138master:	23 (0.84 % Utilization)
+Total COMBINATIONAL LOGIC in the block test.clock138master:	23 (0.83 % Utilization)
 
 
 GLOBAL BUFFERS
@@ -129,26 +129,26 @@ Instance path:   test.sdtop
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      1027               90.9 %               
+SLE      1019               90.9 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block test.sdtop:	1027 (37.56 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block test.sdtop:	1019 (36.97 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      1114               89 %                 
-ARI1     186                92.5 %               
+CFG      1156               89.3 %               
+ARI1     176                92.1 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block test.sdtop:	1300 (47.55 % Utilization)
+Total COMBINATIONAL LOGIC in the block test.sdtop:	1332 (48.33 % Utilization)
 
 
 GLOBAL BUFFERS
 Name       Total elements     Utilization     Notes
 ---------------------------------------------------
-GLOBAL     9                  50 %                 
+GLOBAL     11                 61.1 %               
 ===================================================
-Total GLOBAL BUFFERS in the block test.sdtop:	9 (0.33 % Utilization)
+Total GLOBAL BUFFERS in the block test.sdtop:	11 (0.40 % Utilization)
 
 ----------------------------------------------------------
 ########   Utilization report for  cell:   crc7   ########
@@ -158,15 +158,15 @@ Instance path:   sdtop.crc7
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      7                  0.6190 %             
+SLE      7                  0.6240 %             
 =================================================
-Total SEQUENTIAL ELEMENTS in the block sdtop.crc7:	7 (0.26 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block sdtop.crc7:	7 (0.25 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      2                  0.160 %              
+CFG      2                  0.1550 %             
 =================================================
 Total COMBINATIONAL LOGIC in the block sdtop.crc7:	2 (0.07 % Utilization)
 
@@ -178,17 +178,25 @@ Instance path:   sdtop.dop_gear
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      102                9.03 %               
+SLE      102                9.1 %                
 =================================================
-Total SEQUENTIAL ELEMENTS in the block sdtop.dop_gear:	102 (3.73 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block sdtop.dop_gear:	102 (3.70 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      44                 3.51 %               
+CFG      44                 3.4 %                
 =================================================
-Total COMBINATIONAL LOGIC in the block sdtop.dop_gear:	44 (1.61 % Utilization)
+Total COMBINATIONAL LOGIC in the block sdtop.dop_gear:	44 (1.60 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  5.56 %               
+===================================================
+Total GLOBAL BUFFERS in the block sdtop.dop_gear:	1 (0.04 % Utilization)
 
 ------------------------------------------------------------
 ########   Utilization report for  cell:   dsd_tx   ########
@@ -198,17 +206,17 @@ Instance path:   sdtop.dsd_tx
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      68                 6.02 %               
+SLE      69                 6.16 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block sdtop.dsd_tx:	68 (2.49 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block sdtop.dsd_tx:	69 (2.50 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      40                 3.19 %               
+CFG      71                 5.49 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block sdtop.dsd_tx:	40 (1.46 % Utilization)
+Total COMBINATIONAL LOGIC in the block sdtop.dsd_tx:	71 (2.58 % Utilization)
 
 
 GLOBAL BUFFERS
@@ -226,18 +234,18 @@ Instance path:   sdtop.mem_controller
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      377                33.4 %               
+SLE      377                33.6 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block sdtop.mem_controller:	377 (13.79 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block sdtop.mem_controller:	377 (13.68 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      274                21.9 %               
-ARI1     58                 28.9 %               
+CFG      199                15.4 %               
+ARI1     58                 30.4 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block sdtop.mem_controller:	332 (12.14 % Utilization)
+Total COMBINATIONAL LOGIC in the block sdtop.mem_controller:	257 (9.33 % Utilization)
 
 
 GLOBAL BUFFERS
@@ -255,18 +263,38 @@ Instance path:   mem_controller.bigfifo
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      221                19.6 %               
+SLE      221                19.7 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block mem_controller.bigfifo:	221 (8.08 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block mem_controller.bigfifo:	221 (8.02 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      90                 7.19 %               
-ARI1     58                 28.9 %               
+CFG      89                 6.88 %               
+ARI1     58                 30.4 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block mem_controller.bigfifo:	148 (5.41 % Utilization)
+Total COMBINATIONAL LOGIC in the block mem_controller.bigfifo:	147 (5.33 % Utilization)
+
+-------------------------------------------------------------------
+########   Utilization report for  cell:   sync_logic_1s   ########
+Instance path:   mem_controller.sync_logic_1s                      
+===================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      10                 0.8920 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block mem_controller.sync_logic_1s:	10 (0.36 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      3                  0.2320 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block mem_controller.sync_logic_1s:	3 (0.11 % Utilization)
 
 ---------------------------------------------------------------------
 ########   Utilization report for  cell:   sync_logic_1s_0   ########
@@ -276,15 +304,15 @@ Instance path:   mem_controller.sync_logic_1s_0
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      10                 0.8850 %             
+SLE      10                 0.8920 %             
 =================================================
-Total SEQUENTIAL ELEMENTS in the block mem_controller.sync_logic_1s_0:	10 (0.37 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block mem_controller.sync_logic_1s_0:	10 (0.36 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      3                  0.240 %              
+CFG      3                  0.2320 %             
 =================================================
 Total COMBINATIONAL LOGIC in the block mem_controller.sync_logic_1s_0:	3 (0.11 % Utilization)
 
@@ -296,37 +324,17 @@ Instance path:   mem_controller.sync_logic_1s_2
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      10                 0.8850 %             
+SLE      10                 0.8920 %             
 =================================================
-Total SEQUENTIAL ELEMENTS in the block mem_controller.sync_logic_1s_2:	10 (0.37 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block mem_controller.sync_logic_1s_2:	10 (0.36 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      3                  0.240 %              
+CFG      3                  0.2320 %             
 =================================================
 Total COMBINATIONAL LOGIC in the block mem_controller.sync_logic_1s_2:	3 (0.11 % Utilization)
-
------------------------------------------------------------------------
-########   Utilization report for  cell:   sync_logic_1s_2_0   ########
-Instance path:   mem_controller.sync_logic_1s_2_0                      
-=======================================================================
-
-SEQUENTIAL ELEMENTS
-Name     Total elements     Utilization     Notes
--------------------------------------------------
-SLE      10                 0.8850 %             
-=================================================
-Total SEQUENTIAL ELEMENTS in the block mem_controller.sync_logic_1s_2_0:	10 (0.37 % Utilization)
-
-
-COMBINATIONAL LOGIC
-Name     Total elements     Utilization     Notes
--------------------------------------------------
-CFG      3                  0.240 %              
-=================================================
-Total COMBINATIONAL LOGIC in the block mem_controller.sync_logic_1s_2_0:	3 (0.11 % Utilization)
 
 -------------------------------------------------------------------
 ########   Utilization report for  cell:   sync_logic_3s   ########
@@ -336,7 +344,7 @@ Instance path:   mem_controller.sync_logic_3s
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      14                 1.24 %               
+SLE      14                 1.25 %               
 =================================================
 Total SEQUENTIAL ELEMENTS in the block mem_controller.sync_logic_3s:	14 (0.51 % Utilization)
 
@@ -344,7 +352,7 @@ Total SEQUENTIAL ELEMENTS in the block mem_controller.sync_logic_3s:	14 (0.51 % 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      3                  0.240 %              
+CFG      3                  0.2320 %             
 =================================================
 Total COMBINATIONAL LOGIC in the block mem_controller.sync_logic_3s:	3 (0.11 % Utilization)
 
@@ -356,7 +364,7 @@ Instance path:   sdtop.pcm2dsd
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      11                 0.9730 %             
+SLE      11                 0.9810 %             
 =================================================
 Total SEQUENTIAL ELEMENTS in the block sdtop.pcm2dsd:	11 (0.40 % Utilization)
 
@@ -364,10 +372,10 @@ Total SEQUENTIAL ELEMENTS in the block sdtop.pcm2dsd:	11 (0.40 % Utilization)
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      17                 1.36 %               
-ARI1     10                 4.98 %               
+CFG      21                 1.62 %               
+ARI1     8                  4.19 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block sdtop.pcm2dsd:	27 (0.99 % Utilization)
+Total COMBINATIONAL LOGIC in the block sdtop.pcm2dsd:	29 (1.05 % Utilization)
 
 
 GLOBAL BUFFERS
@@ -385,7 +393,7 @@ Instance path:   pcm2dsd.inctrl
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      11                 0.9730 %             
+SLE      11                 0.9810 %             
 =================================================
 Total SEQUENTIAL ELEMENTS in the block pcm2dsd.inctrl:	11 (0.40 % Utilization)
 
@@ -393,10 +401,10 @@ Total SEQUENTIAL ELEMENTS in the block pcm2dsd.inctrl:	11 (0.40 % Utilization)
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      17                 1.36 %               
-ARI1     10                 4.98 %               
+CFG      21                 1.62 %               
+ARI1     8                  4.19 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block pcm2dsd.inctrl:	27 (0.99 % Utilization)
+Total COMBINATIONAL LOGIC in the block pcm2dsd.inctrl:	29 (1.05 % Utilization)
 
 
 GLOBAL BUFFERS
@@ -414,7 +422,7 @@ Instance path:   inctrl.clock_divider
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      5                  0.4420 %             
+SLE      5                  0.4460 %             
 =================================================
 Total SEQUENTIAL ELEMENTS in the block inctrl.clock_divider:	5 (0.18 % Utilization)
 
@@ -422,10 +430,10 @@ Total SEQUENTIAL ELEMENTS in the block inctrl.clock_divider:	5 (0.18 % Utilizati
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      13                 1.04 %               
-ARI1     4                  1.99 %               
+CFG      17                 1.31 %               
+ARI1     2                  1.05 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block inctrl.clock_divider:	17 (0.62 % Utilization)
+Total COMBINATIONAL LOGIC in the block inctrl.clock_divider:	19 (0.69 % Utilization)
 
 ------------------------------------------------------------
 ########   Utilization report for  cell:   pcm_tx   ########
@@ -435,18 +443,18 @@ Instance path:   sdtop.pcm_tx
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      39                 3.45 %               
+SLE      71                 6.33 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block sdtop.pcm_tx:	39 (1.43 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block sdtop.pcm_tx:	71 (2.58 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      36                 2.88 %               
-ARI1     6                  2.99 %               
+CFG      68                 5.26 %               
+ARI1     6                  3.14 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block sdtop.pcm_tx:	42 (1.54 % Utilization)
+Total COMBINATIONAL LOGIC in the block sdtop.pcm_tx:	74 (2.69 % Utilization)
 
 
 GLOBAL BUFFERS
@@ -464,18 +472,18 @@ Instance path:   sdtop.sd_data
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      168                14.9 %               
+SLE      168                15 %                 
 =================================================
-Total SEQUENTIAL ELEMENTS in the block sdtop.sd_data:	168 (6.14 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block sdtop.sd_data:	168 (6.10 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      167                13.3 %               
-ARI1     35                 17.4 %               
+CFG      180                13.9 %               
+ARI1     34                 17.8 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block sdtop.sd_data:	202 (7.39 % Utilization)
+Total COMBINATIONAL LOGIC in the block sdtop.sd_data:	214 (7.76 % Utilization)
 
 
 GLOBAL BUFFERS
@@ -493,15 +501,15 @@ Instance path:   sd_data.crc16
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      16                 1.42 %               
+SLE      16                 1.43 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block sd_data.crc16:	16 (0.59 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block sd_data.crc16:	16 (0.58 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      3                  0.240 %              
+CFG      3                  0.2320 %             
 =================================================
 Total COMBINATIONAL LOGIC in the block sd_data.crc16:	3 (0.11 % Utilization)
 
@@ -513,15 +521,15 @@ Instance path:   sd_data.crc16_0
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      16                 1.42 %               
+SLE      16                 1.43 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block sd_data.crc16_0:	16 (0.59 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block sd_data.crc16_0:	16 (0.58 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      3                  0.240 %              
+CFG      3                  0.2320 %             
 =================================================
 Total COMBINATIONAL LOGIC in the block sd_data.crc16_0:	3 (0.11 % Utilization)
 
@@ -533,15 +541,15 @@ Instance path:   sd_data.crc16_1
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      16                 1.42 %               
+SLE      16                 1.43 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block sd_data.crc16_1:	16 (0.59 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block sd_data.crc16_1:	16 (0.58 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      3                  0.240 %              
+CFG      3                  0.2320 %             
 =================================================
 Total COMBINATIONAL LOGIC in the block sd_data.crc16_1:	3 (0.11 % Utilization)
 
@@ -553,15 +561,15 @@ Instance path:   sd_data.crc16_2
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      16                 1.42 %               
+SLE      16                 1.43 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block sd_data.crc16_2:	16 (0.59 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block sd_data.crc16_2:	16 (0.58 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      3                  0.240 %              
+CFG      3                  0.2320 %             
 =================================================
 Total COMBINATIONAL LOGIC in the block sd_data.crc16_2:	3 (0.11 % Utilization)
 
@@ -573,18 +581,26 @@ Instance path:   sdtop.spdif_tx
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      70                 6.19 %               
+SLE      70                 6.24 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block sdtop.spdif_tx:	70 (2.56 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block sdtop.spdif_tx:	70 (2.54 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      104                8.31 %               
-ARI1     47                 23.4 %               
+CFG      105                8.11 %               
+ARI1     47                 24.6 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block sdtop.spdif_tx:	151 (5.52 % Utilization)
+Total COMBINATIONAL LOGIC in the block sdtop.spdif_tx:	152 (5.52 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  5.56 %               
+===================================================
+Total GLOBAL BUFFERS in the block sdtop.spdif_tx:	1 (0.04 % Utilization)
 
 -----------------------------------------------------------
 ########   Utilization report for  cell:   u8_sb   ########
@@ -594,18 +610,18 @@ Instance path:   u8.u8_sb
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      36                 3.19 %               
+SLE      36                 3.21 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block u8.u8_sb:	36 (1.32 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block u8.u8_sb:	36 (1.31 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           112                8.95 %               
+CFG           112                8.66 %               
 BLACK BOX     3                  60 %                 
 ======================================================
-Total COMBINATIONAL LOGIC in the block u8.u8_sb:	115 (4.21 % Utilization)
+Total COMBINATIONAL LOGIC in the block u8.u8_sb:	115 (4.17 % Utilization)
 
 
 GLOBAL BUFFERS
@@ -623,17 +639,17 @@ Instance path:   u8_sb.CoreAHBLite_Z4
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      26                 2.3 %                
+SLE      26                 2.32 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block u8_sb.CoreAHBLite_Z4:	26 (0.95 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block u8_sb.CoreAHBLite_Z4:	26 (0.94 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      78                 6.23 %               
+CFG      78                 6.03 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block u8_sb.CoreAHBLite_Z4:	78 (2.85 % Utilization)
+Total COMBINATIONAL LOGIC in the block u8_sb.CoreAHBLite_Z4:	78 (2.83 % Utilization)
 
 --------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   COREAHBLITE_MATRIX4X16_1_1_85_65536_0_0_0_0s   ########
@@ -643,17 +659,17 @@ Instance path:   CoreAHBLite_Z4.COREAHBLITE_MATRIX4X16_1_1_85_65536_0_0_0_0s
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      26                 2.3 %                
+SLE      26                 2.32 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block CoreAHBLite_Z4.COREAHBLITE_MATRIX4X16_1_1_85_65536_0_0_0_0s:	26 (0.95 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block CoreAHBLite_Z4.COREAHBLITE_MATRIX4X16_1_1_85_65536_0_0_0_0s:	26 (0.94 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      78                 6.23 %               
+CFG      78                 6.03 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block CoreAHBLite_Z4.COREAHBLITE_MATRIX4X16_1_1_85_65536_0_0_0_0s:	78 (2.85 % Utilization)
+Total COMBINATIONAL LOGIC in the block CoreAHBLite_Z4.COREAHBLITE_MATRIX4X16_1_1_85_65536_0_0_0_0s:	78 (2.83 % Utilization)
 
 -----------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   COREAHBLITE_MASTERSTAGE_1_1_85_65536_0s_0_1_0   ########        
@@ -663,7 +679,7 @@ Instance path:   COREAHBLITE_MATRIX4X16_1_1_85_65536_0_0_0_0s.COREAHBLITE_MASTER
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      20                 1.77 %               
+SLE      20                 1.78 %               
 =================================================
 Total SEQUENTIAL ELEMENTS in the block COREAHBLITE_MATRIX4X16_1_1_85_65536_0_0_0_0s.COREAHBLITE_MASTERSTAGE_1_1_85_65536_0s_0_1_0:	20 (0.73 % Utilization)
 
@@ -671,7 +687,7 @@ Total SEQUENTIAL ELEMENTS in the block COREAHBLITE_MATRIX4X16_1_1_85_65536_0_0_0
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      8                  0.6390 %             
+CFG      8                  0.6180 %             
 =================================================
 Total COMBINATIONAL LOGIC in the block COREAHBLITE_MATRIX4X16_1_1_85_65536_0_0_0_0s.COREAHBLITE_MASTERSTAGE_1_1_85_65536_0s_0_1_0:	8 (0.29 % Utilization)
 
@@ -683,7 +699,7 @@ Instance path:   COREAHBLITE_MATRIX4X16_1_1_85_65536_0_0_0_0s.COREAHBLITE_SLAVES
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      6                  0.5310 %             
+SLE      6                  0.5350 %             
 =================================================
 Total SEQUENTIAL ELEMENTS in the block COREAHBLITE_MATRIX4X16_1_1_85_65536_0_0_0_0s.COREAHBLITE_SLAVESTAGE_0s_0_0_0:	6 (0.22 % Utilization)
 
@@ -691,9 +707,9 @@ Total SEQUENTIAL ELEMENTS in the block COREAHBLITE_MATRIX4X16_1_1_85_65536_0_0_0
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      70                 5.59 %               
+CFG      70                 5.41 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block COREAHBLITE_MATRIX4X16_1_1_85_65536_0_0_0_0s.COREAHBLITE_SLAVESTAGE_0s_0_0_0:	70 (2.56 % Utilization)
+Total COMBINATIONAL LOGIC in the block COREAHBLITE_MATRIX4X16_1_1_85_65536_0_0_0_0s.COREAHBLITE_SLAVESTAGE_0s_0_0_0:	70 (2.54 % Utilization)
 
 -----------------------------------------------------------------------------------
 ########   Utilization report for  cell:   COREAHBLITE_SLAVEARBITER_Z3_1   ########
@@ -703,7 +719,7 @@ Instance path:   COREAHBLITE_SLAVESTAGE_0s_0_0_0.COREAHBLITE_SLAVEARBITER_Z3_1
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      5                  0.4420 %             
+SLE      5                  0.4460 %             
 =================================================
 Total SEQUENTIAL ELEMENTS in the block COREAHBLITE_SLAVESTAGE_0s_0_0_0.COREAHBLITE_SLAVEARBITER_Z3_1:	5 (0.18 % Utilization)
 
@@ -711,9 +727,9 @@ Total SEQUENTIAL ELEMENTS in the block COREAHBLITE_SLAVESTAGE_0s_0_0_0.COREAHBLI
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      16                 1.28 %               
+CFG      16                 1.24 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block COREAHBLITE_SLAVESTAGE_0s_0_0_0.COREAHBLITE_SLAVEARBITER_Z3_1:	16 (0.59 % Utilization)
+Total COMBINATIONAL LOGIC in the block COREAHBLITE_SLAVESTAGE_0s_0_0_0.COREAHBLITE_SLAVEARBITER_Z3_1:	16 (0.58 % Utilization)
 
 -------------------------------------------------------------------
 ########   Utilization report for  cell:   CoreResetP_Z5   ########
@@ -723,15 +739,15 @@ Instance path:   u8_sb.CoreResetP_Z5
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      10                 0.8850 %             
+SLE      10                 0.8920 %             
 =================================================
-Total SEQUENTIAL ELEMENTS in the block u8_sb.CoreResetP_Z5:	10 (0.37 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block u8_sb.CoreResetP_Z5:	10 (0.36 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      2                  0.160 %              
+CFG      2                  0.1550 %             
 =================================================
 Total COMBINATIONAL LOGIC in the block u8_sb.CoreResetP_Z5:	2 (0.07 % Utilization)
 
@@ -771,10 +787,10 @@ Instance path:   u8_sb.u8_sb_HPMS
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           32                 2.56 %               
+CFG           32                 2.47 %               
 BLACK BOX     1                  20 %                 
 ======================================================
-Total COMBINATIONAL LOGIC in the block u8_sb.u8_sb_HPMS:	33 (1.21 % Utilization)
+Total COMBINATIONAL LOGIC in the block u8_sb.u8_sb_HPMS:	33 (1.20 % Utilization)
 
 
 ##### END OF AREA REPORT #####]

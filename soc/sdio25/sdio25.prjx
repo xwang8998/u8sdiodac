@@ -472,7 +472,7 @@ PARENT="<project>\component\Actel\SmartFusion2MSS\MSS\1.1.500\MSS.cxf"
 ENDFILE
 VALUE "<project>\simulation\subsystem.bfm,sim"
 STATE="utd"
-TIME="1508927764"
+TIME="1628588361"
 SIZE="759"
 PARENT="<project>\component\work\u8\u8.cxf"
 PARENT="<project>\component\work\u8_sb\u8_sb.cxf"
@@ -485,28 +485,28 @@ PARENT="<project>\component\work\u8_sb_HPMS\u8_sb_HPMS.cxf"
 ENDFILE
 VALUE "<project>\synthesis\synwork\layer0.so,so"
 STATE="utd"
-TIME="1628600159"
+TIME="1628666530"
 SIZE="159"
 ENDFILE
 VALUE "<project>\synthesis\u8.edn,syn_edn"
 STATE="ood"
-TIME="1628573941"
-SIZE="17587162"
+TIME="1628757386"
+SIZE="2022559"
 ENDFILE
 VALUE "<project>\synthesis\u8.so,so"
 STATE="utd"
-TIME="1508933054"
+TIME="1628757387"
 SIZE="197"
 ENDFILE
 VALUE "<project>\synthesis\u8_sdc.sdc,syn_sdc"
 STATE="ood"
-TIME="1508933052"
-SIZE="7441"
+TIME="1628757386"
+SIZE="7017"
 ENDFILE
 VALUE "<project>\synthesis\u8_syn.prj,prj"
 STATE="utd"
-TIME="1628573253"
-SIZE="4315"
+TIME="1628757388"
+SIZE="4620"
 ENDFILE
 VALUE "E:\DAC\igloo\work\025.pdc,io_pdc"
 STATE="utd"
@@ -517,7 +517,6 @@ VALUE "E:\DAC\igloo\work\bigfifo.v,hdl"
 STATE="utd"
 TIME="1508932363"
 SIZE="6921"
-IS_READONLY="TRUE"
 ENDFILE
 VALUE "E:\DAC\igloo\work\crc7.v,hdl"
 STATE="utd"
@@ -574,8 +573,8 @@ SIZE="19855"
 ENDFILE
 VALUE "E:\DAC\igloo\work\sd.v,hdl"
 STATE="utd"
-TIME="1628669099"
-SIZE="59722"
+TIME="1628757284"
+SIZE="59714"
 ENDFILE
 VALUE "E:\DAC\igloo\work\sdm.v,hdl"
 STATE="utd"
@@ -603,8 +602,8 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "E:\DAC\igloo\work\test.sdc,sdc"
 STATE="utd"
-TIME="1628670508"
-SIZE="3387"
+TIME="1628672469"
+SIZE="3388"
 ENDFILE
 VALUE "E:\DAC\igloo\work\test.v,hdl"
 STATE="utd"
@@ -862,8 +861,8 @@ NAME="Synplify Pro ME"
 FUNCTION="Synthesis"
 TOOL="Synplify Pro ME"
 LOCATION="C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\bin\synplify_pro.exe"
-PARAM="-licensetype synplifypro_actel -batch -log synplify.log"
-BATCH=1
+PARAM=""
+BATCH=0
 LICENSE=""
 IS32BIT="1"
 EndProfile
@@ -994,14 +993,12 @@ ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
 Reports;Reports;0
-ReportsCurrentItem;Place and Route:placer_sdc_errors.log
-SmartDesign;u8;0
-HDL;E:\DAC\igloo\work\test.v;0
-HDL;E:\DAC\igloo\work\sd.v;0
+ReportsCurrentItem;Export Bitstream:u8_exportBitstream.log
 Constraint Manager;Constraint Manager;0
-HDL;E:\DAC\igloo\work\ram.v;0
-HDL;E:\DAC\igloo\work\test.sdc;0
-ACTIVEVIEW;E:\DAC\igloo\work\test.sdc
+StartPage;StartPage;0
+HDL;E:\DAC\igloo\work\bigfifo.v;0
+SmartDesign;u8;0
+ACTIVEVIEW;E:\DAC\igloo\work\bigfifo.v
 ENDLIST
 LIST ModuleSubBlockList
 LIST "abs_cost::work","E:\DAC\igloo\work\sdm.v","FALSE","FALSE"
@@ -1204,6 +1201,12 @@ SUBBLOCK "COREAHBLITE_SLAVESTAGE::COREAHBLITE_LIB","component\Actel\DirectCore\C
 SUBBLOCK "COREAHBLITE_MASTERSTAGE::COREAHBLITE_LIB","component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v","FALSE","FALSE"
 SUBBLOCK "COREAHBLITE_MASTERSTAGE::COREAHBLITE_LIB","component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v","FALSE","FALSE"
 ENDLIST
+LIST "BFM_AHBL::COREAHBLITE_LIB","component\Actel\DirectCore\CoreAHBLite\5.3.101\rtl\vlog\amba_bfm\bfm_ahbl.v","FALSE","TRUE"
+SUBBLOCK "BFM_MAIN::COREAHBLITE_LIB","component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\amba_bfm\bfm_main.v","FALSE","TRUE"
+ENDLIST
+LIST "BFM_AHBSLAVE::COREAHBLITE_LIB","component\Actel\DirectCore\CoreAHBLite\5.3.101\rtl\vlog\amba_bfm\bfm_ahbslave.v","FALSE","TRUE"
+SUBBLOCK "BFM_AHBSLAVEEXT::COREAHBLITE_LIB","component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\amba_bfm\bfm_ahbslaveext.v","FALSE","TRUE"
+ENDLIST
 LIST "BFM_AHBL::COREAHBLITE_LIB","component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\amba_bfm\bfm_ahbl.v","FALSE","TRUE"
 SUBBLOCK "BFM_MAIN::COREAHBLITE_LIB","component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\amba_bfm\bfm_main.v","FALSE","TRUE"
 ENDLIST
@@ -1212,7 +1215,11 @@ SUBBLOCK "BFM_AHBSLAVEEXT::COREAHBLITE_LIB","component\Actel\DirectCore\CoreAHBL
 ENDLIST
 LIST "BFM_AHBSLAVEEXT::COREAHBLITE_LIB","component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\amba_bfm\bfm_ahbslaveext.v","FALSE","TRUE"
 ENDLIST
+LIST "BFM_AHBSLAVEEXT::COREAHBLITE_LIB","component\Actel\DirectCore\CoreAHBLite\5.3.101\rtl\vlog\amba_bfm\bfm_ahbslaveext.v","FALSE","TRUE"
+ENDLIST
 LIST "BFM_MAIN::COREAHBLITE_LIB","component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\amba_bfm\bfm_main.v","FALSE","TRUE"
+ENDLIST
+LIST "BFM_MAIN::COREAHBLITE_LIB","component\Actel\DirectCore\CoreAHBLite\5.3.101\rtl\vlog\amba_bfm\bfm_main.v","FALSE","TRUE"
 ENDLIST
 LIST "BFM_AHBL::COREAHBLITE_LIB","component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\amba_bfm\bfm_ahbl.v","FALSE","TRUE"
 SUBBLOCK "BFM_MAIN::COREAHBLITE_LIB","component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\amba_bfm\bfm_main.v","FALSE","TRUE"

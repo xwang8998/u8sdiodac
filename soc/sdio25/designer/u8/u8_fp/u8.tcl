@@ -8,7 +8,7 @@ load_programming_data \
     -dca {E:\DAC\igloo\soc\sdio25\designer\u8\u8.dca}
 export_single_stapl \
     -name {M2GL025} \
-    -file {E:\DAC\igloo\soc\sdio25\designer\u8\export\u8pcm32-1ch.stp} \
+    -file {E:\DAC\igloo\soc\sdio25\designer\u8\export\u8pcm32-2ch-fifo1580.stp} \
     -secured
 
 

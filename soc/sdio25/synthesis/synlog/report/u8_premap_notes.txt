@@ -7,6 +7,7 @@
 @N: BN115 :"e:\dac\igloo\work\sd.v":298:9:298:14|Removing instance DUT401 (in view: work.sdtop(verilog)) of type view:work.pipe_pcm(verilog) because it does not drive other instances.
 @N: BN115 :"e:\dac\igloo\work\sd.v":273:12:273:17|Removing instance DUT300 (in view: work.sdtop(verilog)) of type view:work.fir_stage_2(verilog) because it does not drive other instances.
 @N: BN115 :"e:\dac\igloo\work\sd.v":258:12:258:17|Removing instance DUT200 (in view: work.sdtop(verilog)) of type view:work.fir_stage_1(verilog) because it does not drive other instances.
+@N: BN362 :"e:\dac\igloo\work\sd.v":411:0:411:5|Removing sequential instance wsource_left[31:0] (in view: work.sdtop(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
 @N: MO111 :"e:\dac\igloo\soc\sdio25\component\work\u8_sb\fabosc_0\u8_sb_fabosc_0_osc.v":17:7:17:20|Tristate driver RCOSC_1MHZ_CCC (in view: work.u8_sb_FABOSC_0_OSC(verilog)) on net RCOSC_1MHZ_CCC (in view: work.u8_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
 @N: MO111 :"e:\dac\igloo\soc\sdio25\component\work\u8_sb\fabosc_0\u8_sb_fabosc_0_osc.v":18:7:18:20|Tristate driver RCOSC_1MHZ_O2F (in view: work.u8_sb_FABOSC_0_OSC(verilog)) on net RCOSC_1MHZ_O2F (in view: work.u8_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
 @N: MO111 :"e:\dac\igloo\soc\sdio25\component\work\u8_sb\fabosc_0\u8_sb_fabosc_0_osc.v":15:7:15:24|Tristate driver RCOSC_25_50MHZ_CCC (in view: work.u8_sb_FABOSC_0_OSC(verilog)) on net RCOSC_25_50MHZ_CCC (in view: work.u8_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.

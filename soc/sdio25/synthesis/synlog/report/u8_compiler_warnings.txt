@@ -42,12 +42,15 @@
 @W: CG133 :"E:\DAC\igloo\work\sd.v":185:25:185:37|Object wsource_right is declared but not assigned. Either assign a value or remove the declaration.
 @W: CL169 :"E:\DAC\igloo\work\sd.v":575:0:575:5|Pruning unused register use_adc_mode. Make sure that there are no unused intermediate registers.
 @W: CL169 :"E:\DAC\igloo\work\sd.v":397:0:397:5|Pruning unused register master_lrckd4. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\DAC\igloo\work\sd.v":394:0:394:5|Pruning unused register master_lrckd2. Make sure that there are no unused intermediate registers.
 @W: CL169 :"E:\DAC\igloo\work\sd.v":392:0:392:5|Pruning unused register master_bckd4. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\DAC\igloo\work\sd.v":389:0:389:5|Pruning unused register master_bckd2. Make sure that there are no unused intermediate registers.
 @W: CL190 :"E:\DAC\igloo\work\sd.v":575:0:575:5|Optimizing register bit sound_card_ctrl[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: CL190 :"E:\DAC\igloo\work\sd.v":575:0:575:5|Optimizing register bit sound_card_ctrl[4] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: CL279 :"E:\DAC\igloo\work\sd.v":575:0:575:5|Pruning register bits 4 to 3 of sound_card_ctrl[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@W: CG1340 :"E:\DAC\igloo\work\test.v":437:16:437:28|Index into variable key could be out of range ; a simulation mismatch is possible.
-@W: CL169 :"E:\DAC\igloo\work\test.v":413:0:413:5|Pruning unused register do_selftest. Make sure that there are no unused intermediate registers.
+@W: CG1340 :"E:\DAC\igloo\work\test.v":438:16:438:28|Index into variable key could be out of range ; a simulation mismatch is possible.
+@W: CL169 :"E:\DAC\igloo\work\test.v":414:0:414:5|Pruning unused register do_selftest. Make sure that there are no unused intermediate registers.
+@W: CL265 :"E:\DAC\igloo\work\test.v":227:0:227:5|Removing unused bit 0 of dsd_rpp[7:0]. Either assign all bits or reduce the width of the signal.
 @W: CL271 :"E:\DAC\igloo\work\test.v":216:0:216:5|Pruning unused bits 63 to 8 of dsdlq[63:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
 @W: CL271 :"E:\DAC\igloo\work\test.v":216:0:216:5|Pruning unused bits 63 to 8 of dsdrq[63:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
 @W: CG1283 :"E:\DAC\igloo\soc\sdio25\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":541:2:541:11|Type of parameter M0_AHBSLOTENABLE on the instance matrix4x16 is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 

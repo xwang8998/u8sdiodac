@@ -1,11 +1,11 @@
 Software Version: 12.900.20.24
 Opened 'E:\DAC\igloo\soc\sdio25\designer\u8\u8_fp\u8.pro'
 PDB file 'E:\DAC\igloo\soc\sdio25\designer\u8\u8.pdb' has been loaded successfully.
-DESIGN : u8;  CHECKSUM : 3E84;  PDB_VERSION : 1.9
-File/Folder 'E:\DAC\igloo\soc\sdio25\designer\u8\export\u8pcm32-1ch.stp' will be overwritten.
-Successfully exported STAPL file: 'E:\DAC\igloo\soc\sdio25\designer\u8\export\u8pcm32-1ch.stp'; file programs Fabric.
-Fabric component bitstream digest: 8f4a4a92677b3651c179db14c9a1c9ec91a47e379f19990beb4c9490922b66f8
-Finished: Wed Aug 11 17:06:30 2021 (Elapsed time 00:00:14)
+DESIGN : u8;  CHECKSUM : CED1;  PDB_VERSION : 1.9
+File/Folder 'E:\DAC\igloo\soc\sdio25\designer\u8\export\u8pcm32-2ch-fifo1580.stp' will be overwritten.
+Successfully exported STAPL file: 'E:\DAC\igloo\soc\sdio25\designer\u8\export\u8pcm32-2ch-fifo1580.stp'; file programs Fabric.
+Fabric component bitstream digest: 1094de8c49c7f214be7bb4904f8bcd9a367580a43f8ae408a5411298249a6abb
+Finished: Fri Aug 13 12:49:32 2021 (Elapsed time 00:00:14)
 
 Project saved.
 Project closed.

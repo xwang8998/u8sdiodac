@@ -215,13 +215,13 @@ CLKINT UDSDCLK (.A(dsd_clkr), .Y(dsd_clk));  //71 fanouts
 reg start_dsd_tx;
 always @(posedge dsd_clk) start_dsd_tx <= dsd138_ctrl[7] & dsd138_ctrl[6];
 dsd_tx UDSDTX( .dsd_clk(dsd_clk), .rst_n(reset_n), .start(start_dsd_tx),
-    .source_left(wsource_left), .source_right(wsource_right),
+    .source_left(source_left), .source_right(source_right),
     .odsd_clk(obck1), .dsd_l(olrck1), .dsd_r(odata1));
 
 reg start_pcm_tx;
 always @(posedge master_bck) start_pcm_tx <= dsd138_ctrl[7] & (!dsd138_ctrl[6]);
 pcm_tx UPCMTX(.in_bck(master_bck), .rst_n(reset_n), .start(start_pcm_tx),
-    .source_left(wsource_left), .source_right(wsource_right),
+    .source_left(source_left), .source_right(source_right),
     .obck(obck2), .olrck(olrck2), .odata(odata2));
 
 ////1bit DAC ////////////////////////////////////////
@@ -401,7 +401,7 @@ mem_controller uctrl(.sdclk_n(sdclk_n), .mclk(mclk), .reset_n(reset_n),
     .HADDR(HADDR_DAC), .HWDATA(HWDATA_DAC), .HTRANS(HTRANS_DAC), .HWRITE(HWRITE_DAC),
     .ctrl(sd_ctrl), .din(din), .wen(wen), .is_last_data(is_last_data),
     .status(status),
-    .bck(master_bckd2), .lrck(master_lrckd2), .dsd138_ctrl(dsd138_ctrl),
+    .bck(master_bck), .lrck(master_lrck), .dsd138_ctrl(dsd138_ctrl),
     .pcm_left(source_left), .pcm_right(source_right),
     .sdata(in_data),
     .dbm(dbm)

@@ -1,15 +1,15 @@
 C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\bin64\m_generic.exe  -mp  4  -prjfile  E:\DAC\igloo\soc\sdio25\synthesis\scratchproject.prs  -prodtype  synplify_pro  -encrypt  -pro  -rundir  E:\DAC\igloo\soc\sdio25\synthesis   -part M2GL025  -package VF400  -grade -1    -continue_on_error -min_cdc_sync_flops 2 -unsafe_cdc_netlist_property 0 -maxfan 10000 -infer_seqShift -clock_globalthreshold 2 -async_globalthreshold 12 -globalthreshold 5000 -low_power_ram_decomp 0 -seqshift_to_uram 0 -opcond COMTC -report_path 4000 -disable_ramindex 0 -rep_clkint_driver 1 -microsemi_enhanced_flow 1 -ternary_adder_decomp 66 -pack_uram_addr_reg 1 -RWCheckOnRam 0 -local_tmr_rename -summaryfile E:\DAC\igloo\soc\sdio25\synthesis\synlog\report\u8_premap.xml -merge_inferred_clocks 0  -top_level_module  u8  -implementation  synthesis  -oedif  E:\DAC\igloo\soc\sdio25\synthesis\u8.edn  -conchk_prepass  E:\DAC\igloo\soc\sdio25\synthesis\u8_cck.rpt   -freq 100.000   -tcl  E:\DAC\igloo\soc\sdio25\designer\u8\synthesis.fdc  E:\DAC\igloo\soc\sdio25\synthesis\synwork\u8_mult.srs  -flow prepass  -gcc_prepass  -osrd  E:\DAC\igloo\soc\sdio25\synthesis\synwork\u8_prem.srd  -qsap  E:\DAC\igloo\soc\sdio25\synthesis\u8.sap  -devicelib  C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\generic\igloo2.v  -ologparam  E:\DAC\igloo\soc\sdio25\synthesis\syntmp\u8.plg  -osyn  E:\DAC\igloo\soc\sdio25\synthesis\synwork\u8_prem.srd  -prjdir  E:\DAC\igloo\soc\sdio25\synthesis\  -prjname  u8_syn  -log  E:\DAC\igloo\soc\sdio25\synthesis\synlog\u8_premap.srr  -sn  2020.03  -jobname  "premap" 
 relcom:C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\bin64\m_generic.exe -mp 4 -prjfile ..\scratchproject.prs -prodtype synplify_pro -encrypt -pro -rundir ..\..\synthesis -part M2GL025 -package VF400 -grade -1 -continue_on_error -min_cdc_sync_flops 2 -unsafe_cdc_netlist_property 0 -maxfan 10000 -infer_seqShift -clock_globalthreshold 2 -async_globalthreshold 12 -globalthreshold 5000 -low_power_ram_decomp 0 -seqshift_to_uram 0 -opcond COMTC -report_path 4000 -disable_ramindex 0 -rep_clkint_driver 1 -microsemi_enhanced_flow 1 -ternary_adder_decomp 66 -pack_uram_addr_reg 1 -RWCheckOnRam 0 -local_tmr_rename -summaryfile ..\synlog\report\u8_premap.xml -merge_inferred_clocks 0 -top_level_module u8 -implementation synthesis -oedif ..\u8.edn -conchk_prepass ..\u8_cck.rpt -freq 100.000 -tcl ..\..\designer\u8\synthesis.fdc ..\synwork\u8_mult.srs -flow prepass -gcc_prepass -osrd ..\synwork\u8_prem.srd -qsap ..\u8.sap -devicelib C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\generic\igloo2.v -ologparam u8.plg -osyn ..\synwork\u8_prem.srd -prjdir ..\ -prjname u8_syn -log ..\synlog\u8_premap.srr -sn 2020.03 -jobname "premap"
-rc:1 success:1 runtime:5
+rc:1 success:1 runtime:4
 file:..\scratchproject.prs|io:o|time:1628666652|size:4640|exec:0|csum:
-file:..\u8.edn|io:o|time:1628670575|size:2017285|exec:0|csum:
-file:..\u8_cck.rpt|io:o|time:1628672500|size:39016|exec:0|csum:
-file:..\..\designer\u8\synthesis.fdc|io:i|time:1628672493|size:2741|exec:0|csum:BE186B00E5B90D15D2A2F6D62CD768B8
-file:..\synwork\u8_mult.srs|io:i|time:1628670552|size:6015|exec:0|csum:3C70CB667437BFB9E7AEC286E24D99FA
-file:..\synwork\u8_prem.srd|io:o|time:1628672499|size:283877|exec:0|csum:
-file:..\u8.sap|io:o|time:1628672501|size:8177|exec:0|csum:
+file:..\u8.edn|io:o|time:1628827477|size:1958420|exec:0|csum:
+file:..\u8_cck.rpt|io:o|time:1628829944|size:38314|exec:0|csum:
+file:..\..\designer\u8\synthesis.fdc|io:i|time:1628829915|size:2741|exec:0|csum:197DDBE3FA963B1BA1DFC1496D7A9617
+file:..\synwork\u8_mult.srs|io:i|time:1628829940|size:6015|exec:0|csum:6D8EFA61D85634B994BC057E9A2D772F
+file:..\synwork\u8_prem.srd|io:o|time:1628829943|size:282875|exec:0|csum:
+file:..\u8.sap|io:o|time:1628829945|size:8800|exec:0|csum:
 file:C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\generic\igloo2.v|io:i|time:1604390290|size:16445|exec:0|csum:0C1A855CE2A914A7AF1E723A1690BFF3
-file:u8.plg|io:o|time:1628672496|size:0|exec:0|csum:
-file:..\synwork\u8_prem.srd|io:o|time:1628672499|size:283877|exec:0|csum:
-file:..\synlog\u8_premap.srr|io:o|time:1628672501|size:52644|exec:0|csum:
+file:u8.plg|io:o|time:1628829941|size:0|exec:0|csum:
+file:..\synwork\u8_prem.srd|io:o|time:1628829943|size:282875|exec:0|csum:
+file:..\synlog\u8_premap.srr|io:o|time:1628829945|size:52259|exec:0|csum:
 file:C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\bin64\m_generic.exe|io:i|time:1604390270|size:42820608|exec:1|csum:39CFAC34BBF814CB465BAE1969F6836F

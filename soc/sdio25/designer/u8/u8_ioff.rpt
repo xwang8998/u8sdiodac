@@ -1,6 +1,6 @@
 I/O Register Combining Report
 Microsemi Corporation - Microsemi Libero Software Release v12.6 (Version 12.900.20.24)
-Date: Wed Aug 11 17:05:39 2021
+Date: Fri Aug 13 12:48:43 2021
 
 I/O Register Combining Summary
 +-----------+---------------+-------------------------------+
@@ -32,7 +32,6 @@ I/O Register Combining Summary
 | dsd_rn5   | Output        | test_0/dsd_rnn[2]             |
 | dsd_rn6   | Output        | test_0/dsd_rnn[1]             |
 | dsd_rn7   | Output        | test_0/dsd_rnn[0]             |
-| dsd_rp0   | Output        | test_0/dsd_rpp[0]             |
 | dsd_rp1   | Output        | test_0/dsd_rpp[1]             |
 | dsd_rp2   | Output        | test_0/dsd_rpp[2]             |
 | dsd_rp3   | Output        | test_0/dsd_rpp[3]             |

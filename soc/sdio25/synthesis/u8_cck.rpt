@@ -13,7 +13,7 @@ Hostname: WIN7-2020MEADRD
 
 Implementation : synthesis
 
-# Written on Wed Aug 11 17:01:40 2021
+# Written on Fri Aug 13 12:45:44 2021
 
 ##### DESIGN INFO #######################################################
 
@@ -39,6 +39,7 @@ Starting                                                      Ending            
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 mclk                                                          System                                                        |     8.000            |     No paths         |     No paths         |     No paths                         
 mclk                                                          mclk                                                          |     8.000            |     No paths         |     No paths         |     No paths                         
+mclk                                                          mclk4549                                                      |     8.000            |     No paths         |     No paths         |     No paths                         
 sdclk_n                                                       sdclk_n                                                       |     16.000           |     No paths         |     No paths         |     No paths                         
 sdclk_n                                                       clock138_bck                                                  |     16.000           |     No paths         |     No paths         |     No paths                         
 sdclk_n                                                       mclk4549                                                      |     16.000           |     No paths         |     No paths         |     No paths                         
@@ -50,7 +51,6 @@ sdclk_n                                                       u8|sdclk          
 sdclk_n                                                       sdtop|clk_d2_inferred_clock                                   |     Diff grp         |     No paths         |     No paths         |     No paths                         
 sdclk_n                                                       sdtop|clk_d4_inferred_clock                                   |     Diff grp         |     No paths         |     No paths         |     No paths                         
 sdclk_n                                                       clock_divider|clk16_inferred_clock                            |     Diff grp         |     No paths         |     No paths         |     No paths                         
-sdclk_n                                                       inctrl|master_lrck_inferred_clock                             |     Diff grp         |     No paths         |     No paths         |     No paths                         
 clock138_bck                                                  clock138_bck                                                  |     16.000           |     No paths         |     No paths         |     No paths                         
 mclk4549                                                      mclk                                                          |     No paths         |     No paths         |     No paths         |     8.000                            
 mclk4549                                                      sdclk_n                                                       |     16.000           |     No paths         |     No paths         |     No paths                         
@@ -70,21 +70,21 @@ sdtop|dsd_clkr_inferred_clock                                 clock_divider|clk8
 sdtop|dsd_clkr_inferred_clock                                 clock_divider|clk16_inferred_clock                            |     No paths         |     Diff grp         |     Diff grp         |     No paths                         
 clock_divider|clk2_inferred_clock                             mclk                                                          |     No paths         |     No paths         |     No paths         |     Diff grp                         
 clock_divider|clk2_inferred_clock                             mclk4549                                                      |     Diff grp         |     Diff grp         |     Diff grp         |     No paths                         
-clock_divider|clk2_inferred_clock                             sdtop|dsd_clkr_inferred_clock                                 |     Diff grp         |     Diff grp         |     Diff grp         |     No paths                         
+clock_divider|clk2_inferred_clock                             sdtop|dsd_clkr_inferred_clock                                 |     No paths         |     Diff grp         |     Diff grp         |     No paths                         
 clock_divider|clk2_inferred_clock                             clock_divider|clk2_inferred_clock                             |     10.000           |     10.000           |     5.000            |     No paths                         
 clock_divider|clk2_inferred_clock                             clock_divider|clk4_inferred_clock                             |     Diff grp         |     Diff grp         |     Diff grp         |     No paths                         
 clock_divider|clk2_inferred_clock                             clock_divider|clk8_inferred_clock                             |     Diff grp         |     Diff grp         |     Diff grp         |     No paths                         
 clock_divider|clk2_inferred_clock                             clock_divider|clk16_inferred_clock                            |     Diff grp         |     Diff grp         |     Diff grp         |     No paths                         
 clock_divider|clk4_inferred_clock                             mclk                                                          |     No paths         |     No paths         |     No paths         |     Diff grp                         
 clock_divider|clk4_inferred_clock                             mclk4549                                                      |     Diff grp         |     Diff grp         |     Diff grp         |     No paths                         
-clock_divider|clk4_inferred_clock                             sdtop|dsd_clkr_inferred_clock                                 |     Diff grp         |     Diff grp         |     Diff grp         |     No paths                         
+clock_divider|clk4_inferred_clock                             sdtop|dsd_clkr_inferred_clock                                 |     No paths         |     Diff grp         |     Diff grp         |     No paths                         
 clock_divider|clk4_inferred_clock                             clock_divider|clk2_inferred_clock                             |     Diff grp         |     Diff grp         |     Diff grp         |     No paths                         
 clock_divider|clk4_inferred_clock                             clock_divider|clk4_inferred_clock                             |     10.000           |     10.000           |     5.000            |     No paths                         
 clock_divider|clk4_inferred_clock                             clock_divider|clk8_inferred_clock                             |     Diff grp         |     Diff grp         |     Diff grp         |     No paths                         
 clock_divider|clk4_inferred_clock                             clock_divider|clk16_inferred_clock                            |     Diff grp         |     Diff grp         |     Diff grp         |     No paths                         
 clock_divider|clk8_inferred_clock                             mclk                                                          |     No paths         |     No paths         |     No paths         |     Diff grp                         
 clock_divider|clk8_inferred_clock                             mclk4549                                                      |     Diff grp         |     Diff grp         |     Diff grp         |     No paths                         
-clock_divider|clk8_inferred_clock                             sdtop|dsd_clkr_inferred_clock                                 |     Diff grp         |     Diff grp         |     Diff grp         |     No paths                         
+clock_divider|clk8_inferred_clock                             sdtop|dsd_clkr_inferred_clock                                 |     No paths         |     Diff grp         |     Diff grp         |     No paths                         
 clock_divider|clk8_inferred_clock                             clock_divider|clk2_inferred_clock                             |     Diff grp         |     Diff grp         |     Diff grp         |     No paths                         
 clock_divider|clk8_inferred_clock                             clock_divider|clk4_inferred_clock                             |     Diff grp         |     Diff grp         |     Diff grp         |     No paths                         
 clock_divider|clk8_inferred_clock                             clock_divider|clk8_inferred_clock                             |     10.000           |     10.000           |     5.000            |     No paths                         
@@ -103,7 +103,6 @@ u8_sb_CCC_0_FCCC|GL0_net_inferred_clock                       u8|sdclk          
 u8_sb_CCC_0_FCCC|GL0_net_inferred_clock                       sdtop|clk_d2_inferred_clock                                   |     Diff grp         |     No paths         |     No paths         |     No paths                         
 u8_sb_CCC_0_FCCC|GL0_net_inferred_clock                       sdtop|clk_d4_inferred_clock                                   |     Diff grp         |     No paths         |     No paths         |     No paths                         
 u8_sb_CCC_0_FCCC|GL0_net_inferred_clock                       clock_divider|clk16_inferred_clock                            |     Diff grp         |     No paths         |     Diff grp         |     No paths                         
-u8_sb_CCC_0_FCCC|GL0_net_inferred_clock                       inctrl|master_lrck_inferred_clock                             |     Diff grp         |     No paths         |     No paths         |     No paths                         
 u8_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     u8_sb_CCC_0_FCCC|GL0_net_inferred_clock                       |     Diff grp         |     No paths         |     No paths         |     No paths                         
 u8_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     u8_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     |     10.000           |     No paths         |     No paths         |     No paths                         
 u8|sdclk                                                      sdclk_n                                                       |     Diff grp         |     No paths         |     No paths         |     No paths                         
@@ -111,13 +110,11 @@ sdtop|clk_d2_inferred_clock                                   sdtop|clk_d2_infer
 sdtop|clk_d4_inferred_clock                                   sdtop|clk_d4_inferred_clock                                   |     10.000           |     No paths         |     No paths         |     No paths                         
 clock_divider|clk16_inferred_clock                            mclk                                                          |     No paths         |     No paths         |     No paths         |     Diff grp                         
 clock_divider|clk16_inferred_clock                            mclk4549                                                      |     Diff grp         |     Diff grp         |     Diff grp         |     No paths                         
-clock_divider|clk16_inferred_clock                            sdtop|dsd_clkr_inferred_clock                                 |     Diff grp         |     Diff grp         |     Diff grp         |     No paths                         
+clock_divider|clk16_inferred_clock                            sdtop|dsd_clkr_inferred_clock                                 |     No paths         |     Diff grp         |     Diff grp         |     No paths                         
 clock_divider|clk16_inferred_clock                            clock_divider|clk2_inferred_clock                             |     Diff grp         |     Diff grp         |     Diff grp         |     No paths                         
 clock_divider|clk16_inferred_clock                            clock_divider|clk4_inferred_clock                             |     Diff grp         |     Diff grp         |     Diff grp         |     No paths                         
 clock_divider|clk16_inferred_clock                            clock_divider|clk8_inferred_clock                             |     Diff grp         |     Diff grp         |     Diff grp         |     No paths                         
 clock_divider|clk16_inferred_clock                            clock_divider|clk16_inferred_clock                            |     10.000           |     10.000           |     5.000            |     No paths                         
-inctrl|master_lrck_inferred_clock                             mclk4549                                                      |     Diff grp         |     No paths         |     No paths         |     No paths                         
-inctrl|master_lrck_inferred_clock                             inctrl|master_lrck_inferred_clock                             |     10.000           |     No paths         |     No paths         |     No paths                         
 =======================================================================================================================================================================================================================================
  Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
        'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.

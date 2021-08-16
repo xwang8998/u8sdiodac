@@ -23,55 +23,49 @@ Max Top 5 critical clocks will be reported. For rest user needs to refer to Deta
 <row>
 <data>clock_divider|clk2_inferred_clock</data>
 <data>100.0 MHz</data>
-<data>242.9 MHz</data>
-<data>2.955</data>
+<data>247.6 MHz</data>
+<data>3.015</data>
 </row>
 <row>
 <data>clock_divider|clk4_inferred_clock</data>
 <data>100.0 MHz</data>
-<data>242.9 MHz</data>
-<data>2.955</data>
+<data>247.6 MHz</data>
+<data>3.015</data>
 </row>
 <row>
 <data>clock_divider|clk8_inferred_clock</data>
 <data>100.0 MHz</data>
-<data>121.5 MHz</data>
-<data>0.883</data>
+<data>123.8 MHz</data>
+<data>0.961</data>
 </row>
 <row>
 <data>clock_divider|clk16_inferred_clock</data>
 <data>100.0 MHz</data>
-<data>121.5 MHz</data>
-<data>0.883</data>
-</row>
-<row>
-<data>inctrl|master_lrck_inferred_clock</data>
-<data>100.0 MHz</data>
-<data>789.1 MHz</data>
-<data>8.733</data>
+<data>123.8 MHz</data>
+<data>0.961</data>
 </row>
 <row>
 <data>mclk</data>
 <data>125.0 MHz</data>
-<data>117.6 MHz</data>
-<data>-0.507</data>
+<data>117.5 MHz</data>
+<data>-0.512</data>
 </row>
 <row>
 <data>mclk4549</data>
 <data>62.5 MHz</data>
 <data>165.8 MHz</data>
-<data>5.955</data>
+<data>6.015</data>
 </row>
 <row>
 <data>sdclk_n</data>
 <data>62.5 MHz</data>
-<data>121.0 MHz</data>
-<data>7.734</data>
+<data>115.4 MHz</data>
+<data>7.333</data>
 </row>
 <row>
 <data>sdtop|dsd_clkr_inferred_clock</data>
 <data>100.0 MHz</data>
-<data>265.6 MHz</data>
+<data>300.8 MHz</data>
 <data>3.338</data>
 </row>
 <row>

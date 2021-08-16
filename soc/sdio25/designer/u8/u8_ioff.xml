@@ -3,7 +3,7 @@
 <doc>
 <title>I/O Register Combining Report</title>
 <text>Microsemi Corporation - Microsemi Libero Software Release v12.6 (Version 12.900.20.24)</text>
-<text>Date: Wed Aug 11 17:05:39 2021
+<text>Date: Fri Aug 13 12:48:43 2021
 </text>
 <section><name>I/O Register Combining Summary</name></section>
 <table>
@@ -141,11 +141,6 @@
  <cell>dsd_rn7</cell>
  <cell>Output</cell>
  <cell>test_0/dsd_rnn[0]</cell>
-</row>
-<row>
- <cell>dsd_rp0</cell>
- <cell>Output</cell>
- <cell>test_0/dsd_rpp[0]</cell>
 </row>
 <row>
  <cell>dsd_rp1</cell>

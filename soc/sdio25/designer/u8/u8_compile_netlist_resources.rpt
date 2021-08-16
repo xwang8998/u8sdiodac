@@ -1,6 +1,6 @@
 Resource Report
 Microsemi Corporation - Microsemi Libero Software Release v12.6 (Version 12.900.20.24)
-Date: Wed Aug 11 17:02:08 2021
+Date: Fri Aug 13 12:46:07 2021
 
 Device Selection
 +--------------------------------+----------------+
@@ -37,8 +37,8 @@ Resource Usage
 +---------------------------+------+-------+------------+
 | Type                      | Used | Total | Percentage |
 +---------------------------+------+-------+------------+
-| 4LUT                      | 1450 | 27696 | 5.24       |
-| DFF                       | 1130 | 27696 | 4.08       |
+| 4LUT                      | 1482 | 27696 | 5.35       |
+| DFF                       | 1121 | 27696 | 4.05       |
 | I/O Register              | 0    | 801   | 0.00       |
 | User I/O                  | 57   | 267   | 21.35      |
 | -- Single-ended I/O       | 57   | 267   | 21.35      |
@@ -58,11 +58,11 @@ Detailed Logic Resource Usage
 +--------------------------+------+------+
 | Type                     | 4LUT | DFF  |
 +--------------------------+------+------+
-| Fabric Logic             | 1450 | 1130 |
+| Fabric Logic             | 1482 | 1121 |
 | RAM64x18 Interface Logic | 0    | 0    |
 | RAM1K18 Interface Logic  | 0    | 0    |
 | MACC Interface Logic     | 0    | 0    |
-| Total Used               | 1450 | 1130 |
+| Total Used               | 1482 | 1121 |
 +--------------------------+------+------+
 
 HPMS Resource Usage
@@ -82,16 +82,14 @@ HPMS Resource Usage
 Detailed Carry Chains Resource Usage
 +--------+------+
 | Length | Used |
-| 2      | 32   |
+| 2      | 31   |
 | 6      | 3    |
-| 7      | 1    |
 | 8      | 1    |
 | 9      | 3    |
-| 10     | 1    |
-| 11     | 1    |
+| 10     | 2    |
 | 14     | 3    |
 | 15     | 1    |
-| Total  | 46   |
+| Total  | 44   |
 +--------+------+
 
 I/O Function
@@ -122,37 +120,37 @@ Nets assigned to chip global resources
 | 338    | INT_NET | Net   : test_0/sdclk_n_1                                            |
 |        |         | Driver: test_0/UCK3/U0_RGB1                                         |
 |        |         | Source: NETLIST                                                     |
-| 320    | INT_NET | Net   : MSS_HPMS_READY_int_arst                                     |
+| 319    | INT_NET | Net   : MSS_HPMS_READY_int_arst                                     |
 |        |         | Driver: u8_sb_0/CORERESETP_0/MSS_HPMS_READY_int_rep_RNI50M1/U0_RGB1 |
 |        |         | Source: NETLIST                                                     |
 | 157    | INT_NET | Net   : test_0/u100/uctrl/un1_reset_n_1                             |
 |        |         | Driver: test_0/u100/uctrl/un1_reset_n_1_RNISV19/U0_RGB1             |
 |        |         | Source: NETLIST                                                     |
-| 155    | INT_NET | Net   : test_0/u100/reset_n_arst                                    |
+| 146    | INT_NET | Net   : test_0/u100/reset_n_arst                                    |
 |        |         | Driver: test_0/u100/reset_n_RNI12DE/U0_RGB1                         |
 |        |         | Source: NETLIST                                                     |
 | 102    | INT_NET | Net   : test_0/u100/dop_clock_1                                     |
 |        |         | Driver: test_0/u100/DSD138/UIN100/UCK14/U0_RGB1                     |
 |        |         | Source: NETLIST                                                     |
-| 102    | INT_NET | Net   : test_0.u100.N_1800_i                                        |
-|        |         | Driver: I_403/U0_RGB1                                               |
+| 102    | INT_NET | Net   : test_0/u100/UDOP/reset_n                                    |
+|        |         | Driver: test_0/u100/UDOP/reset_n_RNI7Q8D/U0_RGB1                    |
 |        |         | Source: NETLIST                                                     |
-| 87     | INT_NET | Net   : test_0/u100/in_bck_1                                        |
+| 81     | INT_NET | Net   : test_0/u100/reset_n_arst_0                                  |
+|        |         | Driver: test_0/u100/USPDIF_TX/reset_n_RNI5VME/U0_RGB1               |
+|        |         | Source: NETLIST                                                     |
+| 79     | INT_NET | Net   : test_0/u100/in_bck_1                                        |
 |        |         | Driver: test_0/u100/DSD138/UIN100/UCK10/U0_RGB1                     |
-|        |         | Source: NETLIST                                                     |
-| 81     | INT_NET | Net   : test_0.u100.USPDIF_TX.reset_n_arst                          |
-|        |         | Driver: I_404/U0_RGB1                                               |
 |        |         | Source: NETLIST                                                     |
 | 70     | INT_NET | Net   : test_0/u100/spdif_clock_1                                   |
 |        |         | Driver: test_0/u100/DSD138/UIN100/UCK12/U0_RGB1                     |
 |        |         | Source: NETLIST                                                     |
-| 69     | INT_NET | Net   : test_0/u100/dsd_clk_1                                       |
+| 70     | INT_NET | Net   : test_0/u100/dsd_clk_1                                       |
 |        |         | Driver: test_0/u100/UDSDCLK/U0_RGB1                                 |
 |        |         | Source: NETLIST                                                     |
 | 37     | INT_NET | Net   : u8_sb_0/GL0_INST                                            |
 |        |         | Driver: u8_sb_0/CCC_0/GL0_INST/U0_RGB1                              |
 |        |         | Source: NETLIST                                                     |
-| 34     | INT_NET | Net   : mclk_c                                                      |
+| 33     | INT_NET | Net   : mclk_c                                                      |
 |        |         | Driver: mclk_ibuf_RNIC9QA/U0_RGB1                                   |
 |        |         | Source: NETLIST                                                     |
 | 18     | INT_NET | Net   : clock138_bck_c                                              |
@@ -178,24 +176,24 @@ High fanout nets
 +--------+---------+-------------------------------------------------------+
 | 84     | INT_NET | Net   : test_0/u100/use_dsd                           |
 |        |         | Driver: test_0/u100/uctrl/use_dsd                     |
-| 81     | INT_NET | Net   : test_0/u100/uctrl/state[1]                    |
+| 84     | INT_NET | Net   : test_0/u100/uctrl/state[1]                    |
 |        |         | Driver: test_0/u100/uctrl/state[1]                    |
-| 68     | INT_NET | Net   : test_0/u100/UDSDTX/reset_n_1                  |
+| 70     | INT_NET | Net   : test_0/u100/UPCMTX/reset_n_1                  |
+|        |         | Driver: test_0/u100/UPCMTX/reset_n                    |
+| 69     | INT_NET | Net   : test_0/u100/UDSDTX/reset_n_0                  |
 |        |         | Driver: test_0/u100/UDSDTX/reset_n                    |
+| 65     | INT_NET | Net   : test_0/u100/UDSDTX/i[4]                       |
+|        |         | Driver: test_0/u100/UDSDTX/i[4]                       |
+| 65     | INT_NET | Net   : test_0/u100/UDSDTX/N_1604                     |
+|        |         | Driver: test_0/u100/UDSDTX/t19_0_o2                   |
 | 64     | INT_NET | Net   : test_0/u100/uctrl/un1_state_6_i               |
 |        |         | Driver: test_0/u100/uctrl/un1_state_6_0_o2_1_RNIPOT91 |
+| 64     | INT_NET | Net   : test_0/u100/UPCMTX/t19                        |
+|        |         | Driver: test_0/u100/UPCMTX/t19                        |
 | 64     | INT_NET | Net   : test_0/u100/UD100/crc_clr_0                   |
 |        |         | Driver: test_0/u100/UD100/crc_clr                     |
 | 64     | INT_NET | Net   : test_0/u100/UD100/crc_en                      |
 |        |         | Driver: test_0/u100/UD100/crc_en                      |
-| 52     | INT_NET | Net   : test_0/u100/state_1[0]                        |
-|        |         | Driver: test_0/u100/state[0]                          |
-| 47     | INT_NET | Net   : test_0/u100/n_bit_0_sqmuxa                    |
-|        |         | Driver: test_0/u100/n_bit_0_sqmuxa                    |
-| 43     | INT_NET | Net   : test_0/u100/UD100/state[0]                    |
-|        |         | Driver: test_0/u100/UD100/state[0]                    |
-| 42     | INT_NET | Net   : test_0/u100/UD100/state[2]                    |
-|        |         | Driver: test_0/u100/UD100/state[2]                    |
 +--------+---------+-------------------------------------------------------+
 
 High fanout nets (through buffer trees)
@@ -204,23 +202,23 @@ High fanout nets (through buffer trees)
 +--------+---------+-------------------------------------------------------+
 | 84     | INT_NET | Net   : test_0/u100/use_dsd                           |
 |        |         | Driver: test_0/u100/uctrl/use_dsd                     |
-| 81     | INT_NET | Net   : test_0/u100/uctrl/state[1]                    |
+| 84     | INT_NET | Net   : test_0/u100/uctrl/state[1]                    |
 |        |         | Driver: test_0/u100/uctrl/state[1]                    |
-| 68     | INT_NET | Net   : test_0/u100/UDSDTX/reset_n_1                  |
+| 70     | INT_NET | Net   : test_0/u100/UPCMTX/reset_n_1                  |
+|        |         | Driver: test_0/u100/UPCMTX/reset_n                    |
+| 69     | INT_NET | Net   : test_0/u100/UDSDTX/reset_n_0                  |
 |        |         | Driver: test_0/u100/UDSDTX/reset_n                    |
+| 65     | INT_NET | Net   : test_0/u100/UDSDTX/i[4]                       |
+|        |         | Driver: test_0/u100/UDSDTX/i[4]                       |
+| 65     | INT_NET | Net   : test_0/u100/UDSDTX/N_1604                     |
+|        |         | Driver: test_0/u100/UDSDTX/t19_0_o2                   |
 | 64     | INT_NET | Net   : test_0/u100/uctrl/un1_state_6_i               |
 |        |         | Driver: test_0/u100/uctrl/un1_state_6_0_o2_1_RNIPOT91 |
+| 64     | INT_NET | Net   : test_0/u100/UPCMTX/t19                        |
+|        |         | Driver: test_0/u100/UPCMTX/t19                        |
 | 64     | INT_NET | Net   : test_0/u100/UD100/crc_clr_0                   |
 |        |         | Driver: test_0/u100/UD100/crc_clr                     |
 | 64     | INT_NET | Net   : test_0/u100/UD100/crc_en                      |
 |        |         | Driver: test_0/u100/UD100/crc_en                      |
-| 52     | INT_NET | Net   : test_0/u100/state_1[0]                        |
-|        |         | Driver: test_0/u100/state[0]                          |
-| 47     | INT_NET | Net   : test_0/u100/n_bit_0_sqmuxa                    |
-|        |         | Driver: test_0/u100/n_bit_0_sqmuxa                    |
-| 43     | INT_NET | Net   : test_0/u100/UD100/state[0]                    |
-|        |         | Driver: test_0/u100/UD100/state[0]                    |
-| 42     | INT_NET | Net   : test_0/u100/UD100/state[2]                    |
-|        |         | Driver: test_0/u100/UD100/state[2]                    |
 +--------+---------+-------------------------------------------------------+
 

@@ -1,5 +1,5 @@
 ********************************************************************
-I/O Bank Report - Date: Wed Aug 11 17:05:39 2021
+I/O Bank Report - Date: Fri Aug 13 12:48:43 2021
 Product: Designer
 Release: v12.6
 Version: 12.900.20.24
@@ -15,7 +15,7 @@ I/O Function:
     Type                                  | w/o register  | w/ register  | w/ DDR register
     --------------------------------------|---------------|--------------|----------------
     Input I/O                             | 4             | 0            | 0
-    Output I/O                            | 13            | 32           | 0
+    Output I/O                            | 14            | 31           | 0
     Bidirectional I/O                     | 3             | 5            | 0
     Differential Input I/O Pairs          | 0             | 0            | 0
     Differential Output I/O Pairs         | 0             | 0            | 0

@@ -3,7 +3,7 @@
 <doc>
 <text>SmartTime Version 12.900.20.24</text>
 <text>Microsemi Corporation - Microsemi Libero Software Release v12.6 (Version 12.900.20.24)
-Date: Wed Aug 11 17:02:23 2021 </text>
+Date: Fri Aug 13 12:46:21 2021 </text>
 <table>
 <header>
 </header>
@@ -50,52 +50,52 @@ Date: Wed Aug 11 17:02:23 2021 </text>
 </header>
 <row>
  <cell>Setup</cell>
- <cell>         5886</cell>
- <cell>           13</cell>
- <cell>         5899</cell>
+ <cell>         5591</cell>
+ <cell>           10</cell>
+ <cell>         5601</cell>
 </row>
 <row>
  <cell>Recovery</cell>
- <cell>         2958</cell>
- <cell>           13</cell>
- <cell>         2971</cell>
+ <cell>         3103</cell>
+ <cell>           12</cell>
+ <cell>         3115</cell>
 </row>
 <row>
  <cell>Output Setup</cell>
- <cell>          165</cell>
- <cell>           22</cell>
- <cell>          187</cell>
+ <cell>          164</cell>
+ <cell>           15</cell>
+ <cell>          179</cell>
 </row>
 <row>
  <cell>Total Setup</cell>
- <cell>         9009</cell>
- <cell>           48</cell>
- <cell>         9057</cell>
+ <cell>         8858</cell>
+ <cell>           37</cell>
+ <cell>         8895</cell>
 </row>
 <separator/>
 <row>
  <cell>Hold</cell>
- <cell>         5886</cell>
- <cell>           13</cell>
- <cell>         5899</cell>
+ <cell>         5591</cell>
+ <cell>           10</cell>
+ <cell>         5601</cell>
 </row>
 <row>
  <cell>Removal</cell>
- <cell>         2958</cell>
- <cell>           13</cell>
- <cell>         2971</cell>
+ <cell>         3103</cell>
+ <cell>           12</cell>
+ <cell>         3115</cell>
 </row>
 <row>
  <cell>Output Hold</cell>
- <cell>          165</cell>
- <cell>           22</cell>
- <cell>          187</cell>
+ <cell>          164</cell>
+ <cell>           15</cell>
+ <cell>          179</cell>
 </row>
 <row>
  <cell>Total Hold</cell>
- <cell>         9009</cell>
- <cell>           48</cell>
- <cell>         9057</cell>
+ <cell>         8858</cell>
+ <cell>           37</cell>
+ <cell>         8895</cell>
 </row>
 </table>
 <section>
@@ -215,15 +215,15 @@ Date: Wed Aug 11 17:02:23 2021 </text>
 </header>
 <row>
  <cell>Setup</cell>
- <cell>           33</cell>
+ <cell>           32</cell>
  <cell>            0</cell>
- <cell>           33</cell>
+ <cell>           32</cell>
 </row>
 <row>
  <cell>Recovery</cell>
- <cell>           33</cell>
+ <cell>           32</cell>
  <cell>            0</cell>
- <cell>           33</cell>
+ <cell>           32</cell>
 </row>
 <row>
  <cell>Output Setup</cell>
@@ -233,22 +233,22 @@ Date: Wed Aug 11 17:02:23 2021 </text>
 </row>
 <row>
  <cell>Total Setup</cell>
- <cell>           99</cell>
+ <cell>           97</cell>
  <cell>            0</cell>
- <cell>           99</cell>
+ <cell>           97</cell>
 </row>
 <separator/>
 <row>
  <cell>Hold</cell>
- <cell>           33</cell>
+ <cell>           32</cell>
  <cell>            0</cell>
- <cell>           33</cell>
+ <cell>           32</cell>
 </row>
 <row>
  <cell>Removal</cell>
- <cell>           33</cell>
+ <cell>           32</cell>
  <cell>            0</cell>
- <cell>           33</cell>
+ <cell>           32</cell>
 </row>
 <row>
  <cell>Output Hold</cell>
@@ -258,9 +258,9 @@ Date: Wed Aug 11 17:02:23 2021 </text>
 </row>
 <row>
  <cell>Total Hold</cell>
- <cell>           99</cell>
+ <cell>           97</cell>
  <cell>            0</cell>
- <cell>           99</cell>
+ <cell>           97</cell>
 </row>
 </table>
 </section>
@@ -400,15 +400,15 @@ Date: Wed Aug 11 17:02:23 2021 </text>
 </header>
 <row>
  <cell>Setup</cell>
- <cell>         1084</cell>
- <cell>            1</cell>
- <cell>         1085</cell>
+ <cell>         1045</cell>
+ <cell>            0</cell>
+ <cell>         1045</cell>
 </row>
 <row>
  <cell>Recovery</cell>
- <cell>          525</cell>
+ <cell>          549</cell>
  <cell>            0</cell>
- <cell>          525</cell>
+ <cell>          549</cell>
 </row>
 <row>
  <cell>Output Setup</cell>
@@ -418,22 +418,22 @@ Date: Wed Aug 11 17:02:23 2021 </text>
 </row>
 <row>
  <cell>Total Setup</cell>
- <cell>         1612</cell>
- <cell>            2</cell>
- <cell>         1614</cell>
+ <cell>         1597</cell>
+ <cell>            1</cell>
+ <cell>         1598</cell>
 </row>
 <separator/>
 <row>
  <cell>Hold</cell>
- <cell>         1084</cell>
- <cell>            1</cell>
- <cell>         1085</cell>
+ <cell>         1045</cell>
+ <cell>            0</cell>
+ <cell>         1045</cell>
 </row>
 <row>
  <cell>Removal</cell>
- <cell>          525</cell>
+ <cell>          549</cell>
  <cell>            0</cell>
- <cell>          525</cell>
+ <cell>          549</cell>
 </row>
 <row>
  <cell>Output Hold</cell>
@@ -443,9 +443,9 @@ Date: Wed Aug 11 17:02:23 2021 </text>
 </row>
 <row>
  <cell>Total Hold</cell>
- <cell>         1612</cell>
- <cell>            2</cell>
- <cell>         1614</cell>
+ <cell>         1597</cell>
+ <cell>            1</cell>
+ <cell>         1598</cell>
 </row>
 </table>
 <section>
@@ -466,18 +466,6 @@ Date: Wed Aug 11 17:02:23 2021 </text>
 </list>
 <text></text>
 <text></text>
-<text> - Setup unconstrained for the following pin:</text>
-<text>   </text>
-<list>
- <item>test_0/u100/uctrl/old_lrck:D</item>
-</list>
-<text></text>
-<text> - Hold unconstrained for the following pin:</text>
-<text>   </text>
-<list>
- <item>test_0/u100/uctrl/old_lrck:D</item>
-</list>
-<text></text>
 </section>
 </section>
 <section>
@@ -493,15 +481,15 @@ Date: Wed Aug 11 17:02:23 2021 </text>
 </header>
 <row>
  <cell>Setup</cell>
- <cell>          456</cell>
+ <cell>          416</cell>
  <cell>            1</cell>
- <cell>          457</cell>
+ <cell>          417</cell>
 </row>
 <row>
  <cell>Recovery</cell>
- <cell>          241</cell>
+ <cell>          265</cell>
  <cell>            0</cell>
- <cell>          241</cell>
+ <cell>          265</cell>
 </row>
 <row>
  <cell>Output Setup</cell>
@@ -511,22 +499,22 @@ Date: Wed Aug 11 17:02:23 2021 </text>
 </row>
 <row>
  <cell>Total Setup</cell>
- <cell>          700</cell>
+ <cell>          684</cell>
  <cell>            2</cell>
- <cell>          702</cell>
+ <cell>          686</cell>
 </row>
 <separator/>
 <row>
  <cell>Hold</cell>
- <cell>          456</cell>
+ <cell>          416</cell>
  <cell>            1</cell>
- <cell>          457</cell>
+ <cell>          417</cell>
 </row>
 <row>
  <cell>Removal</cell>
- <cell>          241</cell>
+ <cell>          265</cell>
  <cell>            0</cell>
- <cell>          241</cell>
+ <cell>          265</cell>
 </row>
 <row>
  <cell>Output Hold</cell>
@@ -536,9 +524,9 @@ Date: Wed Aug 11 17:02:23 2021 </text>
 </row>
 <row>
  <cell>Total Hold</cell>
- <cell>          700</cell>
+ <cell>          684</cell>
  <cell>            2</cell>
- <cell>          702</cell>
+ <cell>          686</cell>
 </row>
 </table>
 <section>
@@ -586,15 +574,15 @@ Date: Wed Aug 11 17:02:23 2021 </text>
 </header>
 <row>
  <cell>Setup</cell>
- <cell>          456</cell>
+ <cell>          416</cell>
  <cell>            1</cell>
- <cell>          457</cell>
+ <cell>          417</cell>
 </row>
 <row>
  <cell>Recovery</cell>
- <cell>          241</cell>
+ <cell>          265</cell>
  <cell>            0</cell>
- <cell>          241</cell>
+ <cell>          265</cell>
 </row>
 <row>
  <cell>Output Setup</cell>
@@ -604,22 +592,22 @@ Date: Wed Aug 11 17:02:23 2021 </text>
 </row>
 <row>
  <cell>Total Setup</cell>
- <cell>          700</cell>
+ <cell>          684</cell>
  <cell>            2</cell>
- <cell>          702</cell>
+ <cell>          686</cell>
 </row>
 <separator/>
 <row>
  <cell>Hold</cell>
- <cell>          456</cell>
+ <cell>          416</cell>
  <cell>            1</cell>
- <cell>          457</cell>
+ <cell>          417</cell>
 </row>
 <row>
  <cell>Removal</cell>
- <cell>          241</cell>
+ <cell>          265</cell>
  <cell>            0</cell>
- <cell>          241</cell>
+ <cell>          265</cell>
 </row>
 <row>
  <cell>Output Hold</cell>
@@ -629,9 +617,9 @@ Date: Wed Aug 11 17:02:23 2021 </text>
 </row>
 <row>
  <cell>Total Hold</cell>
- <cell>          700</cell>
+ <cell>          684</cell>
  <cell>            2</cell>
- <cell>          702</cell>
+ <cell>          686</cell>
 </row>
 </table>
 <section>
@@ -679,15 +667,15 @@ Date: Wed Aug 11 17:02:23 2021 </text>
 </header>
 <row>
  <cell>Setup</cell>
- <cell>          456</cell>
+ <cell>          416</cell>
  <cell>            1</cell>
- <cell>          457</cell>
+ <cell>          417</cell>
 </row>
 <row>
  <cell>Recovery</cell>
- <cell>          241</cell>
+ <cell>          265</cell>
  <cell>            0</cell>
- <cell>          241</cell>
+ <cell>          265</cell>
 </row>
 <row>
  <cell>Output Setup</cell>
@@ -697,22 +685,22 @@ Date: Wed Aug 11 17:02:23 2021 </text>
 </row>
 <row>
  <cell>Total Setup</cell>
- <cell>          700</cell>
+ <cell>          684</cell>
  <cell>            2</cell>
- <cell>          702</cell>
+ <cell>          686</cell>
 </row>
 <separator/>
 <row>
  <cell>Hold</cell>
- <cell>          456</cell>
+ <cell>          416</cell>
  <cell>            1</cell>
- <cell>          457</cell>
+ <cell>          417</cell>
 </row>
 <row>
  <cell>Removal</cell>
- <cell>          241</cell>
+ <cell>          265</cell>
  <cell>            0</cell>
- <cell>          241</cell>
+ <cell>          265</cell>
 </row>
 <row>
  <cell>Output Hold</cell>
@@ -722,9 +710,9 @@ Date: Wed Aug 11 17:02:23 2021 </text>
 </row>
 <row>
  <cell>Total Hold</cell>
- <cell>          700</cell>
+ <cell>          684</cell>
  <cell>            2</cell>
- <cell>          702</cell>
+ <cell>          686</cell>
 </row>
 </table>
 <section>
@@ -772,15 +760,15 @@ Date: Wed Aug 11 17:02:23 2021 </text>
 </header>
 <row>
  <cell>Setup</cell>
- <cell>          456</cell>
+ <cell>          416</cell>
  <cell>            1</cell>
- <cell>          457</cell>
+ <cell>          417</cell>
 </row>
 <row>
  <cell>Recovery</cell>
- <cell>          241</cell>
+ <cell>          265</cell>
  <cell>            0</cell>
- <cell>          241</cell>
+ <cell>          265</cell>
 </row>
 <row>
  <cell>Output Setup</cell>
@@ -790,22 +778,22 @@ Date: Wed Aug 11 17:02:23 2021 </text>
 </row>
 <row>
  <cell>Total Setup</cell>
- <cell>          700</cell>
+ <cell>          684</cell>
  <cell>            2</cell>
- <cell>          702</cell>
+ <cell>          686</cell>
 </row>
 <separator/>
 <row>
  <cell>Hold</cell>
- <cell>          456</cell>
+ <cell>          416</cell>
  <cell>            1</cell>
- <cell>          457</cell>
+ <cell>          417</cell>
 </row>
 <row>
  <cell>Removal</cell>
- <cell>          241</cell>
+ <cell>          265</cell>
  <cell>            0</cell>
- <cell>          241</cell>
+ <cell>          265</cell>
 </row>
 <row>
  <cell>Output Hold</cell>
@@ -815,9 +803,9 @@ Date: Wed Aug 11 17:02:23 2021 </text>
 </row>
 <row>
  <cell>Total Hold</cell>
- <cell>          700</cell>
+ <cell>          684</cell>
  <cell>            2</cell>
- <cell>          702</cell>
+ <cell>          686</cell>
 </row>
 </table>
 <section>
@@ -865,15 +853,15 @@ Date: Wed Aug 11 17:02:23 2021 </text>
 </header>
 <row>
  <cell>Setup</cell>
- <cell>          114</cell>
+ <cell>           86</cell>
  <cell>            0</cell>
- <cell>          114</cell>
+ <cell>           86</cell>
 </row>
 <row>
  <cell>Recovery</cell>
- <cell>           84</cell>
+ <cell>           85</cell>
  <cell>            0</cell>
- <cell>           84</cell>
+ <cell>           85</cell>
 </row>
 <row>
  <cell>Output Setup</cell>
@@ -883,22 +871,22 @@ Date: Wed Aug 11 17:02:23 2021 </text>
 </row>
 <row>
  <cell>Total Setup</cell>
- <cell>          200</cell>
+ <cell>          173</cell>
  <cell>            0</cell>
- <cell>          200</cell>
+ <cell>          173</cell>
 </row>
 <separator/>
 <row>
  <cell>Hold</cell>
- <cell>          114</cell>
+ <cell>           86</cell>
  <cell>            0</cell>
- <cell>          114</cell>
+ <cell>           86</cell>
 </row>
 <row>
  <cell>Removal</cell>
- <cell>           84</cell>
+ <cell>           85</cell>
  <cell>            0</cell>
- <cell>           84</cell>
+ <cell>           85</cell>
 </row>
 <row>
  <cell>Output Hold</cell>
@@ -908,9 +896,9 @@ Date: Wed Aug 11 17:02:23 2021 </text>
 </row>
 <row>
  <cell>Total Hold</cell>
- <cell>          200</cell>
+ <cell>          173</cell>
  <cell>            0</cell>
- <cell>          200</cell>
+ <cell>          173</cell>
 </row>
 </table>
 </section>
@@ -1218,15 +1206,15 @@ Date: Wed Aug 11 17:02:23 2021 </text>
 </header>
 <row>
  <cell>Setup</cell>
- <cell>         1084</cell>
- <cell>            1</cell>
- <cell>         1085</cell>
+ <cell>         1045</cell>
+ <cell>            0</cell>
+ <cell>         1045</cell>
 </row>
 <row>
  <cell>Recovery</cell>
- <cell>          525</cell>
+ <cell>          549</cell>
  <cell>            0</cell>
- <cell>          525</cell>
+ <cell>          549</cell>
 </row>
 <row>
  <cell>Output Setup</cell>
@@ -1236,22 +1224,22 @@ Date: Wed Aug 11 17:02:23 2021 </text>
 </row>
 <row>
  <cell>Total Setup</cell>
- <cell>         1612</cell>
- <cell>            2</cell>
- <cell>         1614</cell>
+ <cell>         1597</cell>
+ <cell>            1</cell>
+ <cell>         1598</cell>
 </row>
 <separator/>
 <row>
  <cell>Hold</cell>
- <cell>         1084</cell>
- <cell>            1</cell>
- <cell>         1085</cell>
+ <cell>         1045</cell>
+ <cell>            0</cell>
+ <cell>         1045</cell>
 </row>
 <row>
  <cell>Removal</cell>
- <cell>          525</cell>
+ <cell>          549</cell>
  <cell>            0</cell>
- <cell>          525</cell>
+ <cell>          549</cell>
 </row>
 <row>
  <cell>Output Hold</cell>
@@ -1261,9 +1249,9 @@ Date: Wed Aug 11 17:02:23 2021 </text>
 </row>
 <row>
  <cell>Total Hold</cell>
- <cell>         1612</cell>
- <cell>            2</cell>
- <cell>         1614</cell>
+ <cell>         1597</cell>
+ <cell>            1</cell>
+ <cell>         1598</cell>
 </row>
 </table>
 <section>
@@ -1283,18 +1271,6 @@ Date: Wed Aug 11 17:02:23 2021 </text>
 </list>
 <text></text>
 <text></text>
-<text> - Setup unconstrained for the following pin:</text>
-<text>   </text>
-<list>
- <item>test_0/u100/uctrl/old_lrck:D</item>
-</list>
-<text></text>
-<text> - Hold unconstrained for the following pin:</text>
-<text>   </text>
-<list>
- <item>test_0/u100/uctrl/old_lrck:D</item>
-</list>
-<text></text>
 </section>
 </section>
 <section>
@@ -1310,15 +1286,15 @@ Date: Wed Aug 11 17:02:23 2021 </text>
 </header>
 <row>
  <cell>Setup</cell>
- <cell>           98</cell>
+ <cell>           70</cell>
  <cell>            0</cell>
- <cell>           98</cell>
+ <cell>           70</cell>
 </row>
 <row>
  <cell>Recovery</cell>
- <cell>           68</cell>
+ <cell>           69</cell>
  <cell>            0</cell>
- <cell>           68</cell>
+ <cell>           69</cell>
 </row>
 <row>
  <cell>Output Setup</cell>
@@ -1328,22 +1304,22 @@ Date: Wed Aug 11 17:02:23 2021 </text>
 </row>
 <row>
  <cell>Total Setup</cell>
- <cell>          168</cell>
+ <cell>          141</cell>
  <cell>            0</cell>
- <cell>          168</cell>
+ <cell>          141</cell>
 </row>
 <separator/>
 <row>
  <cell>Hold</cell>
- <cell>           98</cell>
+ <cell>           70</cell>
  <cell>            0</cell>
- <cell>           98</cell>
+ <cell>           70</cell>
 </row>
 <row>
  <cell>Removal</cell>
- <cell>           68</cell>
+ <cell>           69</cell>
  <cell>            0</cell>
- <cell>           68</cell>
+ <cell>           69</cell>
 </row>
 <row>
  <cell>Output Hold</cell>
@@ -1353,9 +1329,9 @@ Date: Wed Aug 11 17:02:23 2021 </text>
 </row>
 <row>
  <cell>Total Hold</cell>
- <cell>          168</cell>
+ <cell>          141</cell>
  <cell>            0</cell>
- <cell>          168</cell>
+ <cell>          141</cell>
 </row>
 </table>
 </section>
@@ -1420,99 +1396,6 @@ Date: Wed Aug 11 17:02:23 2021 </text>
  <cell>           32</cell>
 </row>
 </table>
-</section>
-<section>
-<name>Clock domain: </name>
-<text>gated-clocks</text>
-<text></text>
-<table>
-<header>
- <cell>Type of check</cell>
- <cell>Constrained</cell>
- <cell>UnConstrained</cell>
- <cell>Total</cell>
-</header>
-<row>
- <cell>Setup</cell>
- <cell>            0</cell>
- <cell>            1</cell>
- <cell>            1</cell>
-</row>
-<row>
- <cell>Recovery</cell>
- <cell>            0</cell>
- <cell>            1</cell>
- <cell>            1</cell>
-</row>
-<row>
- <cell>Output Setup</cell>
- <cell>            1</cell>
- <cell>            7</cell>
- <cell>            8</cell>
-</row>
-<row>
- <cell>Total Setup</cell>
- <cell>            1</cell>
- <cell>            9</cell>
- <cell>           10</cell>
-</row>
-<separator/>
-<row>
- <cell>Hold</cell>
- <cell>            0</cell>
- <cell>            1</cell>
- <cell>            1</cell>
-</row>
-<row>
- <cell>Removal</cell>
- <cell>            0</cell>
- <cell>            1</cell>
- <cell>            1</cell>
-</row>
-<row>
- <cell>Output Hold</cell>
- <cell>            1</cell>
- <cell>            7</cell>
- <cell>            8</cell>
-</row>
-<row>
- <cell>Total Hold</cell>
- <cell>            1</cell>
- <cell>            9</cell>
- <cell>           10</cell>
-</row>
-</table>
-<section>
-<name>Enhancement Suggestions</name>
-<text></text>
-<text> - Clock constraint is missing </text>
-<text></text>
-<text></text>
-<text> - Setup unconstrained for the following pin:</text>
-<text>   </text>
-<list>
- <item>test_0/u100/master_lrckd2:D</item>
-</list>
-<text></text>
-<text> - Recovery unconstrained for the following pin:</text>
-<text>   </text>
-<list>
- <item>test_0/u100/master_lrckd2:ALn</item>
-</list>
-<text></text>
-<text> - Hold unconstrained for the following pin:</text>
-<text>   </text>
-<list>
- <item>test_0/u100/master_lrckd2:D</item>
-</list>
-<text></text>
-<text> - Removal unconstrained for the following pin:</text>
-<text>   </text>
-<list>
- <item>test_0/u100/master_lrckd2:ALn</item>
-</list>
-<text></text>
-</section>
 </section>
 <section>
 <name>Input to Output</name>

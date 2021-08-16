@@ -21,7 +21,7 @@ I/O Bank and Globals Assigner completed successfully.
 Total time spent in I/O Bank and Globals Assigner: 0 seconds
 
 Placer V5.0 - 12.900.20 
-Design: u8                              Started: Wed Aug 11 17:02:29 2021
+Design: u8                              Started: Fri Aug 13 12:46:26 2021
 
 Initializing Normal-Effort Timing-Driven Placement ...
 Clustering ...
@@ -38,16 +38,13 @@ Improvement              : 3 seconds
 Placer completed successfully.
 
 Design: u8                              
-Finished: Wed Aug 11 17:02:59 2021
-Total CPU Time:     00:00:28            Total Elapsed Time: 00:00:30
-Total Memory Usage: 324.1 Mbytes
+Finished: Fri Aug 13 12:46:54 2021
+Total CPU Time:     00:00:26            Total Elapsed Time: 00:00:28
+Total Memory Usage: 325.0 Mbytes
                         o - o - o - o - o - o
 
 
 Warning:  The following clocks are routed using regular routing resources instead of dedicated global resources. Clocks using regular routing are more susceptible to noise than those using dedicated global resources. Microchip recommends promoting these signals to dedicated global resources.
-    Driver: test_0/u100/DSD138/UIN100/master_lrck:Y
-       Net: test_0/u100/master_lrck
-Clock pins: 1
     Driver: test_0/u100/DSD138/UIN100/UCK0/clk2:Q
        Net: test_0/u100/DSD138/UIN100/UCK0/clk2
 Clock pins: 1
@@ -62,40 +59,37 @@ Clock pins: 1
 Clock pins: 1
 
 Router 
-Design: E:\DAC\igloo\soc\sdio25\designer\u8\u8Started: Wed Aug 11 17:03:04 2021
+Design: E:\DAC\igloo\soc\sdio25\designer\u8\u8Started: Fri Aug 13 12:46:59 2021
 
 
 Router completed successfully.
 
 Design: E:\DAC\igloo\soc\sdio25\designer\u8\u8
-Finished: Wed Aug 11 17:03:16 2021
-Total CPU Time:     00:00:10            Total Elapsed Time: 00:00:12
-Total Memory Usage: 920.4 Mbytes
+Finished: Fri Aug 13 12:47:10 2021
+Total CPU Time:     00:00:10            Total Elapsed Time: 00:00:11
+Total Memory Usage: 920.2 Mbytes
                         o - o - o - o - o - o
 
 Info: Iteration 1:
-  Total violating paths eligible for improvement: 139
-  Worst minimum delay slack: -3.838 ns
+  Total violating paths eligible for improvement: 105
+  Worst minimum delay slack: -3.157 ns
 Info: Iteration 2:
-  Total violating paths eligible for improvement: 132
-  Worst minimum delay slack: -3.267 ns
+  Total violating paths eligible for improvement: 77
+  Worst minimum delay slack: -2.505 ns
 Info: Iteration 3:
-  Total violating paths eligible for improvement: 92
-  Worst minimum delay slack: -1.807 ns
+  Total violating paths eligible for improvement: 3
+  Worst minimum delay slack: -0.32 ns
 Info: Iteration 4:
-  Total violating paths eligible for improvement: 8
-  Worst minimum delay slack: -1.386 ns
-Info: Iteration 5:
-  Total violating paths eligible for improvement: 8
-  Worst minimum delay slack: -1.209 ns
+  Total violating paths eligible for improvement: 1
+  Worst minimum delay slack: -0.287 ns
 Resource Usage
 +---------------+------+-------+------------+
 | Type          | Used | Total | Percentage |
 +---------------+------+-------+------------+
-| 4LUT          | 2152 | 27696 | 7.77       |
-| DFF           | 1092 | 27696 | 3.94       |
-| I/O Register  | 38   | 801   | 4.74       |
-| Logic Element | 2352 | 27696 | 8.49       |
+| 4LUT          | 1943 | 27696 | 7.02       |
+| DFF           | 1084 | 27696 | 3.91       |
+| I/O Register  | 37   | 801   | 4.62       |
+| Logic Element | 2146 | 27696 | 7.75       |
 +---------------+------+-------+------------+
 
 I/O Placement

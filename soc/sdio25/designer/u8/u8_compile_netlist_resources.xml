@@ -3,7 +3,7 @@
 <doc>
 <title>Resource Report</title>
 <text>Microsemi Corporation - Microsemi Libero Software Release v12.6 (Version 12.900.20.24)</text>
-<text>Date: Wed Aug 11 17:02:08 2021
+<text>Date: Fri Aug 13 12:46:07 2021
 </text>
 <section><name>Device Selection</name></section>
 <table>
@@ -106,15 +106,15 @@
 </header>
 <row>
  <cell>4LUT</cell>
- <cell>1450</cell>
+ <cell>1482</cell>
  <cell>27696</cell>
- <cell>5.24</cell>
+ <cell>5.35</cell>
 </row>
 <row>
  <cell>DFF</cell>
- <cell>1130</cell>
+ <cell>1121</cell>
  <cell>27696</cell>
- <cell>4.08</cell>
+ <cell>4.05</cell>
 </row>
 <row>
  <cell>I/O Register</cell>
@@ -204,8 +204,8 @@
 </header>
 <row>
  <cell>Fabric Logic</cell>
- <cell>1450</cell>
- <cell>1130</cell>
+ <cell>1482</cell>
+ <cell>1121</cell>
 </row>
 <row>
  <cell>RAM64x18 Interface Logic</cell>
@@ -224,8 +224,8 @@
 </row>
 <row>
  <cell>Total Used</cell>
- <cell>1450</cell>
- <cell>1130</cell>
+ <cell>1482</cell>
+ <cell>1121</cell>
 </row>
 </table>
 <section><name>HPMS Resource Usage</name></section>
@@ -278,15 +278,11 @@
 </row>
 <row>
  <cell>2</cell>
- <cell>32</cell>
+ <cell>31</cell>
 </row>
 <row>
  <cell>6</cell>
  <cell>3</cell>
-</row>
-<row>
- <cell>7</cell>
- <cell>1</cell>
 </row>
 <row>
  <cell>8</cell>
@@ -298,11 +294,7 @@
 </row>
 <row>
  <cell>10</cell>
- <cell>1</cell>
-</row>
-<row>
- <cell>11</cell>
- <cell>1</cell>
+ <cell>2</cell>
 </row>
 <row>
  <cell>14</cell>
@@ -314,7 +306,7 @@
 </row>
 <row>
  <cell>Total</cell>
- <cell>46</cell>
+ <cell>44</cell>
 </row>
 </table>
 <section><name>I/O Function</name></section>
@@ -413,7 +405,7 @@
  <cell>Source: NETLIST</cell>
 </row>
 <row>
- <cell>320</cell>
+ <cell>319</cell>
  <cell>INT_NET</cell>
  <cell>Net   : MSS_HPMS_READY_int_arst</cell>
 </row>
@@ -443,7 +435,7 @@
  <cell>Source: NETLIST</cell>
 </row>
 <row>
- <cell>155</cell>
+ <cell>146</cell>
  <cell>INT_NET</cell>
  <cell>Net   : test_0/u100/reset_n_arst</cell>
 </row>
@@ -475,27 +467,12 @@
 <row>
  <cell>102</cell>
  <cell>INT_NET</cell>
- <cell>Net   : test_0.u100.N_1800_i</cell>
+ <cell>Net   : test_0/u100/UDOP/reset_n</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: I_403/U0_RGB1</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Source: NETLIST</cell>
-</row>
-<row>
- <cell>87</cell>
- <cell>INT_NET</cell>
- <cell>Net   : test_0/u100/in_bck_1</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: test_0/u100/DSD138/UIN100/UCK10/U0_RGB1</cell>
+ <cell>Driver: test_0/u100/UDOP/reset_n_RNI7Q8D/U0_RGB1</cell>
 </row>
 <row>
  <cell></cell>
@@ -505,12 +482,27 @@
 <row>
  <cell>81</cell>
  <cell>INT_NET</cell>
- <cell>Net   : test_0.u100.USPDIF_TX.reset_n_arst</cell>
+ <cell>Net   : test_0/u100/reset_n_arst_0</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: I_404/U0_RGB1</cell>
+ <cell>Driver: test_0/u100/USPDIF_TX/reset_n_RNI5VME/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>79</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : test_0/u100/in_bck_1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: test_0/u100/DSD138/UIN100/UCK10/U0_RGB1</cell>
 </row>
 <row>
  <cell></cell>
@@ -533,7 +525,7 @@
  <cell>Source: NETLIST</cell>
 </row>
 <row>
- <cell>69</cell>
+ <cell>70</cell>
  <cell>INT_NET</cell>
  <cell>Net   : test_0/u100/dsd_clk_1</cell>
 </row>
@@ -563,7 +555,7 @@
  <cell>Source: NETLIST</cell>
 </row>
 <row>
- <cell>34</cell>
+ <cell>33</cell>
  <cell>INT_NET</cell>
  <cell>Net   : mclk_c</cell>
 </row>
@@ -649,7 +641,7 @@
  <cell>Driver: test_0/u100/uctrl/use_dsd</cell>
 </row>
 <row>
- <cell>81</cell>
+ <cell>84</cell>
  <cell>INT_NET</cell>
  <cell>Net   : test_0/u100/uctrl/state[1]</cell>
 </row>
@@ -659,14 +651,44 @@
  <cell>Driver: test_0/u100/uctrl/state[1]</cell>
 </row>
 <row>
- <cell>68</cell>
+ <cell>70</cell>
  <cell>INT_NET</cell>
- <cell>Net   : test_0/u100/UDSDTX/reset_n_1</cell>
+ <cell>Net   : test_0/u100/UPCMTX/reset_n_1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: test_0/u100/UPCMTX/reset_n</cell>
+</row>
+<row>
+ <cell>69</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : test_0/u100/UDSDTX/reset_n_0</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
  <cell>Driver: test_0/u100/UDSDTX/reset_n</cell>
+</row>
+<row>
+ <cell>65</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : test_0/u100/UDSDTX/i[4]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: test_0/u100/UDSDTX/i[4]</cell>
+</row>
+<row>
+ <cell>65</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : test_0/u100/UDSDTX/N_1604</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: test_0/u100/UDSDTX/t19_0_o2</cell>
 </row>
 <row>
  <cell>64</cell>
@@ -677,6 +699,16 @@
  <cell></cell>
  <cell></cell>
  <cell>Driver: test_0/u100/uctrl/un1_state_6_0_o2_1_RNIPOT91</cell>
+</row>
+<row>
+ <cell>64</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : test_0/u100/UPCMTX/t19</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: test_0/u100/UPCMTX/t19</cell>
 </row>
 <row>
  <cell>64</cell>
@@ -697,46 +729,6 @@
  <cell></cell>
  <cell></cell>
  <cell>Driver: test_0/u100/UD100/crc_en</cell>
-</row>
-<row>
- <cell>52</cell>
- <cell>INT_NET</cell>
- <cell>Net   : test_0/u100/state_1[0]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: test_0/u100/state[0]</cell>
-</row>
-<row>
- <cell>47</cell>
- <cell>INT_NET</cell>
- <cell>Net   : test_0/u100/n_bit_0_sqmuxa</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: test_0/u100/n_bit_0_sqmuxa</cell>
-</row>
-<row>
- <cell>43</cell>
- <cell>INT_NET</cell>
- <cell>Net   : test_0/u100/UD100/state[0]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: test_0/u100/UD100/state[0]</cell>
-</row>
-<row>
- <cell>42</cell>
- <cell>INT_NET</cell>
- <cell>Net   : test_0/u100/UD100/state[2]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: test_0/u100/UD100/state[2]</cell>
 </row>
 </table>
 <section><name>High fanout nets (through buffer trees)</name></section>
@@ -757,7 +749,7 @@
  <cell>Driver: test_0/u100/uctrl/use_dsd</cell>
 </row>
 <row>
- <cell>81</cell>
+ <cell>84</cell>
  <cell>INT_NET</cell>
  <cell>Net   : test_0/u100/uctrl/state[1]</cell>
 </row>
@@ -767,14 +759,44 @@
  <cell>Driver: test_0/u100/uctrl/state[1]</cell>
 </row>
 <row>
- <cell>68</cell>
+ <cell>70</cell>
  <cell>INT_NET</cell>
- <cell>Net   : test_0/u100/UDSDTX/reset_n_1</cell>
+ <cell>Net   : test_0/u100/UPCMTX/reset_n_1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: test_0/u100/UPCMTX/reset_n</cell>
+</row>
+<row>
+ <cell>69</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : test_0/u100/UDSDTX/reset_n_0</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
  <cell>Driver: test_0/u100/UDSDTX/reset_n</cell>
+</row>
+<row>
+ <cell>65</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : test_0/u100/UDSDTX/i[4]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: test_0/u100/UDSDTX/i[4]</cell>
+</row>
+<row>
+ <cell>65</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : test_0/u100/UDSDTX/N_1604</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: test_0/u100/UDSDTX/t19_0_o2</cell>
 </row>
 <row>
  <cell>64</cell>
@@ -785,6 +807,16 @@
  <cell></cell>
  <cell></cell>
  <cell>Driver: test_0/u100/uctrl/un1_state_6_0_o2_1_RNIPOT91</cell>
+</row>
+<row>
+ <cell>64</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : test_0/u100/UPCMTX/t19</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: test_0/u100/UPCMTX/t19</cell>
 </row>
 <row>
  <cell>64</cell>
@@ -805,46 +837,6 @@
  <cell></cell>
  <cell></cell>
  <cell>Driver: test_0/u100/UD100/crc_en</cell>
-</row>
-<row>
- <cell>52</cell>
- <cell>INT_NET</cell>
- <cell>Net   : test_0/u100/state_1[0]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: test_0/u100/state[0]</cell>
-</row>
-<row>
- <cell>47</cell>
- <cell>INT_NET</cell>
- <cell>Net   : test_0/u100/n_bit_0_sqmuxa</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: test_0/u100/n_bit_0_sqmuxa</cell>
-</row>
-<row>
- <cell>43</cell>
- <cell>INT_NET</cell>
- <cell>Net   : test_0/u100/UD100/state[0]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: test_0/u100/UD100/state[0]</cell>
-</row>
-<row>
- <cell>42</cell>
- <cell>INT_NET</cell>
- <cell>Net   : test_0/u100/UD100/state[2]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: test_0/u100/UD100/state[2]</cell>
 </row>
 </table>
 </doc>
